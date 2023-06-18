@@ -1,0 +1,37 @@
+.sns {
+    display: flex;
+    align-items: center;
+}
+
+.sns a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+}
+
+.sns li {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.sns .facebook {
+    background-image: url(../images/ico-facebook.png);
+}
+
+.sns .twitter {
+    background-image: url(../images/ico-twitter.png);
+}
+
+.sns .band {
+    background-image: url(../images/ico-band.png);
+}
+
+.sns .kakaotalk {
+    background-image: url(../images/ico-kakao.png);
+}
+
+.sns .kakaostory {
+    background-image: url(../images/ico-kakaoStory.png);
+}
