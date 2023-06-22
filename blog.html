@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="post-wrap">
+  <div class="grid-header">
+    <i id="prevPage" class="fa-solid fa-chevron-left" onclick="fnPrev()"></i>뒤로가기
+  </div>
+  {% for post in site.posts %}
+  <div class='grid-col'>
+
+    <a href='{{ post.url | prepend: site.baseurl }}' class='post-card {% if forloop.first == true %} post-card--first {% endif %} {% if forloop.last == true %} post-card--last {% endif %}'>
+      <h3 class='post-card__title'>{{ post.title }}</h3>
+
+      {% if post.image %}
+        <img src='{{ post.image | prepend: site.baseurl }}' class='post__image' alt='{{ post.title }}'>
+      {% endif %}
+
+      <p class='post-card__excerpt font-medium'>
+        {{ post.content | strip_html | truncatewords:35 }}
+      </p>
+
+      <span class='post-card__date'>{{ post.date | date: '%d %b %Y' }}</span>
+    </a>
+
+  </div>
+  {% endfor %}
+</div>

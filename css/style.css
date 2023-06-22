@@ -10,6 +10,7 @@ button {
 
 a {
     color: #4a4a4a;
+    text-decoration: none;
 }
 
 p, div, h1, h2, h3, figure {
@@ -20,6 +21,11 @@ p, div, h1, h2, h3, figure {
 ul{
     list-style:none;
     padding-left:0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 .content {
@@ -384,7 +390,7 @@ ul{
     color: #856b0f;
 }
 
-.chat-head .fa-solid {
+.fa-solid {
     font-size: 1.3em;
     margin-right: 2%;
 }

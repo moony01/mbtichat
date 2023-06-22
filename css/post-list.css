@@ -1,0 +1,81 @@
+.grid-header {
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    align-items: center;
+}
+.post-wrap {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+.grid-col {
+    float: left;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.post-card--first {
+    padding-top: 0;
+}
+.post-card {
+    display: block;
+    padding: 32px 0;
+    word-break: break-word;
+    border-bottom: 1px solid #dcdcdc;
+}
+.post-card__title {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    transition: .4s;
+}
+.post-card:hover .post-card__title {
+    color: #00A0FF;
+}
+.post__image {
+    margin: 0 auto 16px;
+}
+.font-medium {
+    font-size: 16px;
+    line-height: 25px;
+}
+.post-card__excerpt {
+    margin-bottom: 10px;
+}
+.post-card__date {
+    display: block;
+    color: #2B5F72;
+    direction: ltr;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+
+/*
+ * 매우 작은 디스플레이 (Extra Small Displays):
+ * 해상도: 767px 이하
+ * 장치: 모바일 장치 (스마트폰, 테블릿 등)
+ */
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 609px) {
+
+
+}
+
+@media screen and (max-width: 559px) {
+
+
+
+}
+
+@media screen and (min-width: 270px) and (max-width: 330px) {
+
+
+}
