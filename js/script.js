@@ -131,7 +131,7 @@ function fnNext(type, name) {
 }
 
 function fnPrev() {
-  location.href = './index.html';
+  location.href = '/';
 }
 
 function fnClose() {
