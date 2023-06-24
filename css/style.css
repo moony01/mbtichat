@@ -58,13 +58,27 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 336px;
+    padding: 3vw;
 }
-
 .main-text h1 {
     font-family: 'NanumBarunGothicBold';
     font-size: 3em;
     text-align: center;
+}
+
+/* language */
+select {
+    background: #fefefe;
+    margin-top: 8px;
+    color: #121212;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 4px;
+    border: 2px solid #fefefeee;
+    border-radius: .25em;
+    outline: none;
 }
 
 /* ai-character-list */
@@ -307,19 +321,20 @@ img {
     width: 100%;
     max-width: 770px;
     height: 60px;
-    background-color: #625772;
-    color: #f9f9f9;
-    font-family: 'NanumBarunGothicBold';
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
     padding: 0 1vw;
     margin-top: 14px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
 }
-
-#prevPage {
+.chat-head a {
+    display: flex;
+    align-items: center;
+    color: #f9f9f9;
+    font-family: 'NanumBarunGothicBold';
+    font-size: 1.2em;
     cursor: pointer;
+    width: 100px;
 }
 
 .cht-size {
@@ -411,6 +426,7 @@ img {
 .chatting-view figure {
     background-color: #f9f9f9;
     margin-right: 14px;
+    min-width: 50px;
     height: 50px;
 }
 
@@ -703,7 +719,7 @@ img {
 
 @media screen and (max-width: 609px) {
     .main-text {
-        height: 200px;
+        height: 230px;
     }
 
     .main-text h1 {
@@ -718,9 +734,8 @@ img {
 }
 
 @media screen and (max-width: 559px) {
-
     .main-text {
-        height: 200px;
+        height: 250px;
     }
 
     .main-text h1 {
@@ -736,12 +751,11 @@ img {
         width: 80vw;
         margin: 0 auto;
     }
-
 }
 
 @media screen and (min-width: 270px) and (max-width: 330px) {
     .main-text {
-        height: 170px;
+        height: 250px;
     }
     
     .main-text h1 {
@@ -752,7 +766,6 @@ img {
         font-size: 3em;
         margin: -40px 0 0 0;
     }
-
 }
 
 

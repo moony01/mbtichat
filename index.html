@@ -1,7 +1,25 @@
 ---
 layout: default
 ---
-<div class="main-text"><h1>MBTI 유형별 AI 상담 전문가와 <br />친구가 되고 채팅 할 수 있습니다.</h1></div>
+<script>
+    let langType = "";
+    // 문서가 모두 로드된 후 실행
+    document.addEventListener("DOMContentLoaded", function() {
+        // select box: lang 의 seleted 된 값을 가져옴
+        langType = document.getElementById("lang").value;
+        console.log(langType);
+    });
+</script>
+
+<div class="main-text">
+    <h1>MBTI 유형별 AI 상담 전문가와 친구가 되고 채팅 할 수 있습니다.</h1>
+    <!-- select box 값 변경 시 이벤트 -->
+    <select name="lang" id="lang" onchange="fnChangeLang(this)">
+        <option value="ko" id="ko" selected="selected">Korean</option>
+        <option value="en" id="en">English</option>
+    </select>
+</div>
+
 <div id="contAi" class="ai-character-wrap">
     <div class="ai-character-list">
         <div class="list-bg list-1-bg">
@@ -11,28 +29,28 @@ layout: default
                     <div class="char-contents">
                         <h3>INTJ<span>전문가</span></h3>
                         <p id="intjName">이단</p>
-                        <button onclick="fnNextPage('intj', document.getElementById('intjName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('intj', document.getElementById('intjName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character analyst-tp intp">
                     <div class="char-contents">
                         <h3>INTP<span>전문가</span></h3>
                         <p id="intpName">올리비아</p>
-                        <button onclick="fnNextPage('intp', document.getElementById('intpName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('intp', document.getElementById('intpName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character analyst-tp entj">
                     <div class="char-contents">
                         <h3>ENTJ<span>전문가</span></h3>
                         <p id="entjName">엠마</p>
-                        <button onclick="fnNextPage('entj', document.getElementById('entjName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('entj', document.getElementById('entjName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character analyst-tp entp">
                     <div class="char-contents">
                         <h3>ENTP<span>전문가</span></h3>
                         <p id="entpName">리암</p>
-                        <button onclick="fnNextPage('entp', document.getElementById('entpName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('entp', document.getElementById('entpName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
             </div>
@@ -47,28 +65,28 @@ layout: default
                     <div class="char-contents">
                         <h3>INFJ<span>전문가</span></h3>
                         <p id="infjName">벤자민</p>
-                        <button onclick="fnNextPage('infj', document.getElementById('infjName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('infj', document.getElementById('infjName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character diplomat-tp infp">
                     <div class="char-contents">
                         <h3>INFP<span>전문가</span></h3>
                         <p id="infpName">에이바</p>
-                        <button onclick="fnNextPage('infp', document.getElementById('infpName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('infp', document.getElementById('infpName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character diplomat-tp enfj">
                     <div class="char-contents">
                         <h3>ENFJ<span>전문가</span></h3>
                         <p id="enfjName">소피아</p>
-                        <button onclick="fnNextPage('enfj', document.getElementById('enfjName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('enfj', document.getElementById('enfjName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character diplomat-tp enfp">
                     <div class="char-contents">
                         <h3>ENFP<span>전문가</span></h3>
                         <p id="enfpName">노아</p>
-                        <button onclick="fnNextPage('enfp', document.getElementById('enfpName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('enfp', document.getElementById('enfpName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
             </div>
@@ -83,28 +101,28 @@ layout: default
                     <div class="char-contents">
                         <h3>ISTJ<span>전문가</span></h3>
                         <p id="istjName">알렉산더</p>
-                        <button onclick="fnNextPage('istj', document.getElementById('istjName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('istj', document.getElementById('istjName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character manager-tp isfj">
                     <div class="char-contents">
                         <h3>ISFJ<span>전문가</span></h3>
                         <p id="isfjName">이자벨라</p>
-                        <button onclick="fnNextPage('isfj', document.getElementById('isfjName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('isfj', document.getElementById('isfjName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character manager-tp estj">
                     <div class="char-contents">
                         <h3>ESTJ<span>전문가</span></h3>
                         <p id="estjName">미아</p>
-                        <button onclick="fnNextPage('estj', document.getElementById('estjName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('estj', document.getElementById('estjName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
                 <div class="ai-character manager-tp esfj">
                     <div class="char-contents">
                         <h3>ESFJ<span>전문가</span></h3>
                         <p id="esfjName">샬롯</p>
-                        <button onclick="fnNextPage('esfj', document.getElementById('esfjName').innerText)">채팅하기</button>
+                        <button onclick="fnNextPage('esfj', document.getElementById('esfjName').innerText, langType)">채팅하기</button>
                     </div>
                 </div>
             </div>

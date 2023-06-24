@@ -8,6 +8,7 @@
   color: #625772;
   background-color: #f9eed7;
   font-size: 1em;
+  z-index: 1;
 }
 .header__logo {
   font-weight: 700;
@@ -79,7 +80,7 @@
   .menu a {
     display: block;
     height: 40px;
-    text-align: center;
+    text-align: left;
     line-height: 40px;
     border-bottom: 1px solid #625772;
   }

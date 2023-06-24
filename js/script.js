@@ -24,11 +24,11 @@ window.addEventListener('load', function() {
   Kakao.init('3bf57573d51a4272d82fce5a6cdaca0f'); 
 });
 
-function fnNextPage(type, name) {
-  location.href = "chat.html"+"?mbtiType="+type+"&botName="+name;
+function fnNextPage(type, name, langType) {
+  location.href = "chat.html"+"?mbtiType="+type+"&botName="+name+"&langType="+langType;
 }
 
-function fnNext(type, name) {
+function fnNext(type, name, langType) {
   mbtiType = type;
   botName = name;
 
@@ -120,18 +120,31 @@ function fnNext(type, name) {
     chatBody.style.backgroundColor = "#e4ae3a";
   }
 
-  //${type}, ${name}
-  botMessageProcessing(`안녕하세요! 저의 이름은 ${name} 입니다. 
-                    <br> 저는 ${type} 유형의 전문가입니다. 
-                    <br> 저에게 ${type} 유형에 대해 궁금한 점이나 
-                    <br> ${type} 유형과 당신의 mbti 유형 간의 궁합 등등... 무엇이든 물어보세요!
-                    <br>
-                    <br> 우선 당신의 mbti 유형을 알려주세요!
-                    `);
+  if(langType == 'ko') {
+    //${type}, ${name}
+    botMessageProcessing(`안녕하세요! 저의 이름은 ${name} 입니다. 
+                      <br> 저는 ${type} 유형의 전문가입니다. 
+                      <br> 저에게 ${type} 유형에 대해 궁금한 점이나 
+                      <br> ${type} 유형과 당신의 mbti 유형 간의 궁합 등등... 무엇이든 물어보세요!
+                      <br>
+                      <br> 우선 당신의 mbti 유형을 알려주세요!
+                      `);
+  } else if(langType == 'en') {
+    //${type}, ${name}
+    botMessageProcessing(`Hello! My name is Ian.
+                      <br>I am an INTJ, which is the Analyst type. 
+                      <br>Feel free to ask me anything about the INTJ type, 
+                      <br>such as any questions you have about INTJ or the compatibility between INTJ and your MBTI type.
+                      <br>
+                      <br>First, please let me know your MBTI type!
+                      `);
+  }
+  
+
 }
 
 function fnPrev() {
-  location.href = '/';
+  window.history.back();
 }
 
 function fnClose() {
@@ -279,5 +292,66 @@ function fn_sendFB(sns) {
         url: thisUrl,
         text: snsTitle
       });
+  }
+}
+
+function fnChangeLang(lang) {
+  langType = lang.value;
+  if(lang.value == 'ko') {
+    // 페이지 새로고침
+    location.reload();
+  } else if(lang.value == 'en') {
+    // MAIN TEXT
+    document.querySelector(".main-text h1").innerHTML = "You can become friends and chat with an AI counseling specialist based on your MBTI type.";
+  
+    // list-bg h2
+    document.querySelector(".list-1-bg h2").innerHTML = "Analyst type";
+    document.querySelector(".list-2-bg h2").innerHTML = "Diplomat type";
+    document.querySelector(".list-3-bg h2").innerHTML = "Manager type";
+    document.querySelector(".list-4-bg h2").innerHTML = "Consul type";
+  
+    // list-bg h3 span
+    var spanElements = document.querySelectorAll(".char-contents h3 span");
+    for (var i = 0; i < spanElements.length; i++) {
+      spanElements[i].innerHTML = "expert"; // 변경하고자 하는 텍스트로 대체
+    }
+
+    // id intjName
+    document.querySelector("#intjName").innerHTML = "Ethan";
+    document.querySelector("#intpName").innerHTML = "Olivia";
+    document.querySelector("#entjName").innerHTML = "Emma";
+    document.querySelector("#entpName").innerHTML = "Liam";
+
+    document.querySelector("#infjName").innerHTML = "Benjamin";
+    document.querySelector("#infpName").innerHTML = "Ava";
+    document.querySelector("#enfjName").innerHTML = "Sophia";
+    document.querySelector("#enfpName").innerHTML = "Noah";
+
+    document.querySelector("#istjName").innerHTML = "Alexander";
+    document.querySelector("#isfjName").innerHTML = "Isabella";
+    document.querySelector("#estjName").innerHTML = "Mia";
+    document.querySelector("#esfjName").innerHTML = "Charlotte";
+    
+    document.querySelector("#istpName").innerHTML = "Oliver";
+    document.querySelector("#isfpName").innerHTML = "Amelia";
+    document.querySelector("#estpName").innerHTML = "William";
+    document.querySelector("#esfpName").innerHTML = "Harper";
+
+    fnChangeLangCommonEl(langType);
+  }
+}
+
+function fnChangeLangCommonEl(langType) {
+  if(langType == 'en') {
+    // HEADER
+    document.querySelector(".menu").children[0].innerHTML = "Home";
+    document.querySelector(".menu").children[1].innerHTML = "User Guide";
+    document.querySelector(".menu").children[2].innerHTML = "Blog";
+  }
+}
+
+function fnChangeChatLang(langType) {
+  if(langType == 'en') {
+    document.querySelector(".chat-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>back';
   }
 }

@@ -1,9 +1,14 @@
-.grid-header {
+.grid-head {
     width: 100%;
-    padding: 16px 0;
+    padding: 16px 2vw;
     border-bottom: 1px solid #dcdcdc;
+}
+.grid-head a {
     display: flex;
     align-items: center;
+    font-family: 'NanumBarunGothicBold';
+    cursor: pointer;
+    width: 100px;
 }
 .post-wrap {
     margin: 0 auto;
@@ -13,11 +18,14 @@
 }
 .grid-col {
     float: left;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 2vw;
 }
 .post-card--first {
-    padding-top: 0;
+    padding-top: 0 !important;
+}
+.post-card--last {
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
 }
 .post-card {
     display: block;
@@ -53,7 +61,23 @@
     line-height: 22px;
     text-transform: uppercase;
 }
-
+.post__title {
+    margin: 0;
+}
+.post__date {
+    position: relative;
+    padding-top: 16px;
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #2B5F72; 
+}
+.content > * {
+    margin-bottom: 32px;
+}
 
 /*
  * 매우 작은 디스플레이 (Extra Small Displays):
@@ -66,16 +90,22 @@
 
 @media screen and (max-width: 609px) {
 
-
 }
 
 @media screen and (max-width: 559px) {
-
-
-
+    .post-card__title {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 270px) and (max-width: 330px) {
-
-
+    .post-card__title {
+        font-size: 18px;
+    }
+    .grid-head {
+        padding: 16px 4vw;
+    }
+    .grid-col {
+        padding: 4vw;
+    }
 }
