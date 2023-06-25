@@ -229,7 +229,7 @@ async function sendMessage() {
 
   try {
     // const response = await fetch('http://localhost:3000/mbtiChat', { //로컬테스트용
-    const response = await fetch('https://c5ojwc37zapz7xko4p35m62oju0dmxee.lambda-url.ap-northeast-2.on.aws/mbtiChat', {
+    const response = await fetch('https://asttatqmbxav6io5ic6mgd2aau0jwzpm.lambda-url.ap-northeast-2.on.aws/mbtiChat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
