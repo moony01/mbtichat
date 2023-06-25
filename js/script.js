@@ -131,10 +131,10 @@ function fnNext(type, name, langType) {
                       `);
   } else if(langType == 'en') {
     //${type}, ${name}
-    botMessageProcessing(`Hello! My name is Ian.
-                      <br>I am an INTJ, which is the Analyst type. 
-                      <br>Feel free to ask me anything about the INTJ type, 
-                      <br>such as any questions you have about INTJ or the compatibility between INTJ and your MBTI type.
+    botMessageProcessing(`Hello! My name is ${name}.
+                      <br>I am an ${type}, which is the Analyst type. 
+                      <br>Feel free to ask me anything about the ${type} type, 
+                      <br>such as any questions you have about ${type} or the compatibility between ${type} and your MBTI type.
                       <br>
                       <br>First, please let me know your MBTI type!
                       `);
@@ -155,7 +155,7 @@ async function botMessageProcessing(message) {
   displayBotLoading();
   setTimeout(() => {
     displayBotMessage(message);
-  }, 3000);
+  }, 2000);
 
   // return new Promise((resolve, reject) => {
   //   displayBotLoading();

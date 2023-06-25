@@ -21,6 +21,23 @@
     <!-- 구글 애널리틱스: Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-743JGCJVSG"></script>
     <script>
+        let langType = "";
+
+        // 문서가 모두 로드된 후 실행
+        document.addEventListener("DOMContentLoaded", function() {
+            // select box: lang 의 seleted 된 값을 가져옴
+            langType = document.getElementById("lang").value;
+            console.log(langType);
+
+            // react native webview 에서는 .modal 을 지원하지 않음
+            const userAgent = navigator.userAgent;
+            const isReactNativeWebView = /wv|WebView/i.test(userAgent);
+            console.log(isReactNativeWebView);
+            if (isReactNativeWebView) {
+                document.getElementById("appDown").style.display = "none";
+            }
+        });
+
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date()); 

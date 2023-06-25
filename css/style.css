@@ -522,7 +522,6 @@ img {
 
 /* 모달창 */
 .modal {
-    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -533,7 +532,7 @@ img {
 }
 
 .modal-content {
-    width: 30vw;
+    width: 220px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -545,6 +544,7 @@ img {
     transform: translate(-50%, -50%);
     background-color: #f6f6f6;
     border-radius: 10px;
+    padding: 20px;
 }
 
 .modal-header {
@@ -558,8 +558,7 @@ img {
 
 .modal-header h2 {
     font-family: 'NanumBarunGothicBold';
-    font-size: 1.1em;
-    margin-left: 14px;
+    font-size: 1.2em;
 }
 
 .modal-header .close { 
@@ -589,13 +588,14 @@ img {
 }
 
 .modal-body .pop-logo img {
-    width: 40%;
+    width: 80%;
 }
 
 .modal-body p {
-    font-family: 'NanumBarunGothicBold';
-    font-size: 1.3em;
+    font-family: 'NanumBarunGothic';
+    font-size: 1em;
     margin: 4% 0;
+    text-align: center;
 }
 
 .modal-body .modal-btn {
