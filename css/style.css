@@ -1,4 +1,6 @@
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: 'NanumBarunGothic';
     font-size: 18px;
     color: #4a4a4a;
@@ -69,11 +71,19 @@ img {
 }
 
 /* language */
-select {
-    background: #fefefe;
+.language {
+    display: flex;
+    justify-content: center;
     margin-top: 8px;
+}
+.language span {
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+}
+.language select {
+    background: #fefefe;
     color: #121212;
-    width: 100%;
     font-size: 18px;
     padding: 8px 4px;
     border: 2px solid #fefefeee;

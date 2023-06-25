@@ -1,9 +1,7 @@
-title: Your awesome title
-email: your-email@example.com
+title: MBTI AI CHAT
+email: mun_1201@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  You can become friends and chat with an AI counseling specialist based on your MBTI type.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -12,6 +10,7 @@ github_username:  jekyll
 paginate: 10
 per_page: 20
 paginate_path: "/page/:num/"
+
 # Build settings
 plugins:
   - jekyll-paginate
