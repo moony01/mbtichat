@@ -2,7 +2,7 @@
 layout: default
 ---
 <script>
-    window.onload = function() {
+    document.addEventListener("DOMContentLoaded", function() {
         // url 파라미터 가져오기
         const params = new URLSearchParams(window.location.search);
         const mbtiType = params.get('mbtiType');
@@ -19,10 +19,9 @@ layout: default
             document.getElementById('mbtiType').value = mbtiType;
             document.getElementById('botName').value = botName;
             fnChangeChatLang(langType);
-            fnChangeLangCommonEl(langType);
-            fnNext(mbtiType, botName, langType);
+            fnChatPageLoad(mbtiType, botName, langType);
         }
-    }
+    })
 </script>
 <div id="contChat" class="chat-content">
     <input type="hidden" id="mbtiType">
@@ -45,6 +44,8 @@ layout: default
             <button id="send" onclick="sendMessage()"><i class="fa-sharp fa-solid fa-paper-plane"></i></button>
         </div>
     </div>
+
+    <div class="coution-text">AI와의 채팅 내용은 저장되지않습니다.</div>
 
     <ul class="sns">
         <li>

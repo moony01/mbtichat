@@ -345,7 +345,7 @@ img {
     font-family: 'NanumBarunGothicBold';
     font-size: 1.2em;
     cursor: pointer;
-    width: 100px;
+    width: 140px;
 }
 
 .cht-size {
@@ -361,7 +361,7 @@ img {
     display: flex;
     flex-direction: column;
     padding: 0 1vw;
-    margin: 14px 0 95px;
+    margin: 14px 0;
     border-radius: 10px;
 }
 
@@ -377,13 +377,6 @@ img {
     justify-content: center;
     flex-direction: column;
     color: #625772;
-}
-
-#disqus_thread {
-    width: 100%;
-    max-width: 770px;
-    margin: 0 auto;
-    margin-bottom: 95px;
 }
 
 .ai-char-view > * {
@@ -451,6 +444,13 @@ img {
     max-width: 80%;
     min-height: 30px;
     min-width: 30px;
+    word-break: break-all;
+}
+
+.chatting-view .support-text {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #808080;
 }
 
 .chatting-view .ai-chat-view {
@@ -463,6 +463,14 @@ img {
 
 .chatting-view .ai-chat-view p {
     background-color: #f9f9f9;
+}
+
+.chatting-view .ai-chat-view p a {
+    color: #0508a5;
+    font-family: 'NanumBarunGothicBold';
+    font-size: 1em;
+    text-decoration: underline;
+    margin-left: 14px;
 }
 
 .chatting-view .usr-chat-view p {
@@ -507,6 +515,21 @@ img {
 
 .send-area #send:hover .fa-sharp {
     color: #f9f9f9;
+}
+
+/* ai와의 채팅 내용은 저장되지않습니다. */
+.coution-text {
+    color: #ff0000;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* disqus */
+#disqus_thread {
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 95px;
 }
 
 /* footer */

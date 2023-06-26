@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% seo title=false %}
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/share.css">
     <link rel="stylesheet" href="/css/nav.css">
@@ -26,20 +26,21 @@
 
         // 문서가 모두 로드된 후 실행
         document.addEventListener("DOMContentLoaded", function() {
-            // select box: lang 의 seleted 된 값을 가져옴
-            langType = document.getElementById("lang").value;
-            console.log(langType);
+            const params = new URLSearchParams(window.location.search);
+            langType = params.get('langType');
+            fnChangeLangCommonEl(langType);
 
             // react native webview 에서는 .modal 을 지원하지 않음
             const userAgent = navigator.userAgent;
             const isReactNativeWebView = /wv|WebView/i.test(userAgent);
             console.log(isReactNativeWebView);
-            if (isReactNativeWebView) {
-                document.getElementById("appDown").style.display = "none";
-            }
+
             // url에 path가 없거나 "/index.html" 일 경우 modal 팝업 띄우기
             if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-                document.getElementById("appDown").style.display = "block";
+                document.getElementById("appDown").style.display = "none";
+                if (isReactNativeWebView) {
+                    document.getElementById("appDown").style.display = "none";
+                }
             }
         });
 

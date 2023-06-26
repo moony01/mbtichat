@@ -29,6 +29,7 @@
   padding: 0 10px;
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 .menu a:hover {
   color: #c5cae9;
