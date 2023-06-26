@@ -3,7 +3,6 @@ let botMessages = [];
 let mbtiType = "";
 let botName = "";
 let chatCnt = 0;
-let langType = "";
 
 document.addEventListener('DOMContentLoaded', function() {
   var headerIcon = document.getElementById('header__icon');
@@ -43,17 +42,17 @@ function fnClose() {
 }
 
 // chat 페이지로 이동
-function fnNextPage(type, name, langType) {
+function fnNextPage(type, name) {
   location.href = "chat.html"+"?mbtiType="+type+"&botName="+name+"&langType="+langType;
 }
 
 // user-guide 페이지로 이동
-function fnGuidePage(langType) {
+function fnGuidePage() {
   location.href = "/guide"+"?langType="+langType;
 }
 
 // blog 페이지로 이동
-function fnBlogPage(langType) {
+function fnBlogPage() {
   location.href = "/blog.html"+"?langType="+langType;
 }
 
@@ -71,8 +70,8 @@ async function sendMessage() {
   console.log("AI 이름: ", botName);
 
   try {
-    // const response = await fetch('http://localhost:3000/mbtiChat', { //로컬테스트용
-    const response = await fetch('https://asttatqmbxav6io5ic6mgd2aau0jwzpm.lambda-url.ap-northeast-2.on.aws/mbtiChat', {
+    const response = await fetch('http://localhost:3000/mbtiChat', { //로컬테스트용
+    // const response = await fetch('https://asttatqmbxav6io5ic6mgd2aau0jwzpm.lambda-url.ap-northeast-2.on.aws/mbtiChat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -181,7 +180,7 @@ function fnChangeLang(lang) {
     document.querySelector("#estpName").innerHTML = "William";
     document.querySelector("#esfpName").innerHTML = "Harper";
 
-    fnChangeLangCommonEl(langType);
+    fnChangeLangCommonEl();
   }
 }
 
@@ -271,10 +270,9 @@ function displayUserMessage(message) {
 } 
 
 // chat 페이지 로드시 기본 세팅 함수
-function fnChatPageLoad(type, name, langType) {
+function fnChatPageLoad(type, name) {
   mbtiType = type;
   botName = name;
-  langType = langType;
 
   // // viewport 최상단으로 이동
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -372,11 +370,20 @@ function fnChatPageLoad(type, name, langType) {
                       <br>
                       <br>First, please let me know your MBTI type!
                       `);
+  } else {
+    botMessageProcessing(`Hello! My name is ${name}.
+                      <br>I am an ${type}, which is the Analyst type. 
+                      <br>Feel free to ask me anything about the ${type} type, 
+                      <br>such as any questions you have about ${type} or the compatibility between ${type} and your MBTI type.
+                      <br>
+                      <br>First, please let me know your MBTI type!
+                      `);
   }
+
 }
 
 // chat 페이지 언어 변경
-function fnChangeChatLang(langType) {
+function fnChangeChatLang() {
   if(langType == 'en') {
     document.querySelector(".chat-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>back';
     document.querySelector(".coution-text").innerHTML = 'The conversation with AI is not saved.';
@@ -385,14 +392,14 @@ function fnChangeChatLang(langType) {
 }
 
 // blog 페이지 언어 변경
-function fnChangeBlogLang(langType) {
+function fnChangeBlogLang() {
   if(langType == 'en') {
     document.querySelector(".grid-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>back';
   }
 }
 
 // header menu 언어 변경
-function fnChangeLangCommonEl(langType) {
+function fnChangeLangCommonEl() {
   if(langType == 'en') {
     // HEADER
     document.querySelector(".menu").children[0].innerHTML = "Home";
