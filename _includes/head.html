@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/share.css">
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/post.css">
+    <link rel="stylesheet" href="/css/modal.css">
     <script src="/js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
           integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -35,6 +36,10 @@
             console.log(isReactNativeWebView);
             if (isReactNativeWebView) {
                 document.getElementById("appDown").style.display = "none";
+            }
+            // url에 path가 없거나 "/index.html" 일 경우 modal 팝업 띄우기
+            if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+                document.getElementById("appDown").style.display = "block";
             }
         });
 
