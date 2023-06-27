@@ -542,7 +542,9 @@ img {
     justify-content: center;
     text-align: center;
 }
-
+.privacy {
+    text-decoration: underline;
+}
 /*
  * 대형 디스플레이 (Large Displays):
  * 해상도: 1200px 이상

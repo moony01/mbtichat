@@ -1,3 +1,6 @@
+.post__image {
+    margin: 0 auto 32px;
+}
 .grid-head {
     width: 100%;
     padding: 16px 2vw;
@@ -63,6 +66,7 @@
 }
 .post__title {
     margin: 0;
+    font-size: 1.6em;
 }
 .post__date {
     position: relative;
@@ -75,9 +79,20 @@
     line-height: 22px;
     color: #2B5F72; 
 }
-.content > * {
+.content-post > * {
     margin-bottom: 32px;
 }
+.content-post h2 {
+    font-size: 1.4em;
+}
+.content-post p {
+    font-family: 'NanumBarunGothicLight';
+    font-size: 16px;
+}
+.content-post p > img {
+    border: 1px solid #dcdcdc;
+}
+
 
 /*
  * 매우 작은 디스플레이 (Extra Small Displays):

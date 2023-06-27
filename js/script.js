@@ -48,7 +48,11 @@ function fnNextPage(type, name) {
 
 // user-guide 페이지로 이동
 function fnGuidePage() {
-  location.href = "/guide"+"?langType="+langType;
+  if(langType == "ko") {
+    location.href = "/guide/ko";
+  } else {
+    location.href = "/guide/ko";
+  }
 }
 
 // blog 페이지로 이동
@@ -70,8 +74,8 @@ async function sendMessage() {
   console.log("AI 이름: ", botName);
 
   try {
-    // const response = await fetch('http://localhost:3000/mbtiChat', { //로컬테스트용
-    const response = await fetch('https://asttatqmbxav6io5ic6mgd2aau0jwzpm.lambda-url.ap-northeast-2.on.aws/mbtiChat', {
+    const response = await fetch('http://localhost:3000/mbtiChat', { //로컬테스트용
+    // const response = await fetch('https://asttatqmbxav6io5ic6mgd2aau0jwzpm.lambda-url.ap-northeast-2.on.aws/mbtiChat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -358,8 +362,7 @@ function fnChatPageLoad(type, name) {
     botMessageProcessing(`안녕하세요! 저의 이름은 ${name} 입니다. 
                       <br> 저는 ${type} 유형의 전문가입니다. 
                       <br> 저에게 ${type} 유형에 대해 궁금한 점이나 
-                      <br> ${type} 유형과 당신의 mbti 유형 간의 궁합 등등... 무엇이든 물어보세요!
-                      <br>
+                      <br> ${type} 유형과 당신의 MBTI 유형 간의 궁합 등을 물어보세요.
                       <br> 우선 당신의 mbti 유형을 알려주세요!
                       `);
   } else if(langType == 'en') {
@@ -367,16 +370,14 @@ function fnChatPageLoad(type, name) {
                       <br>I am an ${type}, which is the Analyst type. 
                       <br>Feel free to ask me anything about the ${type} type, 
                       <br>such as any questions you have about ${type} or the compatibility between ${type} and your MBTI type.
-                      <br>
                       <br>First, please let me know your MBTI type!
                       `);
   } else {
-    botMessageProcessing(`Hello! My name is ${name}.
-                      <br>I am an ${type}, which is the Analyst type. 
-                      <br>Feel free to ask me anything about the ${type} type, 
-                      <br>such as any questions you have about ${type} or the compatibility between ${type} and your MBTI type.
-                      <br>
-                      <br>First, please let me know your MBTI type!
+    botMessageProcessing(`안녕하세요! 저의 이름은 ${name} 입니다. 
+                      <br> 저는 ${type} 유형의 전문가입니다. 
+                      <br> 저에게 ${type} 유형에 대해 궁금한 점이나 
+                      <br> ${type} 유형과 당신의 MBTI 유형 간의 궁합 등을 물어보세요.
+                      <br> 우선 당신의 mbti 유형을 알려주세요!
                       `);
   }
 

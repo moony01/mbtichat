@@ -1,6 +1,13 @@
+.sns-share {
+    font-family: 'NanumBarunGothicBold';
+}
+
 .sns {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0.4em 0 2em;
+    padding-bottom: 10px;
 }
 
 .sns a {
