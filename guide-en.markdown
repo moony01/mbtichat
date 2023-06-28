@@ -9,6 +9,13 @@ The application is an application that allows users to have free conversations w
 
 Now let's explore how to use the MBTI-CHAT app and introduce its features and pages.
 
+## App Technical Analysis and Introduction
+The MBTI-CHAT app is a static web app. A static web app is a website where the content is fixed, and dynamic features or interactions are limited. These websites are typically built using static web technologies such as HTML, CSS, and JavaScript. Static web apps are commonly used to provide information, such as company introduction pages, product brochures, news articles, etc. However, due to the MBTI-CHAT app's inclusion of features like blog functionality and language selection, and the presence of multiple pages, developing it as a static web app has its limitations.
+
+Therefore, I employed the **Jekyll static website generation framework** for its development. Jekyll generates static HTML files based on user-defined templates and layouts. This facilitates efficient reuse of repetitive elements and ensures a consistent design and layout.The primary feature of the MBTI-CHAT app is its AI-powered chat functionality. The AI utilizes the **gpt-3.5** version of the API. To facilitate communication with the GPT API, a NODE.JS server was employed.
+
+I developed a mobile app using **React-Native-Webview** to create a mobile app from a responsive web page.
+
 ## App Features and Page Introduction
 The main feature of the MBTI-CHAT app, as mentioned in the introduction, is the ability to have free conversations with AI characters based on the 16 different MBTI types. In addition to the AI chatting feature, the app also includes more detailed functionalities such as guides and blog posts.
 

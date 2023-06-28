@@ -1,4 +1,5 @@
 .post__image {
+    width: 100%;
     margin: 0 auto 32px;
 }
 .grid-head {
@@ -86,13 +87,16 @@
     font-size: 1.4em;
 }
 .content-post p {
-    font-family: 'NanumBarunGothicLight';
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
 }
 .content-post p > img {
     border: 1px solid #dcdcdc;
 }
-
+.content-post strong {
+    color: #625772;
+    font-family: 'NanumBarunGothicBold';
+}
 
 /*
  * 매우 작은 디스플레이 (Extra Small Displays):
