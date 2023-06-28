@@ -51,7 +51,7 @@ function fnGuidePage() {
   if(langType == "ko") {
     location.href = "/guide/ko";
   } else {
-    location.href = "/guide/ko";
+    location.href = "/guide/en";
   }
 }
 
