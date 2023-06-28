@@ -31,35 +31,36 @@ document.addEventListener('DOMContentLoaded', function() {
 /* ******************************************************************************************
  * EVENT
 ****************************************************************************************** */
-// 뒤로가기 버튼
+//뒤로가기 버튼
 function fnPrev() {
   window.history.back();
 }
 
-// 모달팝업창 닫기
+//모달팝업창 닫기
 function fnClose() {
   document.querySelector(".modal").style.display = "none";
 }
 
-// chat 페이지로 이동
+// 채팅 페이지로 이동
 function fnNextPage(type, name) {
   location.href = "chat.html"+"?mbtiType="+type+"&botName="+name+"&langType="+langType;
 }
 
-// user-guide 페이지로 이동
+//유저가이드 페이지로 이동
 function fnGuidePage() {
   if(langType == "ko") {
-    location.href = "/guide/ko";
+    location.href = "/guide/ko"+"?langType="+langType;
   } else {
-    location.href = "/guide/en";
+    location.href = "/guide/en"+"?langType="+langType;
   }
 }
 
-// blog 페이지로 이동
+//블로그 페이지로 이동
 function fnBlogPage() {
   location.href = "/blog.html"+"?langType="+langType;
 }
 
+//메시지 전송 버튼 클릭
 async function sendMessage() {
   const inputElement = document.getElementById('messageInput');
   const userMsg = inputElement.value;
@@ -100,10 +101,9 @@ async function sendMessage() {
   }
 }
 
-// 공유하기 버튼클릭
+//공유하기 버튼클릭
 function fn_sendFB(sns) {
   var thisUrl = document.URL;
-  // var imageUrl = "./images/splash.png";
   var snsTitle = "[MBTI-CHAT]MBTI 유형별 AI 상담 전문가와 친구하고 채팅하기";
   
   if( sns == 'facebook' ) {
@@ -123,9 +123,9 @@ function fn_sendFB(sns) {
       Kakao.Link.sendDefault({
           objectType: 'feed',
           content: {
-            title: snsTitle, // 보여질 제목
-            description: snsTitle, // 보여질 설명
-            imageUrl: thisUrl, // 콘텐츠 URL
+            title: snsTitle,        // 제목
+            description: snsTitle,  // 설명
+            imageUrl: thisUrl,      // URL
           link: {
               mobileWebUrl: thisUrl,
               webUrl: thisUrl
@@ -141,29 +141,28 @@ function fn_sendFB(sns) {
   }
 }
 
-// 언어변경
+//언어변경
 function fnChangeLang(lang) {
   langType = lang.value;
   if(lang.value == 'ko') {
-    // 페이지 새로고침
+    //페이지 새로고침
     location.reload();
   } else if(lang.value == 'en') {
-    // MAIN TEXT
+    //MAIN TEXT
     document.querySelector(".main-text h1").innerHTML = "You can become friends and chat with an AI counseling specialist based on your MBTI type.";
   
-    // list-bg h2
+    //list-bg h2
     document.querySelector(".list-1-bg h2").innerHTML = "Analyst type";
     document.querySelector(".list-2-bg h2").innerHTML = "Diplomat type";
     document.querySelector(".list-3-bg h2").innerHTML = "Manager type";
     document.querySelector(".list-4-bg h2").innerHTML = "Consul type";
   
-    // list-bg h3 span
+    //list-bg h3 span
     var spanElements = document.querySelectorAll(".char-contents h3 span");
     for (var i = 0; i < spanElements.length; i++) {
-      spanElements[i].innerHTML = "expert"; // 변경하고자 하는 텍스트로 대체
+      spanElements[i].innerHTML = "expert"; //전문가 텍스트 변경
     }
 
-    // id intjName
     document.querySelector("#intjName").innerHTML = "Ethan";
     document.querySelector("#intpName").innerHTML = "Olivia";
     document.querySelector("#entjName").innerHTML = "Emma";
@@ -191,7 +190,7 @@ function fnChangeLang(lang) {
 /* ******************************************************************************************
  * FUNCTION
 ****************************************************************************************** */
-// 페이지 로딩시 bot의 첫 메시지 출력
+//페이지 로딩시 bot의 첫 메시지 출력
 async function botMessageProcessing(message) {
   displayBotLoading();
   setTimeout(() => {
@@ -207,7 +206,7 @@ async function botMessageProcessing(message) {
   // });
 }
 
-// bot 메시지 로딩
+//BOT 메시지 로딩
 function displayBotLoading() {
   const mbtiType = document.getElementById('mbtiType').value;
 
@@ -232,7 +231,7 @@ function displayBotLoading() {
   chatContainer.appendChild(messageContent);
 }
 
-// bot 메시지 출력
+//BOT 메시지 출력
 function displayBotMessage(message) {
   document.querySelector('.ai-last-msg > i').remove();
   const botMessage = document.querySelector('.ai-last-msg');
@@ -258,7 +257,7 @@ function displayBotMessage(message) {
   chatCnt++;
 }
 
-// user 메시지 출력
+//USER 메시지 출력
 function displayUserMessage(message) {
   const chatContainer = document.getElementById('chatContainer');
   const messageContent = document.createElement('div');
@@ -273,12 +272,12 @@ function displayUserMessage(message) {
   chatContainer.appendChild(messageContent);
 } 
 
-// chat 페이지 로드시 기본 세팅 함수
+//CHAT 페이지 로드시 기본 세팅 함수
 function fnChatPageLoad(type, name) {
   mbtiType = type;
   botName = name;
 
-  // // viewport 최상단으로 이동
+  //VIEWPORT 최상단으로 이동
   window.scrollTo({ top: 0, behavior: 'smooth' });
 
   const charView = document.querySelector(".ai-char-view");
@@ -383,7 +382,7 @@ function fnChatPageLoad(type, name) {
 
 }
 
-// chat 페이지 언어 변경
+//채팅 페이지 언어 변경
 function fnChangeChatLang() {
   if(langType == 'en') {
     document.querySelector(".chat-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>back';
@@ -392,14 +391,14 @@ function fnChangeChatLang() {
   }
 }
 
-// blog 페이지 언어 변경
+//블로그 페이지 언어 변경
 function fnChangeBlogLang() {
   if(langType == 'en') {
     document.querySelector(".grid-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>back';
   }
 }
 
-// header menu 언어 변경
+//메뉴 언어 변경
 function fnChangeLangCommonEl() {
   if(langType == 'en') {
     // HEADER
