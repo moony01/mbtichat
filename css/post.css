@@ -105,6 +105,15 @@
     border-top: 1px solid #dcdcdc;
     border-bottom: 1px solid #fff;
 }
+.content-post a {
+    color: #e4ae3a;
+    border-bottom: 1px solid #e4ae3a;
+    font-family: 'NanumBarunGothicBold';
+}
+.content-post a:hover {
+    color: #429bb8;
+    border-bottom: 1px solid #429bb8;
+}
 
 /*
  * 매우 작은 디스플레이 (Extra Small Displays):
