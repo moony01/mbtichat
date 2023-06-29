@@ -86,16 +86,24 @@
 .content-post h2 {
     font-size: 1.4em;
 }
-.content-post p {
+.content-post p, .content-post li {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
 }
 .content-post p > img {
     border: 1px solid #dcdcdc;
+    border-radius: 10px;
 }
 .content-post strong {
     color: #625772;
     font-family: 'NanumBarunGothicBold';
+}
+.content-post hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #fff;
 }
 
 /*
