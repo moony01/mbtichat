@@ -104,7 +104,7 @@ async function sendMessage() {
 //공유하기 버튼클릭
 function fn_sendFB(sns) {
   var thisUrl = document.URL;
-  var snsTitle = "[MBTI-CHAT]MBTI 유형별 AI 상담 전문가와 친구하고 채팅하기";
+  var snsTitle = "[mbtiChat]MBTI 유형별 AI 상담 전문가와 친구하고 채팅하기";
   
   if( sns == 'facebook' ) {
       var url = "http://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(thisUrl);

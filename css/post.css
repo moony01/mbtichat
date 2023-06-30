@@ -83,8 +83,13 @@
 .content-post > * {
     margin-bottom: 32px;
 }
-.content-post h2 {
+.content-post h2{
     font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.content-post h3 {
+    font-size: 1em;
+    margin-bottom: 4px;
 }
 .content-post p, .content-post li {
     font-family: 'Nanum Gothic', sans-serif;

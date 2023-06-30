@@ -5,19 +5,19 @@ permalink: /guide/en/
 image: '/images/userGuide/0.jpg'
 ---
 
-The application is an application that allows users to have free conversations with AI characters based on the 16 different MBTI types. The motivation and purpose behind the development of the MBTI-CHAT app were to provide users who are aware of their own MBTI type with the opportunity to explore the characteristics of other MBTI types, understand the relationships with different types, and learn how different types might think or behave in specific situations.
+The application is an application that allows users to have free conversations with AI characters based on the 16 different MBTI types. The motivation and purpose behind the development of the mbtiChat app were to provide users who are aware of their own MBTI type with the opportunity to explore the characteristics of other MBTI types, understand the relationships with different types, and learn how different types might think or behave in specific situations.
 
-Now let's explore how to use the MBTI-CHAT app and introduce its features and pages.
+Now let's explore how to use the mbtiChat app and introduce its features and pages.
 
 ## App Technical Analysis and Introduction
-The MBTI-CHAT app is a static web app. A static web app is a website where the content is fixed, and dynamic features or interactions are limited. These websites are typically built using static web technologies such as HTML, CSS, and JavaScript. Static web apps are commonly used to provide information, such as company introduction pages, product brochures, news articles, etc. However, due to the MBTI-CHAT app's inclusion of features like blog functionality and language selection, and the presence of multiple pages, developing it as a static web app has its limitations.
+The mbtiChat app is a static web app. A static web app is a website where the content is fixed, and dynamic features or interactions are limited. These websites are typically built using static web technologies such as HTML, CSS, and JavaScript. Static web apps are commonly used to provide information, such as company introduction pages, product brochures, news articles, etc. However, due to the mbtiChat app's inclusion of features like blog functionality and language selection, and the presence of multiple pages, developing it as a static web app has its limitations.
 
-Therefore, I employed the **Jekyll static website generation framework** for its development. Jekyll generates static HTML files based on user-defined templates and layouts. This facilitates efficient reuse of repetitive elements and ensures a consistent design and layout.The primary feature of the MBTI-CHAT app is its AI-powered chat functionality. The AI utilizes the **gpt-3.5** version of the API. To facilitate communication with the GPT API, a NODE.JS server was employed.
+Therefore, I employed the **Jekyll static website generation framework** for its development. Jekyll generates static HTML files based on user-defined templates and layouts. This facilitates efficient reuse of repetitive elements and ensures a consistent design and layout.The primary feature of the mbtiChat app is its AI-powered chat functionality. The AI utilizes the **gpt-3.5** version of the API. To facilitate communication with the GPT API, a NODE.JS server was employed.
 
 I developed a mobile app using **React-Native-Webview** to create a mobile app from a responsive web page.
 
 ## App Features and Page Introduction
-The main feature of the MBTI-CHAT app, as mentioned in the introduction, is the ability to have free conversations with AI characters based on the 16 different MBTI types. In addition to the AI chatting feature, the app also includes more detailed functionalities such as guides and blog posts.
+The main feature of the mbtiChat app, as mentioned in the introduction, is the ability to have free conversations with AI characters based on the 16 different MBTI types. In addition to the AI chatting feature, the app also includes more detailed functionalities such as guides and blog posts.
 
 The app can be divided into two main sections: **AI Chatting** and **Blog**. While there are other features such as the User Guide page and language selection, we will focus on these two main sections and delve into their functionalities.
 
@@ -39,14 +39,14 @@ Even if the user does not provide their MBTI type, they can still ask the charac
 
 Users can ask various questions to the AI. Suppose the selected character is Olivia, representing the INTP type. The user can ask questions like "What are the characteristics of an INTP?" or "I watched a sad movie with my friend, but my friend didn't feel sad at all. Could my friend be an INTP?" By asking such questions, users can gain insights into the personality traits of specific types or trace the type of their friends based on their behavior.
 
-Furthermore, users can inquire about the compatibility and strengths/weaknesses between their type and their friends' types. For instance, they can ask, "Can you tell me about the compatibility between an INTP (friend's type) and an ENFP (my type)?" The MBTI-CHAT app is supported by advertisements and donations, so an occasional ad message may appear during the chat.
+Furthermore, users can inquire about the compatibility and strengths/weaknesses between their type and their friends' types. For instance, they can ask, "Can you tell me about the compatibility between an INTP (friend's type) and an ENFP (my type)?" The mbtiChat app is supported by advertisements and donations, so an occasional ad message may appear during the chat.
 
 ![Share AI, Emoticons, and Commenting](/images/userGuide/6.png)
 
-Did you find the AI chat helpful? If so, please share the MBTI-CHAT app with your friends and leave comments! Rest assured that the chat contents are never stored.
+Did you find the AI chat helpful? If so, please share the mbtiChat app with your friends and leave comments! Rest assured that the chat contents are never stored.
 
 ### 2. Blog
-![Blog Page in the MBTI-CHAT app](/images/userGuide/7.png)
+![Blog Page in the mbtiChat app](/images/userGuide/7.png)
 
-The MBTI-CHAT app also includes a blog section. The blog mainly focuses on technical aspects related to the development process of the app, serving as a technology blog. Users can access the blog page by clicking the "Blog" menu on the top navigation bar. The addition of the blog feature was prompted by the need for more content during the Google AdSense approval process. You can find detailed information about Google AdSense in the blog posts.
+The mbtiChat app also includes a blog section. The blog mainly focuses on technical aspects related to the development process of the app, serving as a technology blog. Users can access the blog page by clicking the "Blog" menu on the top navigation bar. The addition of the blog feature was prompted by the need for more content during the Google AdSense approval process. You can find detailed information about Google AdSense in the blog posts.
 

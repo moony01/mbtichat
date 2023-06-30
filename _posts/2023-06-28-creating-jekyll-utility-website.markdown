@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 수익형 웹 유틸리티 사이트를 만들기 위해 Jekyll을 사용해야하는 이유
-image: '/images/posts/creating-profitable-website-with-jekyll/thumbnail-creating-profitable-website-with-jekyll.jpg'
+image: '/images/posts/thumbnail-creating-profitable-website-with-jekyll.jpg'
 ---
-개발자를 포함한 비 개발자분들까지 수익형 웹 유틸리티 사이트를 제작하는 데 관심이 많으실 거라 생각합니다. 그럼, 이그럼 이 글의 제목처럼 왜 개발하기 위해 Jekyll을 사용해야 한다고 했을까요? 제가 [MBTI-CHAT](/) 웹앱을 개발하면서 느낀 수익형 웹 유틸리티 사이트를 만들기 위해 Jekyll을 사용해야 하는 이유에 대해 3가지로 요약하고 설명하겠습니다.
+개발자를 포함한 비 개발자분들까지 수익형 웹 유틸리티 사이트를 제작하는 데 관심이 많으실 거라 생각합니다. 이 글의 제목처럼 왜 개발하기 위해 Jekyll을 사용해야 한다고 했을까요? 제가 [mbtiChat](/) 웹앱을 개발하면서 느낀 수익형 웹 유틸리티 사이트를 만들기 위해 Jekyll을 사용해야 하는 이유에 대해 3가지로 요약하고 설명하겠습니다.
 
 * 첫 번째: Github를 통한 무료 호스팅 및 자동배포로 **홈페이지 관리**에 용이
 * 두 번째: Jekyll을 활용한 정적 웹 생성으로 **비용 절감**
@@ -24,9 +24,9 @@ Jekyll의 정의가 무엇일까요? Jekyll이란 Ruby 기반의 정적 사이�
 이렇게 데이터양이 방대한 대규모 프로젝트나 페이지가 많고 기능이 많은 웹사이트의 경우 동적 웹사이트로 개발을 진행하는 데 적합합니다. 이런 동적 웹사이트의 경우 Front-end와 Server를 패키징하여 배포해야 하고 **이런 배포 및 개발, 운영 방식은 수익화, 상업화하려면 많은 서버비용이 나올 수밖에 없습니다.**
 
 
-하지만 수익형 웹 유틸리티 사이트 즉 제가 개발한 [MBTI-CHAT](/) 웹사이트의 경우 블로그 기능을 제외한 페이지가 많아야 2~3페이지입니다. 이는 따로 데이터 관리가 필요하지 않을뿐 더러 페이지가 많지 않기 때문에 광고를 위한 Adsense 승인에 필요한 블로그 기능만 **Jekyll을 사용하여 붙여 넣으면 목표한 수익형 웹 유틸리티 사이트를 성공적으로 개발**할 수 있게 됩니다. 
+하지만 수익형 웹 유틸리티 사이트 즉 제가 개발한 [mbtiChat](/) 웹사이트의 경우 블로그 기능을 제외한 페이지가 많아야 2~3페이지입니다. 이는 따로 데이터 관리가 필요하지 않을뿐 더러 페이지가 많지 않기 때문에 광고를 위한 Adsense 승인에 필요한 블로그 기능만 **Jekyll을 사용하여 붙여 넣으면 목표한 수익형 웹 유틸리티 사이트를 성공적으로 개발**할 수 있게 됩니다. 
 
-이런 방식으로 개발 후 Front-end만 따로 배포한다면 우리는 **무료로 웹 개발이 가능** 하게됩니다. 그러면 [MBTI-CHAT](/) 앱에서의 AI와 채팅을 하기 위해 API를 호출하고 데이터를 받아와 주는 Back-end 즉 Server는 어떻게 구현하고 배포해야 할까요?
+이런 방식으로 개발 후 Front-end만 따로 배포한다면 우리는 **무료로 웹 개발이 가능** 하게됩니다. 그러면 [mbtiChat](/) 앱에서의 AI와 채팅을 하기 위해 API를 호출하고 데이터를 받아와 주는 Back-end 즉 Server는 어떻게 구현하고 배포해야 할까요?
 
 ![Lanbda를 사용하여 서버 무료배포](/images/posts/creating-profitable-website-with-jekyll/creating-profitable-website-with-jekyll-3.jpg)
 
@@ -35,7 +35,7 @@ Jekyll의 정의가 무엇일까요? Jekyll이란 Ruby 기반의 정적 사이�
 ## AdSense를 이용하여 수익 극대화
 
 ![Github 무료 호스팅은 Jekyll을 지원](/images/posts/creating-profitable-website-with-jekyll/creating-profitable-website-with-jekyll-4.jpg)
-출처: [prometteursolutions](https://prometteursolutions.com/blog/what-is-google-adsense-and-how-can-it-be-used-on-your-website/)
+출처: [prometteursolutions](https://prometteursolutions.com/blog/what-is-google-adsense-and-how-can-it-be-used-on-your-website/){:target="_blank"}
 
 
 우리가 수익형 웹사이트를 개발하는 이유는 **"수익"** 을 창출하기 위해서입니다. 수익을 창출하기 위한 방법은 여러 가지가 있지만 Ad(광고) 플랫폼을 통하여 광고를 붙이는 방법이 그중 하나입니다. Ad(광고) 플랫폼에는 대표적으로 애드핏(카카오), 애드포스트(네이버), 애드센스(구글) 등등 여러 가지가 있습니다. 플랫폼 별로 각자 장단점이 있지만 제가 추천하는 플랫폼은 애드센스입니다. 

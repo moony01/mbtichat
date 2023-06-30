@@ -1,6 +1,6 @@
 title: MBTI 유형별 AI 상담 전문가와 친구가 되고 채팅 할 수 있습니다.
 email: mun_1201@naver.com
-description: MBTI-CHAT 앱은 MBTI의 16가지 유형 별로 AI에게 학습시켜 사용자들이 MBTI 유형별 AI들과 자유롭게 대화를 할 수 있는 애플리케이션입니다. 개발자가 MBTI-CHAT 앱을 개발한 계기와 목적은 사용자들이 자신의 MBTI을 알고있지만 다른 MBTI유형의 특징, 나와 다른 유형의 관계성, 특정 상황에대해서 다른 유형의 생각이나 행동이 어떠할지에 대해 궁금하지 않을까 하는 생각에서 해당 앱을 개발 하였습니다.
+description: mbtiChat 앱은 MBTI의 16가지 유형 별로 AI에게 학습시켜 사용자들이 MBTI 유형별 AI들과 자유롭게 대화를 할 수 있는 애플리케이션입니다. 개발자가 mbtiChat 앱을 개발한 계기와 목적은 사용자들이 자신의 MBTI을 알고있지만 다른 MBTI유형의 특징, 나와 다른 유형의 관계성, 특정 상황에대해서 다른 유형의 생각이나 행동이 어떠할지에 대해 궁금하지 않을까 하는 생각에서 해당 앱을 개발 하였습니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mbtichat.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mun01180
