@@ -119,6 +119,15 @@
     color: #429bb8;
     border-bottom: 1px solid #429bb8;
 }
+.content-post pre {
+    background: #333333;
+    padding: 10px;
+    color: #FFF;
+    overflow-x: auto;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+    border: none;
+}
 
 /*
  * 매우 작은 디스플레이 (Extra Small Displays):
