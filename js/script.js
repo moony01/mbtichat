@@ -33,7 +33,17 @@ document.addEventListener('DOMContentLoaded', function() {
 ****************************************************************************************** */
 //뒤로가기 버튼
 function fnPrev() {
-  window.history.back();
+  //페이지 url에서 파일명만 추출
+  var url = location.href;
+  var filename = url.substring(url.lastIndexOf('/')+1);
+  // filename에서 ?langType=ko 제거
+  filename = filename.substring(0, filename.indexOf('?'));
+  if(filename == "chat.html" || filename == "blog.html" || filename == "") {
+    location.href = '/';
+  } else {
+    location.href = '/blog.html'+"?langType="+langType;
+  }
+
 }
 
 //모달팝업창 닫기
