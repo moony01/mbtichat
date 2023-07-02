@@ -9,7 +9,7 @@ layout: default
     const currentURL = window.location.href;
     const updatedURL = currentURL + (currentURL.includes('?') ? '&' : '?') + 'langType=' + langType;
 
-    // 링크에 동적으로 URL 적용
+    // 블로그 포스트 링크에 동적으로 URL 적용
     const postLinks = document.querySelectorAll('.post-card');
     postLinks.forEach(function(link) {
       const postURL = link.getAttribute('href');

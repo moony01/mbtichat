@@ -1,0 +1,154 @@
+---
+layout: default
+---
+<div class="main-text">
+    <h1>Chào mừng! Bạn có thể trò chuyện với một người tư vấn và bạn bè AI chuyên về các loại tính cách MBTI.</h1>
+    <p>Chương trình Giao tiếp MBTI là một công cụ dựa trên trí tuệ nhân tạo cho phép bạn tham gia vào các cuộc trò chuyện liên quan đến các loại tính cách MBTI. Ứng dụng này có thể được sử dụng cho nhiều mục đích và nhu cầu, giúp tăng cường hiểu biết về các loại MBTI và sự khác biệt giữa bạn và người khác. Chương trình này có thể hữu ích trong nhiều khía cạnh, bao gồm xây dựng mối quan hệ, lựa chọn sự nghiệp, thành phần nhóm, tư vấn và lãnh đạo. Trải nghiệm những hiểu biết mới và giao tiếp hiệu quả bằng cách sử dụng Chương trình Giao tiếp MBTI!</p>
+    {% include language.html %}
+</div>
+
+<div id="contAi" class="ai-character-wrap">
+    <div class="ai-character-list">
+        <div class="list-bg list-1-bg">
+            <h2>Nhóm phân tích</h2>
+            <div class="ai-wrap">
+                <div class="ai-character analyst-tp intj">
+                    <div class="char-contents">
+                        <h3>INTJ<span>chuyên gia</span></h3>
+                        <p id="intjName">Ethan</p>
+                        <button onclick="fnNextPage('intj', document.getElementById('intjName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp intp">
+                    <div class="char-contents">
+                        <h3>INTP<span>chuyên gia</span></h3>
+                        <p id="intpName">Olivia</p>
+                        <button onclick="fnNextPage('intp', document.getElementById('intpName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp entj">
+                    <div class="char-contents">
+                        <h3>ENTJ<span>chuyên gia</span></h3>
+                        <p id="entjName">Emma</p>
+                        <button onclick="fnNextPage('entj', document.getElementById('entjName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp entp">
+                    <div class="char-contents">
+                        <h3>ENTP<span>chuyên gia</span></h3>
+                        <p id="entpName">Liam</p>
+                        <button onclick="fnNextPage('entp', document.getElementById('entpName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-2">
+        <div class="list-bg list-2-bg">
+            <h2>Nhóm nhà ngoại giao</h2>
+            <div class="ai-wrap">
+                <div class="ai-character diplomat-tp infj">
+                    <div class="char-contents">
+                        <h3>INFJ<span>chuyên gia</span></h3>
+                        <p id="infjName">Benjamin</p>
+                        <button onclick="fnNextPage('infj', document.getElementById('infjName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp infp">
+                    <div class="char-contents">
+                        <h3>INFP<span>chuyên gia</span></h3>
+                        <p id="infpName">Ava</p>
+                        <button onclick="fnNextPage('infp', document.getElementById('infpName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp enfj">
+                    <div class="char-contents">
+                        <h3>ENFJ<span>chuyên gia</span></h3>
+                        <p id="enfjName">Sophia</p>
+                        <button onclick="fnNextPage('enfj', document.getElementById('enfjName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp enfp">
+                    <div class="char-contents">
+                        <h3>ENFP<span>chuyên gia</span></h3>
+                        <p id="enfpName">Noah</p>
+                        <button onclick="fnNextPage('enfp', document.getElementById('enfpName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-3">
+        <div class="list-bg list-3-bg">
+            <h2>Nhóm quản lý</h2>
+            <div class="ai-wrap">
+                <div class="ai-character manager-tp istj">
+                    <div class="char-contents">
+                        <h3>ISTJ<span>chuyên gia</span></h3>
+                        <p id="istjName">Alexander</p>
+                        <button onclick="fnNextPage('istj', document.getElementById('istjName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp isfj">
+                    <div class="char-contents">
+                        <h3>ISFJ<span>chuyên gia</span></h3>
+                        <p id="isfjName">Isabella</p>
+                        <button onclick="fnNextPage('isfj', document.getElementById('isfjName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp estj">
+                    <div class="char-contents">
+                        <h3>ESTJ<span>chuyên gia</span></h3>
+                        <p id="estjName">Mia</p>
+                        <button onclick="fnNextPage('estj', document.getElementById('estjName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp esfj">
+                    <div class="char-contents">
+                        <h3>ESFJ<span>chuyên gia</span></h3>
+                        <p id="esfjName">Charlotte</p>
+                        <button onclick="fnNextPage('esfj', document.getElementById('esfjName').innerText, langType)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-4">
+        <div class="list-bg list-4-bg">
+            <h2>Nhóm chủ nghĩa lãnh đạo</h2>
+            <div class="ai-wrap">
+                <div class="ai-character explorer-tp istp">
+                    <div class="char-contents">
+                        <h3>ISTP<span>chuyên gia</span></h3> 
+                        <p id="istpName">Oliver</p>
+                        <button onclick="fnNextPage('istp', document.getElementById('istpName').innerText)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp isfp">
+                    <div class="char-contents">
+                        <h3>ISFP<span>chuyên gia</span></h3>
+                        <p id="isfpName">Amelia</p>
+                        <button onclick="fnNextPage('isfp', document.getElementById('isfpName').innerText)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp estp">
+                    <div class="char-contents">
+                        <h3>ESTP<span>chuyên gia</span></h3>
+                        <p id="estpName">William</p>
+                        <button onclick="fnNextPage('estp', document.getElementById('estpName').innerText)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp esfp">
+                    <div class="char-contents">
+                        <h3>ESFP<span>chuyên gia</span></h3>
+                        <p id="esfpName">Harper</p>
+                        <button onclick="fnNextPage('esfp', document.getElementById('esfpName').innerText)">Bắt đầu Trò chuyện</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,154 @@
+---
+layout: default
+---
+<div class="main-text">
+    <h1>Witaj! Teraz możesz rozmawiać z doradcą AI i przyjacielem specjalizującym się w typach osobowości MBTI.</h1>
+    <p>Program Komunikacji MBTI to narzędzie oparte na sztucznej inteligencji, które umożliwia prowadzenie rozmów związanych z typami osobowości MBTI. Ta aplikacja może być używana w różnych celach i potrzebach, pomagając w zrozumieniu typów MBTI i różnic między tobą a innymi osobami. Program może być korzystny pod wieloma względami, w tym w budowaniu relacji, wyborze kariery, składzie zespołu, doradztwie i przywództwie. Doświadcz nowych spostrzeżeń i efektywnej komunikacji, korzystając z Programu Komunikacji MBTI!</p>
+    {% include language.html %}
+</div>
+
+<div id="contAi" class="ai-character-wrap">
+    <div class="ai-character-list">
+        <div class="list-bg list-1-bg">
+            <h2>Typ analityka</h2>
+            <div class="ai-wrap">
+                <div class="ai-character analyst-tp intj">
+                    <div class="char-contents">
+                        <h3>INTJ<span>ekspert</span></h3>
+                        <p id="intjName">Ethan</p>
+                        <button onclick="fnNextPage('intj', document.getElementById('intjName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp intp">
+                    <div class="char-contents">
+                        <h3>INTP<span>ekspert</span></h3>
+                        <p id="intpName">Olivia</p>
+                        <button onclick="fnNextPage('intp', document.getElementById('intpName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp entj">
+                    <div class="char-contents">
+                        <h3>ENTJ<span>ekspert</span></h3>
+                        <p id="entjName">Emma</p>
+                        <button onclick="fnNextPage('entj', document.getElementById('entjName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp entp">
+                    <div class="char-contents">
+                        <h3>ENTP<span>ekspert</span></h3>
+                        <p id="entpName">Liam</p>
+                        <button onclick="fnNextPage('entp', document.getElementById('entpName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-2">
+        <div class="list-bg list-2-bg">
+            <h2>Typ dyplomaty</h2>
+            <div class="ai-wrap">
+                <div class="ai-character diplomat-tp infj">
+                    <div class="char-contents">
+                        <h3>INFJ<span>ekspert</span></h3>
+                        <p id="infjName">Benjamin</p>
+                        <button onclick="fnNextPage('infj', document.getElementById('infjName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp infp">
+                    <div class="char-contents">
+                        <h3>INFP<span>ekspert</span></h3>
+                        <p id="infpName">Ava</p>
+                        <button onclick="fnNextPage('infp', document.getElementById('infpName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp enfj">
+                    <div class="char-contents">
+                        <h3>ENFJ<span>ekspert</span></h3>
+                        <p id="enfjName">Sophia</p>
+                        <button onclick="fnNextPage('enfj', document.getElementById('enfjName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp enfp">
+                    <div class="char-contents">
+                        <h3>ENFP<span>ekspert</span></h3>
+                        <p id="enfpName">Noah</p>
+                        <button onclick="fnNextPage('enfp', document.getElementById('enfpName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-3">
+        <div class="list-bg list-3-bg">
+            <h2>Typ menedżera</h2>
+            <div class="ai-wrap">
+                <div class="ai-character manager-tp istj">
+                    <div class="char-contents">
+                        <h3>ISTJ<span>ekspert</span></h3>
+                        <p id="istjName">Alexander</p>
+                        <button onclick="fnNextPage('istj', document.getElementById('istjName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp isfj">
+                    <div class="char-contents">
+                        <h3>ISFJ<span>ekspert</span></h3>
+                        <p id="isfjName">Isabella</p>
+                        <button onclick="fnNextPage('isfj', document.getElementById('isfjName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp estj">
+                    <div class="char-contents">
+                        <h3>ESTJ<span>ekspert</span></h3>
+                        <p id="estjName">Mia</p>
+                        <button onclick="fnNextPage('estj', document.getElementById('estjName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp esfj">
+                    <div class="char-contents">
+                        <h3>ESFJ<span>ekspert</span></h3>
+                        <p id="esfjName">Charlotte</p>
+                        <button onclick="fnNextPage('esfj', document.getElementById('esfjName').innerText, langType)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-4">
+        <div class="list-bg list-4-bg">
+            <h2>Typ konsula</h2>
+            <div class="ai-wrap">
+                <div class="ai-character explorer-tp istp">
+                    <div class="char-contents">
+                        <h3>ISTP<span>ekspert</span></h3> 
+                        <p id="istpName">Oliver</p>
+                        <button onclick="fnNextPage('istp', document.getElementById('istpName').innerText)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp isfp">
+                    <div class="char-contents">
+                        <h3>ISFP<span>ekspert</span></h3>
+                        <p id="isfpName">Amelia</p>
+                        <button onclick="fnNextPage('isfp', document.getElementById('isfpName').innerText)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp estp">
+                    <div class="char-contents">
+                        <h3>ESTP<span>ekspert</span></h3>
+                        <p id="estpName">William</p>
+                        <button onclick="fnNextPage('estp', document.getElementById('estpName').innerText)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp esfp">
+                    <div class="char-contents">
+                        <h3>ESFP<span>ekspert</span></h3>
+                        <p id="esfpName">Harper</p>
+                        <button onclick="fnNextPage('esfp', document.getElementById('esfpName').innerText)">Rozpocznij rozmowę</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -38,8 +38,8 @@ function fnPrev() {
   var filename = url.substring(url.lastIndexOf('/')+1);
   // filename에서 ?langType=ko 제거
   filename = filename.substring(0, filename.indexOf('?'));
-  if(filename == "chat.html" || filename == "blog.html" || filename == "") {
-    location.href = '/';
+  if(filename == "chat.html" || filename == "blog.html" || filename == "guide.html" || filename == "") {
+    location.href = "/"+langType+"?langType="+langType;
   } else {
     location.href = '/blog.html'+"?langType="+langType;
   }
@@ -53,21 +53,21 @@ function fnClose() {
 
 // 채팅 페이지로 이동
 function fnNextPage(type, name) {
-  location.href = "chat.html"+"?mbtiType="+type+"&botName="+name+"&langType="+langType;
+  location.href = "/chat.html"+"?mbtiType="+type+"&botName="+name+"&langType="+langType;
 }
 
-//유저가이드 페이지로 이동
-function fnGuidePage() {
-  if(langType == "ko") {
-    location.href = "/guide/ko"+"?langType="+langType;
-  } else {
-    location.href = "/guide/en"+"?langType="+langType;
+function fnMovePage(page) {
+
+  if(langType == "" || langType == null) {
+    location.href = "/";
+    return false;
   }
-}
 
-//블로그 페이지로 이동
-function fnBlogPage() {
-  location.href = "/blog.html"+"?langType="+langType;
+  if(page == "blog") {
+    location.href = "/"+page+".html"+"?langType="+langType;
+  } else {
+    location.href = "/"+langType+"/"+page+".html"+"?langType="+langType;
+  }
 }
 
 //메시지 전송 버튼 클릭
@@ -154,47 +154,7 @@ function fn_sendFB(sns) {
 //언어변경
 function fnChangeLang(lang) {
   langType = lang.value;
-  if(lang.value == 'ko') {
-    //페이지 새로고침
-    location.reload();
-  } else if(lang.value == 'en') {
-    //MAIN TEXT
-    document.querySelector(".main-text h1").innerHTML = "You can become friends and chat with an AI counseling specialist based on your MBTI type.";
-  
-    //list-bg h2
-    document.querySelector(".list-1-bg h2").innerHTML = "Analyst type";
-    document.querySelector(".list-2-bg h2").innerHTML = "Diplomat type";
-    document.querySelector(".list-3-bg h2").innerHTML = "Manager type";
-    document.querySelector(".list-4-bg h2").innerHTML = "Consul type";
-  
-    //list-bg h3 span
-    var spanElements = document.querySelectorAll(".char-contents h3 span");
-    for (var i = 0; i < spanElements.length; i++) {
-      spanElements[i].innerHTML = "expert"; //전문가 텍스트 변경
-    }
-
-    document.querySelector("#intjName").innerHTML = "Ethan";
-    document.querySelector("#intpName").innerHTML = "Olivia";
-    document.querySelector("#entjName").innerHTML = "Emma";
-    document.querySelector("#entpName").innerHTML = "Liam";
-
-    document.querySelector("#infjName").innerHTML = "Benjamin";
-    document.querySelector("#infpName").innerHTML = "Ava";
-    document.querySelector("#enfjName").innerHTML = "Sophia";
-    document.querySelector("#enfpName").innerHTML = "Noah";
-
-    document.querySelector("#istjName").innerHTML = "Alexander";
-    document.querySelector("#isfjName").innerHTML = "Isabella";
-    document.querySelector("#estjName").innerHTML = "Mia";
-    document.querySelector("#esfjName").innerHTML = "Charlotte";
-    
-    document.querySelector("#istpName").innerHTML = "Oliver";
-    document.querySelector("#isfpName").innerHTML = "Amelia";
-    document.querySelector("#estpName").innerHTML = "William";
-    document.querySelector("#esfpName").innerHTML = "Harper";
-
-    fnChangeLangCommonEl();
-  }
+  location.href = "/"+langType+"?langType="+langType;
 }
 
 /* ******************************************************************************************
@@ -294,75 +254,25 @@ function fnChatPageLoad(type, name) {
   const chatHead = document.querySelector(".chat-head");
   const chatBody = document.querySelector(".chat-body");
 
+  charView.style.backgroundImage = "url(./images/"+type+".png)";
+
   /* 분석가형 */
-  if (type === "intj") {
-    charView.style.backgroundImage = "url(./images/intj.png)";
-    chatHead.style.backgroundColor = "#625772";
-    chatBody.style.backgroundColor = "#625772";
-  } else if (type === "intp") {
-    charView.style.backgroundImage = "url(./images/intp.png)";
-    chatHead.style.backgroundColor = "#625772";
-    chatBody.style.backgroundColor = "#625772";
-  } else if (type === "entj") {
-    charView.style.backgroundImage = "url(./images/entj.png)";
-    chatHead.style.backgroundColor = "#625772";
-    chatBody.style.backgroundColor = "#625772";
-  } else if (type === "entp") {
-    charView.style.backgroundImage = "url(./images/entp.png)";
+  if (type === "intj"||type === "intp"||type === "entj"||type === "entp") {
     chatHead.style.backgroundColor = "#625772";
     chatBody.style.backgroundColor = "#625772";
   }
   /* 외교관형 */
-  else if (type === "infj") {
-    charView.style.backgroundImage = "url(./images/infj.png)";
-    chatHead.style.backgroundColor = "#2ea673";
-    chatBody.style.backgroundColor = "#2ea673";
-  }else if (type === "infp") {
-    charView.style.backgroundImage = "url(./images/infp.png)";
-    chatHead.style.backgroundColor = "#2ea673";
-    chatBody.style.backgroundColor = "#2ea673";
-  }else if (type === "enfj") {
-    charView.style.backgroundImage = "url(./images/enfj.png)";
-    chatHead.style.backgroundColor = "#2ea673";
-    chatBody.style.backgroundColor = "#2ea673";
-  }else if (type === "enfp") {
-    charView.style.backgroundImage = "url(./images/enfp.png)";
+  else if (type === "infj"||type === "infp"||type === "enfj"||type === "enfp") {
     chatHead.style.backgroundColor = "#2ea673";
     chatBody.style.backgroundColor = "#2ea673";
   }
   /* 관리자형 */
-  else if (type === "istj") {
-    charView.style.backgroundImage = "url(./images/istj.png)";
-    chatHead.style.backgroundColor = "#429bb8";
-    chatBody.style.backgroundColor = "#429bb8";
-  }else if (type === "isfj") {
-    charView.style.backgroundImage = "url(./images/isfj.png)";
-    chatHead.style.backgroundColor = "#429bb8";
-    chatBody.style.backgroundColor = "#429bb8";
-  }else if (type === "estj") {
-    charView.style.backgroundImage = "url(./images/estj.png)";
-    chatHead.style.backgroundColor = "#429bb8";
-    chatBody.style.backgroundColor = "#429bb8";
-  }else if (type === "esfj") {
-    charView.style.backgroundImage = "url(./images/esfj.png)";
+  else if (type === "istj"||type === "isfj"||type === "estj"||type === "esfj") {
     chatHead.style.backgroundColor = "#429bb8";
     chatBody.style.backgroundColor = "#429bb8";
   }
   /* 탐험가형 */
-  else if (type === "istp") {
-    charView.style.backgroundImage = "url(./images/istp.png)";
-    chatHead.style.backgroundColor = "#e4ae3a";
-    chatBody.style.backgroundColor = "#e4ae3a";
-  }else if (type === "isfp") {
-    charView.style.backgroundImage = "url(./images/isfp.png)";
-    chatHead.style.backgroundColor = "#e4ae3a";
-    chatBody.style.backgroundColor = "#e4ae3a";
-  }else if (type === "estp") {
-    charView.style.backgroundImage = "url(./images/estp.png)";
-    chatHead.style.backgroundColor = "#e4ae3a";
-    chatBody.style.backgroundColor = "#e4ae3a";
-  }else if (type === "esfp") {
-    charView.style.backgroundImage = "url(./images/esfp.png)";
+  else if (type === "istp"||type === "isfp"||type === "estp"||type === "esfp") {
     chatHead.style.backgroundColor = "#e4ae3a";
     chatBody.style.backgroundColor = "#e4ae3a";
   }
@@ -382,11 +292,11 @@ function fnChatPageLoad(type, name) {
                       <br>First, please let me know your MBTI type!
                       `);
   } else {
-    botMessageProcessing(`안녕하세요! 저의 이름은 ${name} 입니다. 
-                      <br> 저는 ${type} 유형의 전문가입니다. 
-                      <br> 저에게 ${type} 유형에 대해 궁금한 점이나 
-                      <br> ${type} 유형과 당신의 MBTI 유형 간의 궁합 등을 물어보세요.
-                      <br> 우선 당신의 mbti 유형을 알려주세요!
+    botMessageProcessing(`Hello! My name is ${name}.
+                      <br>I am an ${type}, which is the Analyst type. 
+                      <br>Feel free to ask me anything about the ${type} type, 
+                      <br>such as any questions you have about ${type} or the compatibility between ${type} and your MBTI type.
+                      <br>First, please let me know your MBTI type!
                       `);
   }
 
@@ -394,7 +304,11 @@ function fnChatPageLoad(type, name) {
 
 //채팅 페이지 언어 변경
 function fnChangeChatLang() {
-  if(langType == 'en') {
+  if(langType == 'ko') {
+    document.querySelector(".chat-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>뒤로가기';
+    document.querySelector(".coution-text").innerHTML = 'AI와의 채팅 내용은 저장되지않습니다.';
+    document.querySelector("#messageInput").placeholder = "메세지를 입력하세요.";
+  } else {
     document.querySelector(".chat-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>back';
     document.querySelector(".coution-text").innerHTML = 'The conversation with AI is not saved.';
     document.querySelector("#messageInput").placeholder = "Enter your message here...";
@@ -410,10 +324,13 @@ function fnChangeBlogLang() {
 
 //메뉴 언어 변경
 function fnChangeLangCommonEl() {
-  if(langType == 'en') {
-    // HEADER
+  if(langType == 'ko') {
+    document.querySelector(".menu").children[0].innerHTML = "메인";
+    document.querySelector(".menu").children[1].innerHTML = "사용자 가이드";
+    document.querySelector(".menu").children[2].innerHTML = "포스트";
+  } else {
     document.querySelector(".menu").children[0].innerHTML = "Home";
     document.querySelector(".menu").children[1].innerHTML = "User Guide";
-    document.querySelector(".menu").children[2].innerHTML = "Blog";
+    document.querySelector(".menu").children[2].innerHTML = "Post";
   }
 }

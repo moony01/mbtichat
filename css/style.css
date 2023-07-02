@@ -61,14 +61,13 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 336px;
     padding: 3vw;
 }
 .main-text h1 {
     font-family: 'NanumBarunGothicBold';
     font-size: 3em;
     text-align: center;
-    margin: 0;
+    margin: 0 0 8px;
 }
 .main-text p {
     text-align: center;
@@ -107,6 +106,7 @@ img {
     font-size: 6em;
     text-align: center;
     margin: -59px 0 0 0;
+    overflow-wrap: break-word;
 }
 
 .ai-character-list .list-1-bg h2 {
@@ -200,14 +200,13 @@ img {
 
 .ai-character .char-contents button {
     font-family: 'NanumBarunGothicBold';
-    width: 98px;
     height: 26px;
     margin-top: 14px;
     border-radius: 10px;
     border: none;
     color: #fff;
     font-size: 0.7em;
-    padding-top: 3px;
+    padding: 3px 10px 0;
 }
 
 .analyst-tp button {
@@ -628,10 +627,6 @@ img {
 }
 
 @media screen and (max-width: 609px) {
-    .main-text {
-        height: 230px;
-    }
-
     .main-text h1 {
         font-size: 2em;
     }
@@ -644,10 +639,6 @@ img {
 }
 
 @media screen and (max-width: 559px) {
-    .main-text {
-        height: 250px;
-    }
-
     .main-text h1 {
         font-size: 1.8em;
     }
@@ -664,10 +655,6 @@ img {
 }
 
 @media screen and (min-width: 270px) and (max-width: 330px) {
-    .main-text {
-        height: 250px;
-    }
-    
     .main-text h1 {
         font-size: 1.4em;
     }

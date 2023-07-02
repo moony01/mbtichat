@@ -1,0 +1,154 @@
+---
+layout: default
+---
+<div class="main-text">
+    <h1>Добро пожаловать! Теперь вы можете общаться с искусственным интеллектом-консультантом и другом, специализирующимся на типах личности MBTI.</h1>
+    <p>Программа общения MBTI - это инструмент на основе искусственного интеллекта, который позволяет вам вести разговоры, связанные с типами личности MBTI. Это приложение может использоваться для различных целей и потребностей, помогая улучшить понимание типов MBTI и различий между вами и другими. Программа может быть полезна в различных аспектах, включая установление отношений, выбор карьеры, формирование команд, консультирование и лидерство. Познавайте новые идеи и эффективное общение, используя программу общения MBTI!</p>
+    {% include language.html %}
+</div>
+
+<div id="contAi" class="ai-character-wrap">
+    <div class="ai-character-list">
+        <div class="list-bg list-1-bg">
+            <h2>Типы аналитиков</h2>
+            <div class="ai-wrap">
+                <div class="ai-character analyst-tp intj">
+                    <div class="char-contents">
+                        <h3>INTJ<span>эксперт</span></h3>
+                        <p id="intjName">Иван</p>
+                        <button onclick="fnNextPage('intj', document.getElementById('intjName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp intp">
+                    <div class="char-contents">
+                        <h3>INTP<span>эксперт</span></h3>
+                        <p id="intpName">Ольга</p>
+                        <button onclick="fnNextPage('intp', document.getElementById('intpName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp entj">
+                    <div class="char-contents">
+                        <h3>ENTJ<span>эксперт</span></h3>
+                        <p id="entjName">Елена</p>
+                        <button onclick="fnNextPage('entj', document.getElementById('entjName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character analyst-tp entp">
+                    <div class="char-contents">
+                        <h3>ENTP<span>эксперт</span></h3>
+                        <p id="entpName">Александр</p>
+                        <button onclick="fnNextPage('entp', document.getElementById('entpName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-2">
+        <div class="list-bg list-2-bg">
+            <h2>Типы дипломатов</h2>
+            <div class="ai-wrap">
+                <div class="ai-character diplomat-tp infj">
+                    <div class="char-contents">
+                        <h3>INFJ<span>эксперт</span></h3>
+                        <p id="infjName">Дмитрий</p>
+                        <button onclick="fnNextPage('infj', document.getElementById('infjName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp infp">
+                    <div class="char-contents">
+                        <h3>INFP<span>эксперт</span></h3>
+                        <p id="infpName">Анна</p>
+                        <button onclick="fnNextPage('infp', document.getElementById('infpName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp enfj">
+                    <div class="char-contents">
+                        <h3>ENFJ<span>эксперт</span></h3>
+                        <p id="enfjName">Мария</p>
+                        <button onclick="fnNextPage('enfj', document.getElementById('enfjName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character diplomat-tp enfp">
+                    <div class="char-contents">
+                        <h3>ENFP<span>эксперт</span></h3>
+                        <p id="enfpName">Ирина</p>
+                        <button onclick="fnNextPage('enfp', document.getElementById('enfpName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-3">
+        <div class="list-bg list-3-bg">
+            <h2>Типы менеджеров</h2>
+            <div class="ai-wrap">
+                <div class="ai-character manager-tp istj">
+                    <div class="char-contents">
+                        <h3>ISTJ<span>эксперт</span></h3>
+                        <p id="istjName">Алексей</p>
+                        <button onclick="fnNextPage('istj', document.getElementById('istjName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp isfj">
+                    <div class="char-contents">
+                        <h3>ISFJ<span>эксперт</span></h3>
+                        <p id="isfjName">Екатерина</p>
+                        <button onclick="fnNextPage('isfj', document.getElementById('isfjName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp estj">
+                    <div class="char-contents">
+                        <h3>ESTJ<span>эксперт</span></h3>
+                        <p id="estjName">Михаил</p>
+                        <button onclick="fnNextPage('estj', document.getElementById('estjName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character manager-tp esfj">
+                    <div class="char-contents">
+                        <h3>ESFJ<span>эксперт</span></h3>
+                        <p id="esfjName">Алёна</p>
+                        <button onclick="fnNextPage('esfj', document.getElementById('esfjName').innerText, langType)">Начать чат</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-character-list list-4">
+        <div class="list-bg list-4-bg">
+            <h2>Типы консулов</h2>
+            <div class="ai-wrap">
+                <div class="ai-character explorer-tp istp">
+                    <div class="char-contents">
+                        <h3>ISTP<span>эксперт</span></h3> 
+                        <p id="istpName">Максим</p>
+                        <button onclick="fnNextPage('istp', document.getElementById('istpName').innerText)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp isfp">
+                    <div class="char-contents">
+                        <h3>ISFP<span>эксперт</span></h3>
+                        <p id="isfpName">Алиса</p>
+                        <button onclick="fnNextPage('isfp', document.getElementById('isfpName').innerText)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp estp">
+                    <div class="char-contents">
+                        <h3>ESTP<span>эксперт</span></h3>
+                        <p id="estpName">Иван</p>
+                        <button onclick="fnNextPage('estp', document.getElementById('estpName').innerText)">Начать чат</button>
+                    </div>
+                </div>
+                <div class="ai-character explorer-tp esfp">
+                    <div class="char-contents">
+                        <h3>ESFP<span>эксперт</span></h3>
+                        <p id="esfpName">Елена</p>
+                        <button onclick="fnNextPage('esfp', document.getElementById('esfpName').innerText)">Начать чат</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

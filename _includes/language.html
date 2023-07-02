@@ -1,0 +1,31 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const params = new URLSearchParams(window.location.search);
+        langType = params.get('langType');
+        if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+            document.getElementById("lang").value = "ko";
+        } else {
+            document.getElementById("lang").value = langType;
+        }
+    });
+</script>
+<div class="language">
+    <span>language:</span>
+    <select name="lang" id="lang" onchange="fnChangeLang(this)">
+        <option value="ko" id="ko" selected="selected">한국어</option>
+        <option value="en" id="en">English</option>
+        <option value="de" id="de">Deutsch</option>
+        <option value="es" id="es">Español</option>
+        <option value="fr" id="fr">Français</option>
+        <option value="id" id="id">Indonesia</option>
+        <option value="ja" id="ja">日本語</option>
+        <option value="nl" id="nl">Nederlands</option>
+        <option value="pl" id="pl">Polski</option>
+        <option value="pt" id="pt">Português</option>
+        <option value="ru" id="ru">Русский</option>
+        <option value="tr" id="tr">Türkçe</option>
+        <option value="uk" id="uk">Українська</option>
+        <option value="vi" id="vi">Tiếng việt</option>
+        <option value="zh" id="zh">中文</option>
+    </select>
+</div>

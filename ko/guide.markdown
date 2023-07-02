@@ -1,8 +1,7 @@
 ---
 layout: post
 title: mbtiChat 사용자 가이드
-permalink: /guide/ko/
-image: '/images/userGuide/0.jpg'
+image: '/images/userGuide/thumbnail-ko.jpg'
 ---
 
 mbtiChat 앱은 **MBTI의 16가지 유형 별로 AI에게 학습시켜 사용자들이 MBTI 유형별 AI들과 자유롭게 대화를 할 수 있는 애플리케이션**입니다.

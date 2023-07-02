@@ -30,7 +30,10 @@
         document.addEventListener("DOMContentLoaded", function() {
             const params = new URLSearchParams(window.location.search);
             langType = params.get('langType');
-
+            if (langType=="ru") {
+                // .main-text h1 의 font-family 변경
+                document.querySelector(".main-text h1").style.fontFamily = "none";
+            }
             fnChangeLangCommonEl(); //모든 페이지 url의 langType에 따라 공통 요소의 언어를 변경하는 함수
 
             /* 
