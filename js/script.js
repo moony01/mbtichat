@@ -38,10 +38,18 @@ function fnPrev() {
   var filename = url.substring(url.lastIndexOf('/')+1);
   // filename에서 ?langType=ko 제거
   filename = filename.substring(0, filename.indexOf('?'));
-  if(filename == "chat.html" || filename == "blog.html" || filename == "guide.html" || filename == "") {
-    location.href = "/"+langType+"?langType="+langType;
+  if(filename == "chat.html" || filename == "blog.html" || filename == "guide.html") {
+    if(langType == "" || langType == null || langType == "ko") {
+      location.href = "/";
+    } else {
+      location.href = "/"+langType+"?langType="+langType;
+    }
   } else {
-    location.href = '/blog.html'+"?langType="+langType;
+    if(langType == "" || langType == null || langType == "ko") {
+      location.href = '/blog.html'
+    } else {
+      location.href = '/blog.html'+"?langType="+langType;
+    }
   }
 
 }
@@ -57,16 +65,22 @@ function fnNextPage(type, name) {
 }
 
 function fnMovePage(page) {
-
-  if(langType == "" || langType == null) {
-    location.href = "/";
-    return false;
-  }
-
-  if(page == "blog") {
-    location.href = "/"+page+".html"+"?langType="+langType;
+  if(langType == "" || langType == null || langType == "ko") {
+    if(page == "" || page == null) {
+      location.href = "/";
+    } else if(page == "blog") {
+      location.href = "/"+page+".html";
+    } else {
+      location.href = "/"+page+".html";
+    }
   } else {
-    location.href = "/"+langType+"/"+page+".html"+"?langType="+langType;
+    if(page == "" || page == null) {
+      location.href = "/"+langType+"?langType="+langType;
+    } else if(page == "blog") {
+      location.href = "/"+page+".html"+"?langType="+langType;
+    } else {
+      location.href = "/"+langType+"/"+page+".html"+"?langType="+langType;
+    }
   }
 }
 
@@ -154,7 +168,11 @@ function fn_sendFB(sns) {
 //언어변경
 function fnChangeLang(lang) {
   langType = lang.value;
-  location.href = "/"+langType+"?langType="+langType;
+  if(langType == "" || langType == null || langType == "ko") {
+    location.href = "/";
+  } else {
+    location.href = "/"+langType+"?langType="+langType;
+  }
 }
 
 /* ******************************************************************************************
@@ -317,14 +335,16 @@ function fnChangeChatLang() {
 
 //블로그 페이지 언어 변경
 function fnChangeBlogLang() {
-  if(langType == 'en') {
+  if(langType == 'ko' || langType == '' || langType == null) {
+    document.querySelector(".grid-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>뒤로가기';
+  } else {
     document.querySelector(".grid-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>back';
   }
 }
 
 //메뉴 언어 변경
 function fnChangeLangCommonEl() {
-  if(langType == 'ko') {
+  if(langType == 'ko' || langType == '' || langType == null) {
     document.querySelector(".menu").children[0].innerHTML = "메인";
     document.querySelector(".menu").children[1].innerHTML = "사용자 가이드";
     document.querySelector(".menu").children[2].innerHTML = "포스트";

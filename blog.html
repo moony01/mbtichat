@@ -5,16 +5,16 @@ layout: default
   document.addEventListener("DOMContentLoaded", function() {
     fnChangeBlogLang(langType);
 
-    // URL 생성
-    const currentURL = window.location.href;
-    const updatedURL = currentURL + (currentURL.includes('?') ? '&' : '?') + 'langType=' + langType;
-
     // 블로그 포스트 링크에 동적으로 URL 적용
     const postLinks = document.querySelectorAll('.post-card');
-    postLinks.forEach(function(link) {
+    if (langType == 'ko' || langType == '' || langType == null) {
+      return false;
+    } else {
+      postLinks.forEach(function(link) {
       const postURL = link.getAttribute('href');
       link.setAttribute('href', postURL + (postURL.includes('?') ? '&' : '?') + 'langType=' + langType);
     });
+    }
   })
 </script>
 <div class="post-wrap">
