@@ -11,20 +11,21 @@ mbtiChat 앱은 **MBTI의 16가지 유형 별로 AI에게 학습시켜 사용자
 우리 앱에서는 AI와 대화하는 기능 말고도 조금 더 세부적인 기능과 가이드, 블로그 포스트 기능이 존재합니다.mbtiChat 앱에서의 기능과 페이지들은 크게 **AI 와의 CHATTING 기능, 블로그** 가 있습니다.이 외에 지금 보고 계신 사용자 가이드 페이지와 언어 선택기능 등등 상세한 기능들이 있지만 우리는 위 두 가지 기능과 페이지에 대해 알아보면서 이 외의 기능들에 대해 상세하게 알아보겠습니다.
 
 ### 1. AI 와의 CHATTING 기능
-![MBTI AI와 대화를 위한 언어 선택](/images/userGuide/1.png)
+![MBTI AI와 대화를 위한 언어 선택](/images/userGuide/userguide-1.jpg)
 
 AI 와의 CHATTING 기능은 메인에서부터 MBTI를 유형별로 학습 한 캐릭터들 중 하나를 [채팅하기] 버튼을 클릭해 내가 선택 한 캐릭터 들과 대화하는 기능입니다. AI는 **gpt-3.5** 버전 API기반으로 개발되었습니다. 우선 AI와 대화를 위해 **언어를 선택해서 앱의 언어를 변경** 해줍니다. 
 
-![MBTI AI와 대화를 위해 캐릭터 선택 및 채팅하기 버튼 클릭](/images/userGuide/2.png)
+![MBTI AI와 대화를 위해 캐릭터 선택 및 채팅하기 버튼 클릭](/images/userGuide/userguide-2.jpg)
 
 AI와의 대화를 위해 메인페이지에서 캐릭터의 하단에 [채팅하기] 버튼을 클릭할 수 있습니다. 이 캐릭터들에게는 각각 MBTI 유형을 하나씩 학습되어 있습니다. 그럼 **[채팅하기] 버튼을 클릭하여 내가 선택한 캐릭터들과 채팅**을 해보겠습니다. 우리는 채팅페이지로 이동했고 캐릭터가 자기소개와 사용자의 MBTI를 알려달라는 메시지를 아래 이미지에서 확인할 수 있습니다.
 
-![MBTI AI와 채팅을 할 수 있는 페이지](/images/userGuide/3.png)
+![MBTI AI와 채팅을 할 수 있는 페이지](/images/userGuide/userguide-3.jpg)
 
 MBTI 유형을 알려주지 않아도 캐릭터의 MBTI 유형의 특징이나 궁금한 점을 물어볼 수 있겠지만 당신의 유형과 AI와의 유형 간의 **궁합**이나 **상호작용** 등에 대해 궁금하다면 당신의 유형을 AI에게 알려줘야 합니다. **당신의 MBTI유형을 모르시면 캐릭터에게 "MBTI 테스트를 진행 할 수 있는 사이트 주소를 알려줘"라고 물어보세요.** 캐릭터는 친절하게 대답해 줄 것입니다.
 
-![MBTI AI에게 질문 예시1](/images/userGuide/4.png)
-![MBTI AI에게 질문 예시2](/images/userGuide/5.png)
+![MBTI AI에게 질문 예시1](/images/userGuide/userguide-4.jpg)
+![MBTI AI에게 질문 예시2](/images/userGuide/userguide-5.jpg)
+![MBTI AI에게 질문 예시2](/images/userGuide/userguide-6.jpg)
 
 사용자는 AI에게 여러 가지 질문을 할 수 있습니다. 내가 대화할 캐릭터가 intp유형의 성격을 가진 올리비아라고 가정했을 때 
 
@@ -34,12 +35,12 @@ MBTI 유형을 알려주지 않아도 캐릭터의 MBTI 유형의 특징이나 �
 
 등 의 질문을 함으로써 **특정 유형의 성격을 파악**하거나 **친구의 유형을 역으로 추측**해보고 **친구의 유형과 나의 유형 간의 궁합이나 장단점을 물어볼 수도 있습니다.** 그리고 위 이미지의 표시된 부분과 같이 mbtiChat 앱은 광고와 후원으로 운영되고 있기 때문에 캐릭터와의 채팅 중 안내매시지가 1회 출력될 것 입니다.
 
-![MBTI AI를 사용 후 공유하기, 감정표현, 댓글달기 기능](/images/userGuide/6.png)
+![MBTI AI를 사용 후 공유하기, 감정표현, 댓글달기 기능](/images/userGuide/userguide-7.jpg)
 
 AI와의 대화가 도움이 되셨나요? 그러면 친구들에게 mbtiChat 앱을 공유하고 댓글도 많이 남겨주세요! **해당 앱의 채팅내용은 절대 저장되지 않으니 걱정 없이 사용하셔도 좋습니다.**
 
 ### 2. 블로그
-![mbtiChat 앱의 블로그 페이지](/images/userGuide/7.png)
+![mbtiChat 앱의 블로그 페이지](/images/userGuide/userguide-8.jpg)
 
 mbtiChat 앱에서는 기능뿐만 아니라 블로그도 포함되어 있습니다. 이 블로그의 글들은 대부분 **mbtiChat앱을 개발하는 과정에서 사용한 개발 스킬에 대한 기술 블로그의 성격**을 가지고 있습니다.
 

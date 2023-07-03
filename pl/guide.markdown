@@ -10,20 +10,21 @@ image: '/images/userGuide/thumbnail-en.jpg'
 Oprócz funkcji czatu z AI, nasza aplikacja oferuje bardziej szczegółowe funkcje, przewodniki i wpisy na blogu. Główne funkcje i strony w aplikacji mbtiChat to **AI Chatting** i **Blog**. Chociaż istnieją również inne szczegółowe funkcje, takie jak strona z przewodnikiem użytkownika i wybór języka, skoncentrujemy się na tych dwóch głównych funkcjach i stronach i przyjrzymy się innym funkcjom.
 
 ### 1. AI Chatting
-![Wybór języka dla rozmowy AI MBTI](/images/userGuide/1.png)
+![Wybór języka dla rozmowy AI MBTI](/images/userGuide/userguide-1.jpg)
 
 Funkcja AI Chatting pozwala na interakcję z postaciami AI poprzez kliknięcie przycisku [Rozpocznij rozmowę] na stronie głównej. AI zostało stworzone przy użyciu wersji API **gpt-3.5**. Aby rozpocząć rozmowę z AI, **najpierw wybierz język, aby zmienić język aplikacji.**
 
-![Wybór postaci i kliknięcie przycisku Rozpocznij rozmowę dla rozmowy z AI](/images/userGuide/2.png)
+![Wybór postaci i kliknięcie przycisku Rozpocznij rozmowę dla rozmowy z AI](/images/userGuide/userguide-2.jpg)
 
 Na stronie głównej można kliknąć przycisk [Rozpocznij rozmowę] pod każdą postacią, aby rozpocząć rozmowę z wybraną postacią. Każda postać została przeszkolona na konkretny typ MBTI. **Teraz kliknij przycisk [Rozpocznij rozmowę] i rozpocznij rozmowę z wybranymi postaciami.** Na poniższym obrazku możesz zobaczyć samoopis postaci i ich prośbę o podanie Twojego typu MBTI.
 
-![Strona czatu z AI MBTI](/images/userGuide/3.png)
+![Strona czatu z AI MBTI](/images/userGuide/userguide-3.jpg)
 
 Możesz zadawać różne pytania AI. Nawet jeśli nie ujawnisz swojego typu MBTI, **możesz zapytać o cechy konkretnego typu lub jak różne typy się oddziałują.** Jednak jeśli jesteś ciekawy zgodności lub interakcji między Twoim typem a typem AI, musisz podzielić się swoim typem MBTI z AI. **Możesz zapytać postać na przykład: "Czy mógłbyś podać adres strony internetowej z testem MBTI?" Postać uprzejmie odpowie.**
 
-![Przykładowe pytania dla AI MBTI](/images/userGuide/4.png)
-![Przykładowe pytania dla AI MBTI](/images/userGuide/5.png)
+![Przykładowe pytania dla AI MBTI](/images/userGuide/userguide-4.jpg)
+![Przykładowe pytania dla AI MBTI](/images/userGuide/userguide-5.jpg)
+![Przykładowe pytania dla AI MBTI](/images/userGuide/userguide-6.jpg)
 
 Użytkownicy mogą zadawać wiele pytań. Przyjmując, że Twoją postacią jest Harper o osobowości ESFP, możesz zadać pytania takie jak:
 
@@ -33,12 +34,12 @@ Użytkownicy mogą zadawać wiele pytań. Przyjmując, że Twoją postacią jest
 
 Zadając takie pytania, **możesz uzyskać wgląd w konkretne cechy osobowościowe lub nawet spekulować na temat typu Twojego przyjaciela na podstawie jego reakcji.** Jak wskazano na powyższym obrazku, proszę zauważyć, że aplikacja mbtiChat jest wspierana przez reklamy i sponsorowane, a jedna wiadomość informacyjna zostanie wyświetlona raz podczas rozmowy z postacią.
 
-![Udostępnianie, wyrażanie emocji i komentowanie po skorzystaniu z AI MBTI](/images/userGuide/6.png)
+![Udostępnianie, wyrażanie emocji i komentowanie po skorzystaniu z AI MBTI](/images/userGuide/userguide-7.jpg)
 
 Czy rozmowa z AI pomogła Ci? Jeśli tak, podziel się aplikacją mbtiChat ze swoimi przyjaciółmi i zostaw komentarz! **Nie martw się, aplikacja nie przechowuje żadnych treści rozmów.**
 
 ### 2. Blog
-![Strona bloga w aplikacji mbtiChat](/images/userGuide/7.png)
+![Strona bloga w aplikacji mbtiChat](/images/userGuide/userguide-8.jpg)
 
 **Aplikacja mbtiChat oferuje nie tylko funkcje, ale także zawiera bloga.** Większość wpisów na blogu koncentruje się na aspektach technicznych i umiejętnościach wykorzystanych podczas procesu tworzenia aplikacji mbtiChat.
 

@@ -10,20 +10,21 @@ image: '/images/userGuide/thumbnail-en.jpg'
 除了AI聊天功能之外，我们的应用还提供更多详细的功能、指南和博客文章。mbtiChat应用的主要功能和页面包括**AI聊天**和**博客**。虽然还有其他详细的功能，比如用户指南页面和语言选择器，但我们将重点介绍这两个主要功能和页面，并深入了解其他功能。
 
 ### 1. AI聊天
-![选择MBTI AI对话语言](/images/userGuide/1.png)
+![选择MBTI AI对话语言](/images/userGuide/userguide-1.jpg)
 
 AI聊天功能允许您通过在主页上点击[开始聊天]按钮与AI角色互动。AI是使用**gpt-3.5**版本的API开发的。要与AI开始对话，**首先选择语言以更改应用的语言设置。**
 
-![选择角色并点击[开始聊天]按钮进行AI对话](/images/userGuide/2.png)
+![选择角色并点击[开始聊天]按钮进行AI对话](/images/userGuide/userguide-2.jpg)
 
 在主页上，您可以点击每个角色下面的[开始聊天]按钮，与您选择的角色进行对话。每个角色都是基于特定的MBTI类型进行训练的。**现在，让我们点击[开始聊天]按钮，与选定的角色开始对话。** 在下面的图片中，您可以看到角色的自我介绍以及他们对您的MBTI类型的询问。
 
-![与MBTI AI聊天的页面](/images/userGuide/3.png)
+![与MBTI AI聊天的页面](/images/userGuide/userguide-3.jpg)
 
 您可以向AI提出各种问题。即使您不透露自己的MBTI类型，**您可以询问特定类型的特点或不同类型之间的互动方式。** 但是，如果您对您的类型和AI角色的类型之间的兼容性或互动方式感到好奇，您需要告诉AI您的MBTI类型。**您可以询问角色，例如“你能提供一个MBTI测试的网站地址吗？” 角色会友好地回答您。**
 
-![MBTI AI的示例问题](/images/userGuide/4.png)
-![MBTI AI的示例问题](/images/userGuide/5.png)
+![MBTI AI的示例问题](/images/userGuide/userguide-4.jpg)
+![MBTI AI的示例问题](/images/userGuide/userguide-5.jpg)
+![MBTI AI的示例问题](/images/userGuide/userguide-6.jpg)
 
 用户可以提出多个问题。假设您选择的角色是一个具有INTP人格特征的奥利弗，您可以问一些问题，比如：
 
@@ -33,12 +34,12 @@ AI聊天功能允许您通过在主页上点击[开始聊天]按钮与AI角色�
 
 通过这样的问题，**您可以了解特定的人格特征，甚至根据他们的反应来推测您朋友的类型。** 如上图所示，请注意，mbtiChat应用程序受广告和赞助支持，在与角色的对话过程中会显示一条信息消息。
 
-![使用MBTI AI后分享、表达情感和评论](/images/userGuide/6.png)
+![使用MBTI AI后分享、表达情感和评论](/images/userGuide/userguide-7.jpg)
 
 与AI的对话有帮助吗？如果有的话，请与您的朋友分享mbtiChat应用并留下评论！**请放心，该应用不会存储任何聊天内容。**
 
 ### 2. 博客
-![mbtiChat应用中的博客页面](/images/userGuide/7.png)
+![mbtiChat应用中的博客页面](/images/userGuide/userguide-8.jpg)
 
 **mbtiChat应用不仅提供功能，还包括博客文章。** 大部分博客文章关注于mbtiChat应用开发过程中使用的技术方面和技能。
 

@@ -10,20 +10,21 @@ image: '/images/userGuide/thumbnail-en.jpg'
 Selain fitur chat AI, aplikasi mbtiChat kami juga menawarkan fitur lain seperti panduan terperinci dan artikel blog. Fitur utama dan halaman-halaman utama dari aplikasi mbtiChat adalah **Chat AI** dan **Blog**. Meskipun ada fitur lain yang lebih rinci seperti halaman panduan pengguna dan pemilihan bahasa, kita akan fokus pada dua fitur dan halaman utama ini dan membahas fitur lainnya.
 
 ### 1. Chat AI
-![Pemilihan Bahasa untuk Chat AI MBTI](/images/userGuide/1.png)
+![Pemilihan Bahasa untuk Chat AI MBTI](/images/userGuide/userguide-1.jpg)
 
 Fitur chat AI memungkinkan Anda berinteraksi dengan karakter AI dengan mengklik tombol [Mulai Chat] di halaman beranda. AI ini dikembangkan menggunakan versi **gpt-3.5** dari API. Untuk memulai percakapan dengan AI, **pilih bahasa terlebih dahulu untuk mengubah bahasa aplikasi.**
 
-![Pemilihan Karakter dan Klik Tombol "Mulai Chat" untuk Chat AI](/images/userGuide/2.png)
+![Pemilihan Karakter dan Klik Tombol "Mulai Chat" untuk Chat AI](/images/userGuide/userguide-2.jpg)
 
 Di halaman beranda, Anda dapat mengklik tombol [Mulai Chat] di bawah setiap karakter untuk memulai percakapan dengan karakter yang dipilih. Setiap karakter dilatih pada tipe MBTI yang spesifik. **Klik tombol [Mulai Chat] sekarang dan mulailah percakapan dengan karakter yang Anda pilih.** Pada gambar berikut, Anda dapat melihat profil karakter dan permintaannya untuk tipe MBTI Anda.
 
-![Halaman Chat dengan AI MBTI](/images/userGuide/3.png)
+![Halaman Chat dengan AI MBTI](/images/userGuide/userguide-3.jpg)
 
 Anda dapat mengajukan berbagai pertanyaan kepada AI. Meskipun Anda tidak mengungkapkan tipe MBTI Anda, **Anda dapat meminta informasi tentang karakteristik tipe tertentu atau interaksi antara berbagai tipe.** Namun, jika Anda tertarik dengan kompatibilitas atau interaksi antara tipe Anda dan tipe AI, Anda perlu berbagi tipe MBTI Anda dengan AI. **Misalnya, Anda dapat bertanya kepada karakter: "Dapatkah Anda memberikan tautan ke tes MBTI online?" Karakter akan dengan sopan menjawab.**
 
-![Contoh Pertanyaan untuk AI MBTI](/images/userGuide/4.png)
-![Contoh Pertanyaan untuk AI MBTI](/images/userGuide/5.png)
+![Contoh Pertanyaan untuk AI MBTI](/images/userGuide/userguide-4.jpg)
+![Contoh Pertanyaan untuk AI MBTI](/images/userGuide/userguide-5.jpg)
+![Contoh Pertanyaan untuk AI MBTI](/images/userGuide/userguide-6.jpg)
 
 Pengguna dapat mengajukan berbagai pertanyaan. Misalnya, jika karakter Anda adalah Olivia dengan kepribadian INTP, Anda dapat mengajukan pertanyaan seperti:
 
@@ -33,12 +34,12 @@ Pengguna dapat mengajukan berbagai pertanyaan. Misalnya, jika karakter Anda adal
 
 Dengan mengajukan jenis pertanyaan ini, **Anda dapat memperoleh pemahaman tentang karakteristik kepribadian tertentu atau bahkan berspekulasi tentang tipe teman Anda berdasarkan reaksinya.** Seperti yang ditunjukkan dalam gambar di atas, harap dicatat bahwa aplikasi mbtiChat mendukung iklan dan sponsor, dan akan menampilkan pesan informatif satu kali selama percakapan dengan karakter.
 
-![Berbagi, Ekspresi Emosi, dan Komentar Setelah Menggunakan AI MBTI](/images/userGuide/6.png)
+![Berbagi, Ekspresi Emosi, dan Komentar Setelah Menggunakan AI MBTI](/images/userGuide/userguide-7.jpg)
 
 Apakah percakapan dengan AI ini bermanfaat bagi Anda? Jika ya, bagikan aplikasi mbtiChat kepada teman-teman Anda dan berikan komentar! **Perhatikan bahwa aplikasi ini tidak menyimpan konten percakapan.**
 
 ### 2. Blog
-![Halaman Blog dalam Aplikasi mbtiChat](/images/userGuide/7.png)
+![Halaman Blog dalam Aplikasi mbtiChat](/images/userGuide/userguide-8.jpg)
 
 **Aplikasi mbtiChat tidak hanya menawarkan fitur, tetapi juga mencakup sebuah blog.** Sebagian besar artikel blog berfokus pada aspek teknis dan keterampilan yang digunakan dalam proses pengembangan aplikasi mbtiChat.
 

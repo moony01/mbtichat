@@ -10,20 +10,21 @@ image: '/images/userGuide/thumbnail-en.jpg'
 Neben der AI-Chat-Funktionalität bietet unsere App weitere detaillierte Funktionen, Anleitungen und Blog-Beiträge. Die wichtigsten Funktionen und Seiten in der mbtiChat-App sind der **AI-Chat** und der **Blog**. Obwohl es weitere detaillierte Funktionen wie die Benutzerhandbuch-Seite und den Sprachauswahl gibt, konzentrieren wir uns auf diese beiden Hauptfunktionen und Seiten und gehen auf die anderen Funktionen ein.
 
 ### 1. AI-Chat
-![Auswahl der Sprache für das MBTI-AI-Gespräch](/images/userGuide/1.png)
+![Auswahl der Sprache für das MBTI-AI-Gespräch](/images/userGuide/userguide-1.jpg)
 
 Die AI-Chat-Funktion ermöglicht es Ihnen, mit den KI-Charakteren zu interagieren, indem Sie auf die Schaltfläche [Jetzt chatten] auf der Hauptseite klicken. Die KI wurde mit der **gpt-3.5** Version der API entwickelt. Um ein Gespräch mit der KI zu beginnen, **wählen Sie zuerst die Sprache aus, um die Sprache der App zu ändern.**
 
-![Auswahl des Charakters und Klicken der Schaltfläche "Jetzt chatten" für das AI-Gespräch](/images/userGuide/2.png)
+![Auswahl des Charakters und Klicken der Schaltfläche "Jetzt chatten" für das AI-Gespräch](/images/userGuide/userguide-2.jpg)
 
 Auf der Hauptseite können Sie auf die Schaltfläche [Jetzt chatten] unter jedem Charakter klicken, um ein Gespräch mit Ihrem ausgewählten Charakter zu führen. Jeder Charakter wurde auf einen spezifischen MBTI-Typ trainiert. **Klicken Sie jetzt auf die Schaltfläche [Jetzt chatten] und beginnen Sie das Gespräch mit den ausgewählten Charakteren.** Im folgenden Bild können Sie die Selbstvorstellung des Charakters und deren Aufforderung zu Ihrem MBTI-Typ sehen.
 
-![Seite für das Chatten mit MBTI-AI](/images/userGuide/3.png)
+![Seite für das Chatten mit MBTI-AI](/images/userGuide/userguide-3.jpg)
 
 Sie können der KI verschiedene Fragen stellen. Selbst wenn Sie Ihren MBTI-Typ nicht preisgeben, **können Sie nach den Merkmalen eines bestimmten Typs oder nach der Interaktion zwischen verschiedenen Typen fragen.** Wenn Sie jedoch neugierig auf die Kompatibilität oder Interaktion zwischen Ihrem Typ und dem Typ der KI sind, müssen Sie Ihren MBTI-Typ mit der KI teilen. **Sie können den Charakter zum Beispiel fragen: "Können Sie eine Website-Adresse für einen MBTI-Test angeben?" Der Charakter wird freundlich antworten.**
 
-![Beispiel Fragen für MBTI-AI](/images/userGuide/4.png)
-![Beispiel Fragen für MBTI-AI](/images/userGuide/5.png)
+![Beispiel Fragen für MBTI-AI](/images/userGuide/userguide-4.jpg)
+![Beispiel Fragen für MBTI-AI](/images/userGuide/userguide-5.jpg)
+![Beispiel Fragen für MBTI-AI](/images/userGuide/userguide-6.jpg)
 
 Benutzer können mehrere Fragen stellen. Nehmen wir an, Ihr Charakter ist Olivia mit einer INTP-Persönlichkeit. Sie können Fragen stellen wie:
 
@@ -33,12 +34,12 @@ Benutzer können mehrere Fragen stellen. Nehmen wir an, Ihr Charakter ist Olivia
 
 Indem Sie solche Fragen stellen, **können Sie Erkenntnisse über bestimmte Persönlichkeitsmerkmale gewinnen oder sogar über den Typ Ihres Freundes spekulieren, basierend auf ihren Reaktionen.** Wie im obigen Bild angegeben, beachten Sie bitte, dass die mbtiChat-App durch Werbung und Sponsoring unterstützt wird und während des Chats mit dem Charakter einmal eine Informationsnachricht angezeigt wird.
 
-![Teilen, Emotionen ausdrücken und Kommentieren nach der Verwendung von MBTI-AI](/images/userGuide/6.png)
+![Teilen, Emotionen ausdrücken und Kommentieren nach der Verwendung von MBTI-AI](/images/userGuide/userguide-7.jpg)
 
 Hat Ihnen das Gespräch mit der KI geholfen? Wenn ja, teilen Sie bitte die mbtiChat-App mit Ihren Freunden und hinterlassen Sie Kommentare! **Sie können sicher sein, dass die App keine Chat-Inhalte speichert.**
 
 ### 2. Blog
-![Blog-Seite in der mbtiChat-App](/images/userGuide/7.png)
+![Blog-Seite in der mbtiChat-App](/images/userGuide/userguide-8.jpg)
 
 **Die mbtiChat-App bietet nicht nur Funktionen, sondern umfasst auch einen Blog.** Die meisten Blog-Beiträge konzentrieren sich auf die technischen Aspekte und Fähigkeiten, die im Entwicklungsprozess der mbtiChat-App verwendet werden.
 
