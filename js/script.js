@@ -97,10 +97,10 @@ async function sendMessage() {
   displayUserMessage(userMsg);
   displayBotLoading();
 
-  console.log("사용자 메시지: ", userMessages);
-  console.log("AI 메시지: ", botMessages);
-  console.log("AI mbti 타입: ", mbtiType);
-  console.log("AI 이름: ", botName);
+  // console.log("사용자 메시지: ", userMessages);
+  // console.log("AI 메시지: ", botMessages);
+  // console.log("AI mbti 타입: ", mbtiType);
+  // console.log("AI 이름: ", botName);
 
   try {
     // const response = await fetch('http://localhost:3000/mbtiChat', { //로컬테스트용
