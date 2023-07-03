@@ -126,12 +126,17 @@ async function sendMessage() {
     displayBotMessage(botMessage);
   } catch (error) {
     console.error(error);
+    alert('챗봇 서버와 연결이 끊어졌습니다.');
+    fnPrev();
   }
 }
 
 //공유하기 버튼클릭
 function fn_sendFB(sns) {
-  var thisUrl = document.URL;
+  var thisUrl = "https://mbtichat.info";
+  if(!langType == "" || !langType == null || !langType == "ko") {
+    thisUrl = "https://mbtichat.info/"+langType+"?langType="+langType;
+  }
   var snsTitle = "[mbtiChat]MBTI 유형별 AI 상담 전문가와 친구하고 채팅하기";
   
   if( sns == 'facebook' ) {
