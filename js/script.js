@@ -61,7 +61,11 @@ function fnClose() {
 
 // 채팅 페이지로 이동
 function fnNextPage(type, name) {
-  location.href = "/chat.html"+"?mbtiType="+type+"&botName="+name+"&langType="+langType;
+  if(langType == "" || langType == null || langType == "ko") {
+    location.href = "/chat.html"+"?mbtiType="+type+"&botName="+name;
+  } else {
+    location.href = "/chat.html"+"?mbtiType="+type+"&botName="+name+"&langType="+langType;
+  }
 }
 
 function fnMovePage(page) {
@@ -295,7 +299,7 @@ function fnChatPageLoad(type, name) {
     chatBody.style.backgroundColor = "#e4ae3a";
   }
 
-  if(langType == 'ko') {
+  if(langType == 'ko' || langType == '' || langType == null) {
     botMessageProcessing(`안녕하세요! 저의 이름은 ${name} 입니다. 
                       <br> 저는 ${type} 유형의 전문가입니다. 
                       <br> 저에게 ${type} 유형에 대해 궁금한 점이나 
@@ -322,7 +326,7 @@ function fnChatPageLoad(type, name) {
 
 //채팅 페이지 언어 변경
 function fnChangeChatLang() {
-  if(langType == 'ko') {
+  if(langType == 'ko' || langType == '' || langType == null) {
     document.querySelector(".chat-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>뒤로가기';
     document.querySelector(".coution-text").innerHTML = 'AI와의 채팅 내용은 저장되지않습니다.';
     document.querySelector("#messageInput").placeholder = "메세지를 입력하세요.";

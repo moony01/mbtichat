@@ -9,10 +9,7 @@ layout: default
         const botName = params.get('botName');
         const langType = params.get('langType');
 
-        if(mbtiType == null || mbtiType == '' || 
-            botName == null || botName == '' || 
-            langType == null || langType == ''
-        ){
+        if(mbtiType == null || mbtiType == '' || botName == null || botName == ''){
             alert('잘못된 접근입니다.');
             location.href = '/index.html';
         } else {
