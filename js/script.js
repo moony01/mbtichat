@@ -36,8 +36,11 @@ function fnPrev() {
   //페이지 url에서 파일명만 추출
   var url = location.href;
   var filename = url.substring(url.lastIndexOf('/')+1);
-  // filename에서 ?langType=ko 제거
-  filename = filename.substring(0, filename.indexOf('?'));
+  
+
+  if(filename != "chat.html" && filename != "blog.html" && filename != "guide.html") {
+    filename = filename.substring(0, filename.indexOf('?'));
+  }
   if(filename == "chat.html" || filename == "blog.html" || filename == "guide.html") {
     if(langType == "" || langType == null || langType == "ko") {
       location.href = "/";
@@ -125,9 +128,10 @@ async function sendMessage() {
     const botMessage = data.assistant;
     displayBotMessage(botMessage);
   } catch (error) {
+    // scrollToBottom();
     console.error(error);
-    alert('챗봇 서버와 연결이 끊어졌습니다.');
-    fnPrev();
+    // alert('챗봇 서버와 연결이 끊어졌습니다.');
+    // fnPrev();
   }
 }
 
@@ -252,6 +256,7 @@ function displayBotMessage(message) {
   botMessage.appendChild(botMessageWrap);
   botMessage.classList.remove('ai-last-msg');
   chatCnt++;
+  scrollToBottom();
 }
 
 //USER 메시지 출력
@@ -363,3 +368,15 @@ function fnChangeLangCommonEl() {
     document.querySelector(".menu").children[2].innerHTML = "Post";
   }
 }
+
+// function scrollToBottom() {
+//   //chatContainer 요소 변수 저장
+//   const chatContainer = document.getElementById('chatContainer');
+//   //chat-body 요소의 문서 높이를 저장
+//   const chatContainerHeight = chatContainer.offsetHeight;
+  
+//   window.scrollTo({
+//     top: chatContainerHeight,
+//     behavior: 'smooth'
+//   });
+// }
