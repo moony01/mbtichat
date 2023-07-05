@@ -37,7 +37,7 @@ image: '/images/posts/thumbnail-sitemap-rss-description.jpg'
 ### Sitemap이란?
 Sitemap은 웹사이트의 모든 페이지와 콘텐츠를 나열하는 파일입니다. **검색 엔진의 로드맵 역할을 하여 검색 엔진이 사이트를 보다 효과적으로 크롤링하고 인덱싱할 수 있도록 합니다.** Sitemap에는 일반적으로 웹 페이지의 URL, 마지막으로 업데이트된 시간 및 상대적 중요도와 같은 정보가 포함됩니다.
 
-### Sitemap의 유형
+### Sitemap의 종류
 Sitemap에는 주로 XML Sitemap과 HTML Sitemap의 두 가지 유형이 있습니다. **XML Sitemap은 검색 엔진용으로 설계된 반면 HTML Sitemap은 방문자가 웹 사이트를 탐색할 수 있도록 돕기 위해 만들어졌습니다.** XML Sitemap은 사이트에 대한 구조화된 정보를 검색 엔진에 제공하므로 SEO 목적에 가장 중요합니다.
 
 ### Sitemap을 사용해야하는 이유
