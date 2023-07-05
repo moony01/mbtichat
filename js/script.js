@@ -128,7 +128,6 @@ async function sendMessage() {
     const botMessage = data.assistant;
     displayBotMessage(botMessage);
   } catch (error) {
-    // scrollToBottom();
     console.error(error);
     // alert('챗봇 서버와 연결이 끊어졌습니다.');
     // fnPrev();
@@ -256,7 +255,6 @@ function displayBotMessage(message) {
   botMessage.appendChild(botMessageWrap);
   botMessage.classList.remove('ai-last-msg');
   chatCnt++;
-  scrollToBottom();
 }
 
 //USER 메시지 출력
