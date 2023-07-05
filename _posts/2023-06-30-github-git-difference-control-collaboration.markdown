@@ -3,7 +3,6 @@ layout: post
 title: GitHub와 Git의 차이 개발자를 위한 분산 버전 관리와 협업 도구 비교
 image: '/images/posts/thumbnail-github-git-difference-control-collaboration.jpg'
 ---
-
 소프트웨어 개발 분야에서 버전 관리 시스템은 프로젝트의 소스 코드 변경 사항을 관리하고 추적하는 데 중요한 역할을 합니다. GitHub와 Git은 이 도메인에서 인기 있는 두 가지 도구입니다. **Git은 분산 버전 관리 시스템**이며, **GitHub는 Git을 기반으로 협업 기능을 제공하는 온라인 플랫폼**입니다. 이 글에서는 GitHub와 Git 사이의 주요 차이점을 살펴보고, 각각의 고유한 기능과 이점을 강조하겠습니다.
 
 ## 목차
