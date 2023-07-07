@@ -249,11 +249,14 @@ function displayBotMessage(message) {
     if (chatCnt == 2) {
       const tossLink = document.createElement('a');
       const kakaoLink = document.createElement('a');
-      tossLink.href = "https://toss.me/moony01"
-      tossLink.target = "_blank";
+      // tossLink.href = "https://toss.me/moony01"
+      // tossLink.target = "_blank";
+      // tossLink에 onclick 이벤트 추가
+      tossLink.setAttribute('onclick', 'fnDonation("toss")');
       tossLink.innerText = "토스 후원하기";
-      kakaoLink.href = "https://qr.kakaopay.com/Ej7w3g3Vb"
-      kakaoLink.target = "_blank";
+      // kakaoLink.href = "https://qr.kakaopay.com/Ej7w3g3Vb"
+      // kakaoLink.target = "_blank";
+      kakaoLink.setAttribute('onclick', 'fnDonation("kakao")');
       kakaoLink.innerText = "카카오페이 후원하기";
 
       botMessageWrap.innerHTML += "<br><br><span class='support-text'>mbtiChat 앱은 광고와 후원으로 운영되고있습니다.</span>"
@@ -287,12 +290,6 @@ function displayUserMessage(message) {
   messageContent.appendChild(messageElement);
   chatContainer.appendChild(messageContent);
 } 
-
-// 채팅창 스크롤 최하단으로 이동
-function fnScrollToBottom() {
-  const chatContainer = document.getElementById('chatContainer');
-  chatContainer.scrollTop = chatContainer.scrollHeight;
-}
 
 //CHAT 페이지 로드시 기본 세팅 함수
 function fnChatPageLoad(type, name) {
@@ -481,14 +478,19 @@ function fnChangeLangCommonEl() {
   }
 }
 
-// function scrollToBottom() {
-//   //chatContainer 요소 변수 저장
-//   const chatContainer = document.getElementById('chatContainer');
-//   //chat-body 요소의 문서 높이를 저장
-//   const chatContainerHeight = chatContainer.offsetHeight;
-  
-//   window.scrollTo({
-//     top: chatContainerHeight,
-//     behavior: 'smooth'
-//   });
-// }
+// 채팅창 스크롤 최하단으로 이동
+function fnScrollToBottom() {
+  const chatContainer = document.getElementById('chatContainer');
+  chatContainer.scrollTop = chatContainer.scrollHeight;
+}
+
+// 후원하기
+function fnDonation(site) {
+  if(site == 'toss') {
+    var url = "https://toss.me/moony01"
+    window.open(url, '_blank');
+  } else if (site == 'kakao') {
+    var url = "https://qr.kakaopay.com/Ej7w3g3Vb"
+    window.open(url, '_blank');
+  }
+}

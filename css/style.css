@@ -501,6 +501,7 @@ img {
     font-size: 1em;
     text-decoration: underline;
     margin-left: 14px;
+    cursor: pointer;
 }
 
 .chatting-view .usr-chat-view p {
