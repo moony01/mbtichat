@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // messageInput에서 엔터키 입력 시 sendMessage() 호출
   document.getElementById('messageInput').addEventListener('keydown', (e) => {
     if (e.keyCode === 13) {
-      sendMessage();
+      document.getElementById('send').click();
     }
   });
 });
@@ -100,6 +100,9 @@ async function sendMessage() {
   displayUserMessage(userMsg);
   displayBotLoading();
 
+  //messageInput 비활성화 처리
+  document.getElementById('send').disabled = true;
+  
   // console.log("사용자 메시지: ", userMessages);
   // console.log("AI 메시지: ", botMessages);
   // console.log("AI mbti 타입: ", mbtiType);
@@ -127,11 +130,15 @@ async function sendMessage() {
     const data = await response.json();
     const botMessage = data.assistant;
     displayBotMessage(botMessage);
+    
   } catch (error) {
     console.error(error);
     // alert('챗봇 서버와 연결이 끊어졌습니다.');
     // fnPrev();
   }
+  var chatContainer = document.getElementById('chatContainer');
+  chatContainer.scrollTop = chatContainer.scrollHeight;
+  document.getElementById('send').disabled = true;
 }
 
 //공유하기 버튼클릭
