@@ -138,7 +138,7 @@ async function sendMessage() {
   }
   var chatContainer = document.getElementById('chatContainer');
   chatContainer.scrollTop = chatContainer.scrollHeight;
-  document.getElementById('send').disabled = true;
+  document.getElementById('send').disabled = false;
 }
 
 //공유하기 버튼클릭
