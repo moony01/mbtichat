@@ -245,19 +245,28 @@ function displayBotMessage(message) {
   botMessageWrap.innerHTML = message;
   botMessages.push(message);
   
-  if (langType == 'ko') {
+  if (langType == 'ko' || langType == '' || langType == null) {
     if (chatCnt == 2) {
-      const link = document.createElement('a');
-      link.href = "https://toss.me/moony01"
-      link.target = "_blank";
-      link.innerText = "후원하기";
+      const tossLink = document.createElement('a');
+      const kakaoLink = document.createElement('a');
+      tossLink.href = "https://toss.me/moony01"
+      tossLink.target = "_blank";
+      tossLink.innerText = "토스 후원하기";
+      kakaoLink.href = "https://qr.kakaopay.com/Ej7w3g3Vb"
+      kakaoLink.target = "_blank";
+      kakaoLink.innerText = "카카오페이 후원하기";
+
       botMessageWrap.innerHTML += "<br><br><span class='support-text'>mbtiChat 앱은 광고와 후원으로 운영되고있습니다.</span>"
-      botMessageWrap.innerHTML += "<br><span class='support-text'>후원해주시면 더욱 발전하는 앱이 될 수 있습니다.</span>"
-      botMessageWrap.innerHTML += "<br><span class='support-text'>감사합니다. =></span>"
-      botMessageWrap.appendChild(link);
+      botMessageWrap.innerHTML += "<br><span class='support-text'>후원해주시면 더욱 발전하는 앱이 될 수 있습니다. 감사합니다.</span>"
+      botMessageWrap.innerHTML += "<br><span class='support-text toss-donation'></span>"
+      botMessageWrap.innerHTML += "<br><span class='support-text kakao-donation'></span>"
+      botMessage.appendChild(botMessageWrap);
+      // toss-donation 에 토스 후원하기 링크 추가
+      document.querySelector('.toss-donation').appendChild(tossLink);
+      // kakao-donation 에 카카오 후원하기 링크 추가
+      document.querySelector('.kakao-donation').appendChild(kakaoLink);
     }
   }
-
   botMessage.appendChild(botMessageWrap);
   botMessage.classList.remove('ai-last-msg');
   chatCnt++;
