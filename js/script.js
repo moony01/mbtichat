@@ -130,15 +130,13 @@ async function sendMessage() {
     const data = await response.json();
     const botMessage = data.assistant;
     displayBotMessage(botMessage);
-    
+    document.getElementById('send').disabled = false;
   } catch (error) {
     console.error(error);
-    // alert('챗봇 서버와 연결이 끊어졌습니다.');
+    alert('챗봇 서버와 연결이 끊어졌습니다. 다시 시도해주세요.');
     // fnPrev();
   }
-  var chatContainer = document.getElementById('chatContainer');
-  chatContainer.scrollTop = chatContainer.scrollHeight;
-  document.getElementById('send').disabled = false;
+  
 }
 
 //공유하기 버튼클릭
@@ -236,6 +234,7 @@ function displayBotLoading() {
   messageContent.appendChild(figureElement);
   messageContent.appendChild(messageElement);
   chatContainer.appendChild(messageContent);
+  fnScrollToBottom();
 }
 
 //BOT 메시지 출력
@@ -262,6 +261,7 @@ function displayBotMessage(message) {
   botMessage.appendChild(botMessageWrap);
   botMessage.classList.remove('ai-last-msg');
   chatCnt++;
+  fnScrollToBottom();
 }
 
 //USER 메시지 출력
@@ -278,6 +278,12 @@ function displayUserMessage(message) {
   messageContent.appendChild(messageElement);
   chatContainer.appendChild(messageContent);
 } 
+
+// 채팅창 스크롤 최하단으로 이동
+function fnScrollToBottom() {
+  const chatContainer = document.getElementById('chatContainer');
+  chatContainer.scrollTop = chatContainer.scrollHeight;
+}
 
 //CHAT 페이지 로드시 기본 세팅 함수
 function fnChatPageLoad(type, name) {
