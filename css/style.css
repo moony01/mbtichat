@@ -551,8 +551,12 @@ img {
 /* ai와의 채팅 내용은 저장되지않습니다. */
 .coution-text {
     color: #ff0000;
-    margin-bottom: 40px;
     text-align: center;
+}
+
+/* adfit 광고 */
+.kakao_ad_area {
+    margin: 40px auto;
 }
 
 /* disqus */
