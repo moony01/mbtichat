@@ -179,7 +179,16 @@ function fn_sendFB(sns) {
         url: thisUrl,
         text: snsTitle
       });
-  }
+  } else if( sns == 'copyurl') {
+      var tmp = document.createElement('input');
+      var url = thisUrl;
+      document.body.appendChild(tmp);
+      tmp.value = url;
+      tmp.select();
+      document.execCommand("copy");
+      document.body.removeChild(tmp);
+      alert("URL이 복사되었습니다.");
+  } 
 }
 
 //언어변경
