@@ -167,10 +167,10 @@ function fn_sendFB(sns) {
             title: snsTitle,        // 제목
             description: snsTitle,  // 설명
             imageUrl: thisUrl,      // URL
-          link: {
-              mobileWebUrl: thisUrl,
-              webUrl: thisUrl
-          }
+            link: {
+                mobileWebUrl: thisUrl,
+                webUrl: thisUrl
+            }
           }
       });
   } else if( sns == 'kakaostory') {
