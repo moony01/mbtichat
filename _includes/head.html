@@ -28,7 +28,8 @@
     <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
     <script>
         let langType = "";
-
+        const userAgent = navigator.userAgent;
+        const isReactNativeWebView = /wv|WebView/i.test(userAgent);
         //모든 페이지에 영향을 미치는 공통 요소들의 언어를 변경하는 함수
         document.addEventListener("DOMContentLoaded", function() {
             const params = new URLSearchParams(window.location.search);
@@ -43,8 +44,6 @@
              * 1. REACT NATIVE WEBVIEW 에서는 모달 팝업을 띄우지 않음
              * 2. 메인페이지를 제외한 나머지 페이지에서는 모달 팝업을 띄우지 않음
              */
-            const userAgent = navigator.userAgent;
-            const isReactNativeWebView = /wv|WebView/i.test(userAgent);
             console.log(isReactNativeWebView);
 
             //URL이 "/", "/index.html" 일 경우 모달팝업 띄우기
