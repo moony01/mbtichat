@@ -255,7 +255,7 @@ function displayBotMessage(message) {
   botMessages.push(message);
   
   if (langType == 'ko' || langType == '' || langType == null) {
-    if (chatCnt == 3) {
+    if (chatCnt == 3 && !isReactNativeWebView) {
       const tossLink = document.createElement('a');
       const kakaoLink = document.createElement('a');
 
@@ -279,7 +279,7 @@ function displayBotMessage(message) {
       document.querySelector('.kakao-donation').appendChild(kakaoLink);
     }
   } else {
-    if (chatCnt == 3) {
+    if (chatCnt == 3 && !isReactNativeWebView) {
       const buyMeCoffeeLink = document.createElement('a');
       buyMeCoffeeLink.href = "https://www.buymeacoffee.com/moony01"
       buyMeCoffeeLink.target = "_blank";
