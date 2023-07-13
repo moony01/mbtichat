@@ -1,20 +1,11 @@
 ---
 layout: default
 ---
-<script>
-    window.onload = function() {
-        //메인페이지 로드 시 언어 KO로 초기화
-        let selectLang = document.getElementById("lang");
-        selectLang.selectedIndex = 0;
-        langType = selectLang.value;
-    };
-</script>
 <div class="main-text">
     <h1>환영합니다! MBTI 유형별 AI 상담 전문가와 친구가 되고 채팅 할 수 있습니다.</h1>
     <p>MBTI 소통 프로그램은 여러분과 MBTI 유형에 관련된 대화를 가능하게 하는 AI 기반의 도구입니다. 이 앱은 다양한 목적과 필요에 따라 사용할 수 있으며, MBTI 유형의 이해를 높이고 자신과 다른 사람들 사이의 차이점을 이해하는 데 도움을 줍니다. 이 프로그램은 사람들 간의 관계 형성, 직업 선택, 팀 구성, 상담 및 리더십 등 다양한 측면에서 유용하게 활용될 수 있습니다. MBTI 소통 프로그램을 사용하여 새로운 인사이트를 발견하고 효과적인 소통을 경험해 보세요!</p>
     {% include language.html %}
 </div>
-
 <div id="contAi" class="ai-character-wrap">
     <div class="ai-character-list">
         <div class="list-bg list-1-bg">
