@@ -30,27 +30,26 @@
         let langType = "";
         const userAgent = navigator.userAgent;
         const isReactNativeWebView = /wv|WebView/i.test(userAgent);
+
         //모든 페이지에 영향을 미치는 공통 요소들의 언어를 변경하는 함수
         document.addEventListener("DOMContentLoaded", function() {
             const params = new URLSearchParams(window.location.search);
             langType = params.get('langType');
             if (langType=="ru") {
-                // .main-text h1 의 font-family 변경
-                document.querySelector(".main-text h1").style.fontFamily = "none";
+                document.querySelector(".main-text h1").style.fontFamily = "none"; // .main-text h1 의 font-family none 처리
             }
-            fnChangeLangCommonEl(); //모든 페이지 url의 langType에 따라 공통 요소의 언어를 변경하는 함수
+            fnChangeLangCommonEl(); //모든 페이지 url의 langType에 따라 공통 요소(header menu bar)의 언어를 변경하는 함수
 
             /* 
              * 1. REACT NATIVE WEBVIEW 에서는 모달 팝업을 띄우지 않음
              * 2. 메인페이지를 제외한 나머지 페이지에서는 모달 팝업을 띄우지 않음
              */
-            console.log(isReactNativeWebView);
-
+            console.log("webview connect: ", isReactNativeWebView);
             //URL이 "/", "/index.html" 일 경우 모달팝업 띄우기
             if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
                 document.getElementById("appDown").style.display = "none";
-                //REACT NATIVE WEBVIEW 에서는 모달팝업 NONE 처리
-                if (isReactNativeWebView) {
+                //REACT NATIVE WEBVIEW가 아닐 경우 모달팝업 띄우기
+                if (!isReactNativeWebView) {
                     document.getElementById("appDown").style.display = "none";
                 }
             }

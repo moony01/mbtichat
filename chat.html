@@ -18,6 +18,13 @@ layout: default
             fnChangeChatLang(langType);
             fnChatPageLoad(mbtiType, botName);
         }
+
+        // messageInput에서 엔터키 입력 시 sendMessage() 호출
+        document.getElementById('messageInput').addEventListener('keydown', (e) => {
+            if (e.keyCode === 13) {
+            document.getElementById('send').click();
+            }
+        });
     })
 </script>
 <div id="contChat" class="chat-content">
