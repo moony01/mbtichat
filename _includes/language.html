@@ -1,7 +1,10 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        const params = new URLSearchParams(window.location.search);
-        langType = params.get('langType');
+        // 페이지 url에서 도메인 주소 다음에 오는 언어 코드를 가져온다.
+        const langType = window.location.pathname.split('/')[1];
+
+        // const params = new URLSearchParams(window.location.search);
+        // langType = params.get('langType');
         if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
             document.getElementById("lang").value = "ko";
         } else {
