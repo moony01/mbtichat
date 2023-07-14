@@ -3,49 +3,48 @@ layout: post
 title: mbtiChat Kullanıcı Kılavuzu
 image: '/images/userGuide/thumbnail-en.jpg'
 ---
+mbtiChat uygulaması, kullanıcıların 16 farklı MBTI türüne dayalı AI karakterlerle özgürce sohbet edebilmelerini sağlayan bir uygulamadır. Bu uygulama, kullanıcıların farklı MBTI türlerinin özellikleri, farklı türler arasındaki ilişkiler ve farklı türlerin düşünceleri ve davranışları hakkında meraklı olabileceklerini düşünerek geliştirilmiştir. Şimdi mbtiChat uygulamasını nasıl kullanabileceğinizi görelim.
 
-**mbtiChat** uygulaması, kullanıcıların 16 farklı MBTI kişilik tiplerine eğitilmiş yapay zeka karakterleriyle serbestçe konuşmasına olanak tanıyan bir uygulamadır. Farklı MBTI tiplerinin özellikleri hakkında meraklı olabileceğiniz düşüncesiyle geliştirilen uygulama, çeşitli tipler arasındaki özellikler, ilişkiler, düşünceler ve davranışlar hakkındaki anlayışı artırmayı amaçlar. mbtiChat uygulamasını nasıl kullanacağınızı keşfetmek için okumaya devam edin.
+## Uygulama Özellikleri ve Sayfaları Tanıtımı
+AI ile konuşma özelliğinin yanı sıra, uygulamamızda daha detaylı özellikler, rehberler ve blog yazıları gibi ek özellikler bulunmaktadır. mbtiChat uygulamasındaki özellikler ve sayfalar **AI ile Sohbet** ve **Blog** olarak büyük çizgilerle ayrılabilir. Şu an bulunduğunuz Kullanıcı Rehberi sayfası ve dil seçeneği gibi ayrıntılı özelliklerin dışında diğer özellikleri de inceleyeceğiz, ancak öncelikle bu iki temel özelliği ve sayfayı detaylı bir şekilde inceleyelim.
 
-## Uygulama Özellikleri ve Sayfa Tanıtımı
-AI sohbet işlevselliğine ek olarak, uygulamamız daha detaylı özellikler, kılavuzlar ve blog yazıları sunmaktadır. mbtiChat uygulamasındaki ana özellikler ve sayfalar, **AI Sohbet** ve **Blog**'dur. Kullanım kılavuzu sayfası ve dil seçici gibi diğer detaylı işlevler olsa da, burada iki ana özellik ve sayfaya odaklanarak diğer işlevleri de inceleyeceğiz.
+### 1. AI ile Sohbet Özelliği
+![MBTI ile Sohbet için Dil Seçimi](/images/userGuide/userguide-1.jpg)
 
-### 1. AI Sohbet
-![MBTI AI Konuşması için Dil Seçimi](/images/userGuide/userguide-1.jpg)
+AI ile Sohbet özelliği, ana ekrandan MBTI'ya dayalı karakterlerden birini seçip [Sohbet Et] düğmesine tıklayarak seçtiğim karakterlerle sohbet etme özelliğidir. AI, **gpt-3.5** sürümü API tabanlı olarak geliştirilmiştir. İlk olarak, AI ile konuşmak için **dili seçerek uygulamanın dilini değiştirmelisiniz**.
 
-AI Sohbet özelliği, ana sayfadaki [Şimdi Sohbet Et] düğmesine tıklayarak AI karakterleriyle etkileşimde bulunmanıza olanak tanır. AI, **gpt-3.5** sürüm API kullanılarak geliştirilmiştir. AI ile sohbet başlatmak için **ilk olarak uygulamanın dilini değiştirmek için dil seçeneğini seçersiniz.**
+![MBTI ile Sohbet için Karakter Seçimi ve Sohbet Et Düğmesine Tıklama](/images/userGuide/userguide-2.jpg)
 
-![Karakter Seçimi ve AI Sohbeti için Şimdi Sohbet Et Düğmesine Tıklama](/images/userGuide/userguide-2.jpg)
+AI ile sohbet etmek için ana sayfada karakterlerin altında [Sohbet Et] düğmesine tıklayabilirsiniz. Bu karakterlerden her biri birer MBTI türünü öğrenmiş durumdadır. Şimdi [Sohbet Et] düğmesine tıklayarak seçtiğim karakterlerle sohbet etmeyi deneyelim. Sohbet sayfasına geçtik ve aşağıdaki resimde karakterin kendini tanıttığını ve sizin MBTI türünüzü sorduğunu görebilirsiniz.
 
-Ana sayfada, seçtiğiniz karakterin altındaki [Şimdi Sohbet Et] düğmesine tıklayarak seçtiğiniz karakterle bir sohbete başlayabilirsiniz. Her karakter belirli bir MBTI tipine eğitilmiştir. **Şimdi [Sohbet Et] düğmesine tıklayalım ve seçilen karakterlerle sohbet etmeye başlayalım.** Aşağıdaki resimde karakterin kendini tanıtması ve sizden MBTI tipinizi istemesi görülebilir.
+![MBTI ile Sohbet için Sayfa](/images/userGuide/userguide-3.jpg)
 
-![MBTI AI ile Sohbet için Sayfa](/images/userGuide/userguide-3.jpg)
+MBTI türünüzü belirtmeniz gerekmez, ancak karakterin MBTI türünün özellikleri hakkında veya sizin türünüzle AI'nın türü arasındaki uyum ve etkileşim hakkında sorular sorabilirsiniz. Ancak, uyum veya etkileşim hakkında daha fazla bilgi almak istiyorsanız, AI'ye MBTI türünüzü bildirmeniz gerekmektedir. Karaktere "MBTI testini yapabileceğim bir site adresi verebilir misiniz?" diye sorabilirsiniz. Karakter size nazikçe cevap verecektir.
 
-AI'ye çeşitli sorular sorabilirsiniz. MBTI tipinizi açıklamazsanız bile, **belirli bir tipin özellikleri hakkında veya farklı tiplerin nasıl etkileşime girdiği hakkında soru sorabilirsiniz.** Ancak, kendi tipinizle AI'nın tipi arasındaki uyumluluk veya etkileşim hakkında meraklıysanız, MBTI tipinizi AI ile paylaşmanız gerekmektedir. **Karaktere "Bir MBTI testi için bir web sitesi adresi sağlayabilir misiniz?" gibi bir soru sorabilirsiniz. Karakter nazikçe cevap verecektir.**
+![AI'ye Sorulan Örnek Sorular](/images/userGuide/userguide-4.jpg)
+![AI'ye Sorulan Örnek Sorular](/images/userGuide/userguide-5.jpg)
+![AI'ye Sorulan Örnek Sorular](/images/userGuide/userguide-6.jpg)
 
-![MBTI AI için Örnek Sorular](/images/userGuide/userguide-4.jpg)
-![MBTI AI için Örnek Sorular](/images/userGuide/userguide-5.jpg)
-![MBTI AI için Örnek Sorular](/images/userGuide/userguide-6.jpg)
+AI'ye çeşitli sorular sorabilirsiniz. Örneğin, sohbet ettiğiniz karakterin INTP türünde bir kişilik olduğunu varsayarsak, işte bazı örnek sorular:
 
-Kullanıcılar birden fazla soru sorabilir. Varsayalım ki karakteriniz INTP kişilik tipine sahip olan Olivia ise, şu gibi sorular sorabilirsiniz:
+- **Örnek: "INTP kişilik özellikleri nelerdir?"**
+- **Örnek: "Arkadaşımla üzücü bir film izledim, ancak onun hiç üzülmediği görünüyor. Arkadaşımın MBTI türü INTP olabilir mi?"**
+- **Örnek: "Arkadaşımın MBTI türü INTP, benim türüm ise ENFP. Arkadaşımın türüyle benim türüm arasındaki uyum hakkında bana bilgi verebilir misiniz?"**
 
-- **Örn., "INTP'nin özellikleri nelerdir?"**
-- **Örn., "Yakın bir arkadaşımla üzücü bir film izledim, ancak arkadaşım hiç üzgün görünmedi. Arkadaşım INTP olabilir mi?"**
-- **Örn., "Arkadaşımın INTP tipiyle benim ENFP tipim arasındaki uyumluluk hakkında bana bilgi verir misiniz?"**
+Bu tür soruları sorarak, **belirli türlerin özelliklerini anlayabilir**, **arkadaşınızın davranışlarına dayanarak türünü tahmin edebilir** ve **arkadaşınızın türü ile sizin türünüz arasındaki uyumu, avantajları ve dezavantajları öğrenebilirsiniz**. Ayrıca yukarıdaki resimde vurgulanan alan gibi, mbtiChat uygulaması reklamlar ve sponsorluklarla desteklendiği için karakterle yapılan sohbet sırasında bilgilendirme mesajı görüntülenecektir.
 
-Bu tür soruları sorarak, **belirli kişilik özellikleri hakkında bilgi edinebilir veya tepkilerine dayanarak arkadaşınızın tipini tahmin edebilirsiniz.** Yukarıdaki resimde belirtildiği gibi, lütfen unutmayın ki mbtiChat uygulaması reklamlar ve sponsorluklar tarafından desteklenmektedir ve sohbet sırasında bir bilgi mesajı bir kez görüntülenecektir.
+![AI ile Sohbetten Sonra Paylaşma, Duygusal İfade ve Yorum Yapma](/images/userGuide/userguide-7.jpg)
 
-![MBTI AI Kullanımından Sonra Paylaşma, Duyguları İfade Etme ve Yorum Yapma](/images/userGuide/userguide-7.jpg)
-
-AI ile yapılan sohbet size yardımcı oldu mu? Öyleyse lütfen mbtiChat uygulamasını arkadaşlarınızla paylaşın ve yorum bırakın! **Uygulamanın sohbet içeriğini saklamadığınızdan emin olabilirsiniz.**
+AI ile yapılan sohbet size yardımcı oldu mu? O zaman mbtiChat uygulamasını arkadaşlarınızla paylaşın ve bolca yorum bırakın! **Endişelenmeyin, bu uygulamadaki sohbet içeriği kaydedilmez.**
 
 ### 2. Blog
 ![mbtiChat Uygulamasındaki Blog Sayfası](/images/userGuide/userguide-8.jpg)
 
-**mbtiChat uygulaması, sadece özellikler sunmakla kalmaz, aynı zamanda bir blogu da içerir.** Blog yazılarının çoğu, mbtiChat uygulamasının geliştirme sürecinde kullanılan teknik yönler ve beceriler üzerinde odaklanmaktadır.
+mbtiChat uygulaması, özelliklerin yanı sıra bir blog bölümü de içerir. Blog yazıları çoğunlukla mbtiChat uygulaması geliştirme sürecinde kullanılan geliştirme becerileri hakkında teknik blog niteliği taşır.
 
-## Teknik Analiz ve Tanıtım
-mbtiChat uygulaması, sabit içeriğe ve sınırlı dinamik özelliklere veya etkileşimlere sahip bir statik web uygulamasıdır. mbtiChat web uygulaması çok büyük ölçekte olmasa da, blog işlevselliği ve dil seçimi gibi sınırlamaları olan bir statik web uygulaması olarak geliştirmek için **Jekyll statik web sitesi oluşturma çerçevesini** kullandım.
+## Uygulama Teknik Analizi ve Tanıtımı
+mbtiChat uygulaması bir statik web uygulamasıdır. Statik web uygulaması, içeriği sabit olan ve sınırlı dinamik özelliklere veya etkileşime sahip web sitesidir. mbtiChat web uygulaması, ölçek olarak büyük olmasa da blog ve dil seçeneği gibi özellikler içerdiğinden, tam anlamıyla bir statik web uygulaması olarak geliştirmek için sınırlamalar vardır. Bu nedenle, **statik web sayfaları oluşturmak için Jekyll statik web sitesi oluşturma çerçevesini** kullandım.
 
-Jekyll, kullanıcı tarafından belirtilen şablonlar ve düzenlere dayanarak statik HTML dosyaları oluşturur. Bu, tekrarlayan unsurların etkin bir şekilde yeniden kullanılmasını ve tutarlı tasarım ve düzen uygulamasını sağlar.
+Jekyll, kullanıcının belirlediği şablonlar ve düzenlemelere dayalı olarak statik HTML dosyaları oluşturur. Bu sayede tekrarlayan öğelerin etkin bir şekilde yeniden kullanılmasını ve tutarlı bir tasarım ve düzen uygulanmasını sağlar.
 
-mbtiChat uygulamasının temel özelliği, AI sohbet işleviydi. AI, **gpt-3.5** sürümü API'ye dayanmaktadır. GPT API ile iletişim kurmak için sunucu tarafı teknolojisi olarak **Node.js**'i kullandım. Mobil uygulama için ise, duyarlı web sayfaları kullanarak mobil uygulamanın oluşturulmasını sağlayan **React Native WebView** kullanarak geliştirdim.
+mbtiChat uygulamasındaki temel işlev, AI ile konuşma yeteneğidir. AI, **gpt-3.5** sürümü API'sini kullanmaktadır. GPT API ile iletişim kurmak için bir sunucu olarak **Node.js** kullandım. Mobil uygulama ise duyarlı bir web tabanlı mobil uygulama oluşturmak için **React-Native-Webview** teknolojisini kullandım.

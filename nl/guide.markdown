@@ -3,50 +3,48 @@ layout: post
 title: Handleiding voor mbtiChat-gebruikers
 image: '/images/userGuide/thumbnail-en.jpg'
 ---
+De mbtiChat-app is een applicatie waarmee gebruikers vrij kunnen converseren met AI-karakters op basis van de 16 MBTI-types. Deze app is ontwikkeld vanuit de gedachte dat gebruikers nieuwsgierig zouden kunnen zijn naar de kenmerken van andere MBTI-types, de relaties tussen verschillende types, en de gedachten en gedragingen van verschillende types. Laten we nu eens kijken hoe je de mbtiChat-app kunt gebruiken.
 
-De mbtiChat-app is een **applicatie waarmee gebruikers vrij kunnen communiceren met AI's op basis van de 16 MBTI-types**. Deze app is ontwikkeld vanuit het idee dat gebruikers wellicht nieuwsgierig zijn naar de kenmerken van andere MBTI-types, de relaties tussen verschillende types, en hoe verschillende types denken en handelen. Laten we nu eens kijken hoe je de mbtiChat-app kunt gebruiken.
+## App-functies en pagina-introductie
+Naast de mogelijkheid om te chatten met AI, heeft onze app ook meer gedetailleerde functies zoals handleidingen en blogposts. De belangrijkste functies en pagina's van de mbtiChat-app zijn **Chatten met AI** en **Blog**. Naast de huidige gebruikershandleiding en taalkeuzefunctie, zijn er nog andere gedetailleerde functies, maar we zullen ons richten op de twee belangrijkste functies en pagina's en ze in meer detail bespreken.
 
-## Functies en pagina's van de app
-Naast de mogelijkheid om met AI te chatten, biedt onze app ook andere functies, zoals gedetailleerde handleidingen en een blogfunctie. De functionaliteiten en pagina's van de mbtiChat-app zijn onderverdeeld in twee hoofdcategorieën: **Chatfunctie met AI** en **Blog**. Naast deze twee functies zijn er ook andere gedetailleerde functies, zoals de handleidingspagina waar je je nu op bevindt, en de mogelijkheid om de taal van de app te wijzigen. Laten we meer in detail kijken naar de twee belangrijkste functies en pagina's.
+### 1. Chatten met AI
+![Taalkeuze voor Chatten met MBTI AI](/images/userGuide/userguide-1.jpg)
 
-### 1. Chatfunctie met AI
-![Taalkeuze voor communicatie met de MBTI AI](/images/userGuide/userguide-1.jpg)
+De functie Chatten met AI stelt je in staat om te chatten met de door jou gekozen AI-karakters door op de knop [Chatten] te klikken vanuit het hoofdscherm. Deze AI is ontwikkeld op basis van de **gpt-3.5** API-versie. Om het chatten met AI te starten, moet je eerst de **taal selecteren om de taal van de app te wijzigen**.
 
-De chatfunctie met AI stelt je in staat om te communiceren met de door jou gekozen karakters die elk een specifiek MBTI-type hebben. Je kunt deze functie activeren door op de "Chat starten" knop te klikken naast het karakter van je keuze. De AI is gebaseerd op de **gpt-3.5** API-versie. Voordat je met de AI kunt chatten, moet je eerst de **taal selecteren** die je wilt gebruiken in de app.
+![Karakterselectie en klikken op de Chatten-knop voor Chatten met MBTI AI](/images/userGuide/userguide-2.jpg)
 
-![Karakterselectie en "Chat starten" knop](/images/userGuide/userguide-2.jpg)
+Om met AI te chatten, kun je op de [Chatten] knop onder de karakters op het hoofdscherm klikken. Elk karakter is getraind met één MBTI-type. Laten we nu beginnen met chatten met het gekozen karakter. We zijn overgestapt naar de chatpagina en je kunt in de onderstaande afbeelding zien dat het karakter zichzelf voorstelt en vraagt naar je MBTI-type.
 
-Om met de AI te chatten, kun je op de "Chat starten" knop onder het gekozen karakter klikken. Elk karakter is getraind op één specifiek MBTI-type. Laten we nu eens kijken hoe we kunnen chatten met de door ons gekozen karakters. We zijn nu op de chatpagina en we kunnen zien dat het karakter zichzelf voorstelt en vraagt naar ons MBTI-type, zoals te zien is in de onderstaande afbeelding.
+![Pagina om te chatten met MBTI AI](/images/userGuide/userguide-3.jpg)
 
-![Pagina waar je met de MBTI AI kunt chatten](/images/userGuide/userguide-3.jpg)
+Hoewel je je MBTI-type niet hoeft op te geven, kun je het karakter vragen stellen over de kenmerken van zijn/haar MBTI-type of vragen stellen over de compatibiliteit en interactie tussen jouw type en het AI-type. Maar als je meer wilt weten over de compatibiliteit of interactie tussen jouw type en het karakters-type, moet je het AI-karakter informeren over jouw MBTI-type. Je kunt het karakter vragen: "Kun je me het adres geven van een website waar ik een MBTI-test kan doen?" Het karakter zal vriendelijk antwoorden.
 
-Je kunt vragen stellen over de kenmerken van een specifiek type, de compatibiliteit en interactie tussen jouw type en andere types, en meer. Als je je MBTI-type niet weet, kun je aan het karakter vragen: "Kun je me een website-adres geven waar ik de MBTI-test kan doen?" Het karakter zal vriendelijk antwoorden.
+![Voorbeeldvragen aan MBTI AI](/images/userGuide/userguide-4.jpg)
+![Voorbeeldvragen aan MBTI AI](/images/userGuide/userguide-5.jpg)
+![Voorbeeldvragen aan MBTI AI](/images/userGuide/userguide-6.jpg)
 
-![Voorbeeldvragen aan de MBTI AI](/images/userGuide/userguide-4.jpg)
-![Voorbeeldvragen aan de MBTI AI](/images/userGuide/userguide-5.jpg)
-![Voorbeeldvragen aan de MBTI AI](/images/userGuide/userguide-6.jpg)
+Je kunt verschillende vragen stellen aan de AI. Bijvoorbeeld, als je chatkarakter het INTP-type persoonlijkheid heeft, zijn hier een paar voorbeeldvragen:
 
-Je kunt verschillende soorten vragen stellen, zoals: 
+- **Voorbeeld: "Wat zijn de kenmerken van het INTP-type?"**
+- **Voorbeeld: "Ik heb een emotionele film gekeken met een goede vriend, maar mijn vriend leek helemaal niet verdrietig. Is het mogelijk dat mijn vriend het MBTI-type INTP heeft?"**
+- **Voorbeeld: "Kun je me vertellen over de compatibiliteit tussen het MBTI-type van mijn vriend, INTP, en mijn type, ENFP?"**
 
-- **Bijvoorbeeld: "Wat zijn de kenmerken van het INTP-type?"**
-- **Bijvoorbeeld: "Ik keek met een goede vriend naar een verdrietige film, maar mijn vriend was helemaal niet verdrietig. Is mijn vriend misschien een INTP?"**
-- **Bijvoorbeeld: "Kun je me vertellen over de compatibiliteit tussen mijn vriend met het INTP-type en ik met het ENFP-type?"**
+Door deze vragen te stellen, kun je **kenmerken van specifieke types begrijpen**, **het type van je vriend afleiden op basis van zijn/haar gedrag**, en **informatie krijgen over de compatibiliteit en voor- en nadelen tussen jouw type en het type van je vriend**. Bovendien, zoals aangegeven in het gemarkeerde gedeelte van de bovenstaande afbeelding, wordt de mbtiChat-app ondersteund door advertenties en sponsoring, dus er zal één keer een informatief bericht worden weergegeven tijdens het chatten met het karakter.
 
-Door deze vragen te stellen, kun je de kenmerken van specifieke types achterhalen, proberen te raden welk type je vriend heeft op basis van hun gedrag, en informatie krijgen over de compatibiliteit en sterke en zwakke punten tussen jouw type en het type van je vriend. Zoals aangegeven in de afbeelding, bevat de mbtiChat-app advertenties en sponsormeldingen die af en toe tijdens het chatten worden weergegeven.
+![Delen, emoties uiten en reageren na het gebruik van MBTI AI](/images/userGuide/userguide-7.jpg)
 
-![Delen, emoties uitdrukken en opmerkingen plaatsen na het gebruik van de MBTI AI](/images/userGuide/userguide-7.jpg)
-
-Heeft de chat met de AI je geholpen? Deel de mbtiChat-app dan met je vrienden en laat veel reacties achter! Maak je geen zorgen, de inhoud van de app-chats wordt nooit opgeslagen.
+Heeft het chatten met AI je geholpen? Deel dan de mbtiChat-app met je vrienden en laat veel reacties achter! **Maak je geen zorgen, de inhoud van de chat in deze app wordt niet opgeslagen.**
 
 ### 2. Blog
-![Pagina voor de blog van de mbtiChat-app](/images/userGuide/userguide-8.jpg)
+![Blogpagina in de mbtiChat-app](/images/userGuide/userguide-8.jpg)
 
-Naast de functies bevat de mbtiChat-app ook een blogsectie. De artikelen op dit blog hebben voornamelijk betrekking op de ontwikkelingsvaardigheden die zijn gebruikt tijdens de ontwikkeling van de mbtiChat-app.
+Naast de functies bevat de mbtiChat-app ook een blogsectie. De blogartikelen hebben voornamelijk betrekking op de ontwikkelingsvaardigheden die zijn gebruikt tijdens het ontwikkelingsproces van de mbtiChat-app.
 
 ## Technische analyse en introductie van de app
-De mbtiChat-app is een statische webapp. Een statische webapp is een website waarvan de inhoud vaststaat en waarop beperkte dynamische functionaliteit en interactie mogelijk is. Hoewel de mbtiChat-webapp niet erg groot is, bevat het functies zoals de blogfunctie en de mogelijkheid om de taal te selecteren, waardoor het ontwikkelen als een statische webapp beperkt is. Daarom heb ik gebruik gemaakt van de technologie van **Jekyll, een framework voor het genereren van statische websites**.
+De mbtiChat-app is een statische webapplicatie. Een statische webapplicatie verwijst naar een website met vaste inhoud en beperkte dynamische functionaliteit of interactie. Hoewel de mbtiChat-webapplicatie niet groot van omvang is, bevat deze functionaliteiten zoals een blog en taalkeuzemogelijkheden die verder gaan dan de mogelijkheden van een statische webapplicatie. Daarom heb ik gebruik gemaakt van het **Jekyll framework voor het genereren van statische websites**.
 
-Jekyll genereert statische HTML-bestanden op basis van door de gebruiker opgegeven sjablonen en lay-outs. Dit maakt het mogelijk om herhaalde elementen efficiënt te hergebruiken en consistente ontwerpen en lay-outs toe te passen.
+Jekyll genereert statische HTML-bestanden op basis van door de gebruiker gespecificeerde sjablonen en lay-outs. Dit maakt effectief hergebruik van herhalende elementen en het toepassen van consistente ontwerpen en lay-outs mogelijk.
 
-De belangrijkste functie van de mbtiChat-app is de chatfunctie met AI. De AI maakt gebruik van de **gpt-3.5** API-versie. Voor de communicatie met de GPT API heb ik gebruik gemaakt van **Node.js** als server. Voor de mobiele app heb ik de responsieve webpagina's ontwikkeld met **React Native Webview**.
-
+De belangrijkste functie van de mbtiChat-app is de functionaliteit om te chatten met AI. De AI is gebaseerd op de **gpt-3.5** API. Voor de communicatie met de GPT API heb ik gebruik gemaakt van **Node.js** als server. De mobiele app is ontwikkeld met behulp van **React-Native-Webview** om een responsieve mobiele app op basis van webtechnologie te creëren.

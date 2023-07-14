@@ -3,50 +3,48 @@ layout: post
 title: Benutzerhandbuch für mbtiChat
 image: '/images/userGuide/thumbnail-en.jpg'
 ---
+Die mbtiChat-App ist eine Anwendung, mit der Benutzer frei mit KI-Charakteren für die 16 MBTI-Typen chatten können. Die App wurde mit der Idee entwickelt, dass Benutzer sich für die Merkmale verschiedener MBTI-Typen, Beziehungen zwischen verschiedenen Typen und das Denken und Verhalten verschiedener Typen interessieren könnten. Nun wollen wir herausfinden, wie man die mbtiChat-App verwendet.
 
-**Die mbtiChat-App ist eine Anwendung, mit der Sie mit KI-Charakteren chatten können, die auf den 16 verschiedenen MBTI-Persönlichkeitstypen basieren.** Die App wurde mit dem Gedanken entwickelt, dass Sie sich für die Eigenschaften verschiedener MBTI-Typen interessieren könnten. Sie soll Ihnen helfen, die Merkmale, Beziehungen, Gedanken und Verhaltensweisen der verschiedenen Typen besser zu verstehen. Lassen Sie uns sehen, wie Sie die mbtiChat-App nutzen können.
+## App-Funktionen und Seitenübersicht
+Neben der Funktion des Chattens mit KI gibt es in unserer App weitere detaillierte Funktionen wie Anleitungen und Blogbeiträge. Die Hauptfunktionen und Seiten in der mbtiChat-App sind **AI-Chats** und **Blog**. Es gibt auch andere detaillierte Funktionen wie die Benutzerhandbuchseite, auf der Sie sich gerade befinden, und die Sprachauswahl. Wir werden uns jedoch auf die beiden Hauptfunktionen und -seiten konzentrieren und weitere Informationen zu anderen Funktionen geben.
 
-## Funktionen der App und Übersicht über die Seiten
-Neben der KI-Chat-Funktion bietet unsere App weitere nützliche Funktionen, Anleitungen und Blog-Artikel. Die wichtigsten Funktionen und Seiten in der mbtiChat-App sind der **KI-Chat** und der **Blog**. Es gibt auch weitere detaillierte Funktionen wie die Benutzerhandbuch-Seite und die Sprachauswahl, aber wir konzentrieren uns hier auf diese beiden Hauptfunktionen und Seiten und erklären die anderen Funktionen später.
+### 1. AI-Chats
+![Sprachauswahl für das Chatten mit MBTI KI](/images/userGuide/userguide-1.jpg)
 
-### 1. KI-Chat
-![Sprachauswahl für den MBTI-KI-Chat](/images/userGuide/userguide-1.jpg)
+Die AI-Chat-Funktion ermöglicht es Ihnen, mit den ausgewählten Charakteren durch Klicken auf die [Chat]-Schaltfläche für jeden MBTI-Typ-Charakter von der Hauptseite aus zu interagieren. Die KI basiert auf der **gpt-3.5**-Version der API. Zuerst müssen Sie eine Sprache auswählen, um die Sprache der App zu ändern, damit Sie mit der KI chatten können.
 
-Die KI-Chat-Funktion ermöglicht es Ihnen, mit den KI-Charakteren zu interagieren, indem Sie auf die Schaltfläche [Jetzt chatten] auf der Startseite klicken. Die KI wurde mit der **gpt-3.5** Version der API entwickelt. Um ein Gespräch mit der KI zu starten, **müssen Sie zuerst die Sprache auswählen, um die Sprache der App anzupassen.**
+![Charakterauswahl und Klicken der Chat-Schaltfläche für das Chatten mit MBTI KI](/images/userGuide/userguide-2.jpg)
 
-![Charakterauswahl und Klick auf die Schaltfläche "Jetzt chatten" für den KI-Chat](/images/userGuide/userguide-2.jpg)
+Um mit der KI zu chatten, können Sie auf der Hauptseite auf die [Chat]-Schaltfläche am unteren Rand der Charaktere klicken. Jeder Charakter wurde mit einem MBTI-Typ trainiert. Nun lassen Sie uns **auf die [Chat]-Schaltfläche klicken und mit den ausgewählten Charakteren chatten**. Wir haben uns zur Chat-Seite bewegt, und auf dem untenstehenden Bild können Sie die Selbstvorstellung des Charakters und die Anfrage nach Ihrem MBTI-Typ sehen.
 
-Auf der Startseite können Sie unter jedem Charakter auf die Schaltfläche [Jetzt chatten] klicken, um ein Gespräch mit Ihrem gewählten Charakter zu beginnen. Jeder Charakter wurde auf einen bestimmten MBTI-Typ trainiert. **Klicken Sie nun auf die Schaltfläche [Jetzt chatten] und starten Sie das Gespräch mit dem ausgewählten Charakter.** Im folgenden Bild können Sie sehen, wie sich der Charakter vorstellt und nach Ihrem MBTI-Typ fragt.
+![Seite zum Chatten mit MBTI KI](/images/userGuide/userguide-3.jpg)
 
-![Seite für den Chat mit der MBTI-KI](/images/userGuide/userguide-3.jpg)
+Selbst wenn Sie dem Charakter Ihren MBTI-Typ nicht mitteilen, können Sie Fragen zu den Merkmalen des MBTI-Typs des Charakters oder zu anderen Themen stellen. Wenn Sie jedoch an der **Kompatibilität** oder **Interaktion** zwischen Ihrem Typ und dem KI-Typ interessiert sind, müssen Sie der KI Ihren MBTI-Typ mitteilen. Wenn Sie Ihren MBTI-Typ nicht kennen, können Sie den Charakter fragen: "Können Sie mir die Adresse der Website geben, auf der ich einen MBTI-Test machen kann?" Der Charakter wird freundlich antworten.
 
-Sie können der KI verschiedene Fragen stellen. Selbst wenn Sie Ihren MBTI-Typ nicht verraten, **können Sie nach den Eigenschaften eines bestimmten Typs oder nach der Interaktion zwischen verschiedenen Typen fragen.** Wenn Sie jedoch neugierig auf die Kompatibilität oder Interaktion zwischen Ihrem Typ und dem Typ der KI sind, sollten Sie Ihren MBTI-Typ mit der KI teilen. **Sie können den Charakter zum Beispiel fragen: "Können Sie mir eine Website-Adresse für einen MBTI-Test geben?" Der Charakter wird Ihnen freundlich antworten.**
+![Beispiel-Fragen an MBTI KI](/images/userGuide/userguide-4.jpg)
+![Beispiel-Fragen an MBTI KI](/images/userGuide/userguide-5.jpg)
+![Beispiel-Fragen an MBTI KI](/images/userGuide/userguide-6.jpg)
 
-![Beispielhafte Fragen für die MBTI-KI](/images/userGuide/userguide-4.jpg)
-![Beispielhafte Fragen für die MBTI-KI](/images/userGuide/userguide-5.jpg)
-![Beispielhafte Fragen für die MBTI-KI](/images/userGuide/userguide-6.jpg)
+Sie können der KI verschiedene Fragen stellen. Angenommen, der Charakter, mit dem Sie chatten, hat den Persönlichkeitstyp INTP, können Sie Fragen stellen wie:
 
-Sie können mehrere Fragen stellen. Nehmen wir an, Ihr Charakter ist Olivia mit einer INTP-Persönlichkeit. Sie können Fragen stellen wie:
+- **Beispiel) "Was sind die Merkmale der Persönlichkeit eines INTP?"**
+- **Beispiel) "Ich habe einen traurigen Film mit einem engen Freund gesehen, aber mein Freund war überhaupt nicht traurig. Könnte mein Freund ein INTP sein?"**
+- **Beispiel) "Erzählen Sie mir etwas über die Kompatibilität zwischen dem INTP-Typ meines Freundes und meinem ENFP-Typ."**
 
-- **Zum Beispiel: "Was sind die Eigenschaften eines INTP?"**
-- **Zum Beispiel: "Ich habe mit einem engen Freund einen traurigen Film gesehen, aber mein Freund schien überhaupt nicht traurig zu sein. Könnte mein Freund ein INTP sein?"**
-- **Zum Beispiel: "Erzählen Sie mir von der Kompatibilität zwischen dem INTP-Typ meines Freundes und meinem ENFP-Typ."**
+Indem Sie diese Art von Fragen stellen, können Sie die **Persönlichkeit eines bestimmten Typs verstehen**, den Typ Ihres Freundes ableiten und Informationen über die **Kompatibilität und Stärken/Schwächen zwischen dem Typ Ihres Freundes und Ihrem eigenen** erfragen. Beachten Sie außerdem, dass die mbtiChat-App über Werbung und Sponsoring betrieben wird, daher wird während des Chats mit dem Charakter einmalig eine Anleitungsnachricht angezeigt.
 
-Indem Sie solche Fragen stellen, **können Sie Einblicke in bestimmte Persönlichkeitseigenschaften gewinnen oder sogar über den Typ Ihres Freundes spekulieren, basierend auf seinen Reaktionen.** Wie im obigen Bild angegeben, beachten Sie bitte, dass die mbtiChat-App durch Werbung und Sponsoring unterstützt wird und während des Chats mit dem Charakter einmal eine Werbenachricht angezeigt wird.
+![Teilen, Emoticon und Kommentarfunktionen nach der Verwendung von MBTI KI](/images/userGuide/userguide-7.jpg)
 
-![Teilen, Emotionen ausdrücken und Kommentieren nach der Nutzung der MBTI-KI](/images/userGuide/userguide-7.jpg)
-
-Hat Ihnen das Gespräch mit der KI gefallen? Wenn ja, teilen Sie bitte die mbtiChat-App mit Ihren Freunden und hinterlassen Sie Kommentare! **Sie können sicher sein, dass die App keine Chat-Inhalte speichert.**
+War das Gespräch mit der KI hilfreich? Wenn ja, teilen Sie bitte die mbtiChat-App mit Ihren Freunden und hinterlassen Sie viele Kommentare! **Bitte seien Sie versichert, dass der Chat-Inhalt in der App niemals gespeichert wird.**
 
 ### 2. Blog
 ![Blog-Seite in der mbtiChat-App](/images/userGuide/userguide-8.jpg)
 
-**Die mbtiChat-App bietet nicht nur Funktionen an, sondern verfügt auch über einen Blog.** Die meisten Blog-Artikel beschäftigen sich mit den technischen Aspekten und Fertigkeiten, die im Entwicklungsprozess der mbtiChat-App eingesetzt werden.
+Neben den Funktionen umfasst die mbtiChat-App auch einen Blog. Die Blogbeiträge konzentrieren sich hauptsächlich auf die Entwicklungsfähigkeiten, die während des Entwicklungsprozesses der mbtiChat-App verwendet wurden.
 
-## Technische Analyse und Vorstellung
-Die mbtiChat-App ist eine statische Webanwendung, d. h. eine Website mit festem Inhalt und begrenzten dynamischen Funktionen oder Interaktionen. Obwohl die mbtiChat-Web-App nicht allzu umfangreich ist, beinhaltet sie Funktionen wie einen Blog und eine Sprachauswahl, die ihre Entwicklung als reine statische Webanwendung erschweren. Deshalb habe ich das **Jekyll-Framework zur statischen Website-Erzeugung** verwendet.
+## App-technische Analyse und Einführung
+Die mbtiChat-App ist eine statische Web-App, das heißt, es handelt sich um eine Website mit festem Inhalt und begrenzten dynamischen Funktionen oder Interaktionen. Obwohl der Umfang der mbtiChat-Web-App nicht groß ist, enthält sie Funktionen wie einen Blog und eine Sprachauswahl, die bei der Entwicklung als statische Web-App ihre Grenzen haben. Daher habe ich die Technologie des **Jekyll-Frameworks zur Erzeugung statischer Websites** verwendet.
 
-Jekyll erzeugt statische HTML-Dateien auf der Basis von vom Benutzer definierten Vorlagen und Layouts. Dies ermöglicht eine effiziente Wiederverwendung von wiederkehrenden Elementen sowie eine konsistente Design- und Layout-Anwendung.
+Jekyll generiert statische HTML-Dateien auf Basis von benutzerdefinierten Vorlagen und Layouts. Dadurch können wiederkehrende Elemente effizient wiederverwendet und einheitliches Design und Layout angewendet werden.
 
-Das Schlüsselelement der mbtiChat-App ist die KI-Chat-Funktion. Die KI basiert auf der **gpt-3.5**-Version der API. Um mit der GPT-API zu kommunizieren, habe ich **Node.js** als serverseitige Technologie genutzt. Für die mobile App habe ich sie mit **React Native WebView** entwickelt, was es erlaubt, die mobile App mit responsiven Webseiten zu erstellen.
-
+Das Hauptmerkmal der mbtiChat-App ist die AI-Chat-Funktionalität. Die KI basiert auf der **gpt-3.5**-Version der API. Zur Kommunikation mit der GPT-API habe ich **NODE.JS** als Server verwendet. Für die mobile App habe ich **React-Native-Webview** verwendet, um eine mobile App basierend auf einer responsiven Web-Seite zu entwickeln.
