@@ -3,49 +3,48 @@ layout: post
 title: Guía del usuario para mbtiChat
 image: '/images/userGuide/thumbnail-en.jpg'
 ---
+La aplicación mbtiChat es una aplicación que permite a los usuarios chatear libremente con personajes de IA entrenados para cada uno de los 16 tipos de MBTI. La aplicación fue desarrollada con la idea de que los usuarios podrían estar interesados en las características de los diferentes tipos de MBTI, las relaciones entre diferentes tipos y cómo piensan y se comportan los diferentes tipos. Ahora, veamos cómo utilizar la aplicación mbtiChat.
 
-**La aplicación mbtiChat es una aplicación que permite a los usuarios comunicarse libremente con personajes de IA entrenados en los 16 diferentes tipos de personalidad del MBTI.** Diseñada con la idea de que los usuarios podrían estar interesados en las características de los diferentes tipos de MBTI, la aplicación tiene como objetivo mejorar la comprensión de los rasgos, relaciones, pensamientos y comportamientos a través de diferentes tipos. Veamos cómo usar la aplicación mbtiChat.
+## Funciones de la aplicación y descripción de las páginas
+Además de la funcionalidad de chatear con IA, nuestra aplicación también incluye características más detalladas como guías y publicaciones de blog. Las principales funcionalidades y páginas en la aplicación mbtiChat son **Chat con IA** y **Blog**. También hay otras características detalladas, como la página de guía de usuario que estás viendo actualmente y la selección de idioma. Sin embargo, nos centraremos en las dos principales funcionalidades y páginas, proporcionando información detallada sobre las demás características.
 
-## Características de la aplicación y descripción general de las páginas
-Además de la funcionalidad de chat de IA, nuestra aplicación mbtiChat ofrece otras características detalladas, guías y publicaciones de blog. Las características y páginas principales en la aplicación mbtiChat son el **Chat de IA** y el **Blog**. Aunque hay otras características detalladas como la página de guía del usuario y la selección de idioma, nos centraremos en estas dos características y páginas principales y abordaremos las demás características.
+### 1. Chat con IA
+![Selección de idioma para chatear con la IA de MBTI](/images/userGuide/userguide-1.jpg)
 
-### 1. Chat de IA
-![Selección de idioma para el chat de IA del MBTI](/images/userGuide/userguide-1.jpg)
+La función de Chat con IA te permite interactuar con los personajes seleccionados haciendo clic en el botón [Chatear] para cada personaje de MBTI en la página principal. La IA se basa en la versión **gpt-3.5** de la API. Primero, debes **seleccionar un idioma para cambiar el idioma de la aplicación** y poder chatear con la IA.
 
-La función de chat de IA le permite interactuar con los personajes de IA haciendo clic en el botón [Chatear ahora] en la página principal. La IA fue desarrollada utilizando la versión **gpt-3.5** de la API. Para comenzar una conversación con la IA, **primero seleccione el idioma para cambiar el idioma de la aplicación.**
+![Selección de personaje y clic en el botón Chatear para chatear con la IA de MBTI](/images/userGuide/userguide-2.jpg)
 
-![Selección de personaje y clic en el botón "Chatear ahora" para el chat de IA](/images/userGuide/userguide-2.jpg)
+Para chatear con la IA, puedes hacer clic en el botón [Chatear] en la parte inferior de los personajes en la página principal. Cada personaje ha sido entrenado con un tipo de MBTI. Ahora, **hagamos clic en el botón [Chatear] y comencemos a chatear con los personajes seleccionados**. Nos hemos trasladado a la página de chat, y en la imagen de abajo puedes ver la presentación personal del personaje y la solicitud de tu tipo de MBTI.
 
-En la página principal, puede hacer clic en el botón [Chatear ahora] debajo de cada personaje para iniciar una conversación con el personaje seleccionado. Cada personaje ha sido entrenado en un tipo de MBTI específico. **Haga clic en el botón [Chatear ahora] ahora y comience la conversación con los personajes seleccionados.** En la siguiente imagen, puede ver la presentación del personaje y su solicitud de su tipo de MBTI.
+![Página para chatear con la IA de MBTI](/images/userGuide/userguide-3.jpg)
 
-![Página para chatear con la IA del MBTI](/images/userGuide/userguide-3.jpg)
+Incluso si no le dices al personaje tu tipo de MBTI, puedes hacer preguntas sobre las características del tipo de MBTI del personaje u otros temas. Sin embargo, si estás interesado en la **compatibilidad** o **interacción** entre tu tipo y el tipo de IA, debes informarle a la IA tu tipo de MBTI. Si no sabes tu tipo de MBTI, puedes preguntarle al personaje: "¿Puedes darme la dirección del sitio web donde puedo hacer un test de MBTI?" El personaje responderá amablemente.
 
-Puede hacerle diferentes preguntas a la IA. Incluso si no revela su tipo de MBTI, **puede preguntar sobre las características de un tipo específico o sobre la interacción entre diferentes tipos.** Sin embargo, si está interesado en la compatibilidad o interacción entre su tipo y el tipo de la IA, deberá compartir su tipo de MBTI con la IA. **Por ejemplo, puede preguntarle al personaje: "¿Puede proporcionar una dirección web para una prueba del MBTI?" El personaje responderá amablemente.**
+![Ejemplos de preguntas para hacer a la IA de MBTI](/images/userGuide/userguide-4.jpg)
+![Ejemplos de preguntas para hacer a la IA de MBTI](/images/userGuide/userguide-5.jpg)
+![Ejemplos de preguntas para hacer a la IA de MBTI](/images/userGuide/userguide-6.jpg)
 
-![Ejemplos de preguntas para la IA del MBTI](/images/userGuide/userguide-4.jpg)
-![Ejemplos de preguntas para la IA del MBTI](/images/userGuide/userguide-5.jpg)
-![Ejemplos de preguntas para la IA del MBTI](/images/userGuide/userguide-6.jpg)
+Puedes hacer diversas preguntas a la IA. Supongamos que el personaje con el que estás chateando tiene el tipo de personalidad INTP, puedes hacer preguntas como:
 
-Los usuarios pueden hacer múltiples preguntas. Supongamos que su personaje es Olivia con una personalidad INTP. Puede hacer preguntas como:
+- **Ejemplo) "¿Cuáles son las características de la personalidad de un INTP?"**
+- **Ejemplo) "Vi una película triste con un amigo cercano, pero mi amigo no se sintió triste en absoluto. ¿Podría ser mi amigo un INTP?"**
+- **Ejemplo) "Cuéntame sobre la compatibilidad entre el tipo INTP de mi amigo y mi tipo ENFP."**
 
-- **Por ejemplo: "¿Cuáles son las características de un INTP?"**
-- **Por ejemplo: "Vi una película triste con un amigo cercano, pero mi amigo no parecía estar triste en absoluto. ¿Podría ser mi amigo un INTP?"**
-- **Por ejemplo: "Cuéntame sobre la compatibilidad entre el tipo INTP de mi amigo y mi tipo ENFP."**
+Al hacer este tipo de preguntas, puedes **entender la personalidad de un tipo específico**, deducir el tipo de tu amigo y obtener información sobre la **compatibilidad y fortalezas/debilidades entre el tipo de tu amigo y el tuyo propio**. Además, como se muestra en la parte marcada de la imagen anterior, ten en cuenta que la aplicación mbtiChat funciona a través de anuncios y patrocinios, por lo que se mostrará un mensaje informativo una vez durante el chat con el personaje.
 
-Haciendo este tipo de preguntas, **puede obtener ideas sobre características de personalidad específicas o incluso especular sobre el tipo de su amigo basado en sus reacciones.** Como se indica en la imagen anterior, tenga en cuenta que la aplicación mbtiChat es compatible con publicidad y patrocinios, y mostrará un mensaje informativo una vez durante el chat con el personaje.
+![Funciones de Compartir, Emoticonos y Comentarios después de usar la IA de MBTI](/images/userGuide/userguide-7.jpg)
 
-![Compartir, expresar emociones y comentar después de usar la IA del MBTI](/images/userGuide/userguide-7.jpg)
-
-¿Te ha ayudado la conversación con la IA? Si es así, ¡comparte la aplicación mbtiChat con tus amigos y deja comentarios! **Ten la seguridad de que la aplicación no guarda los contenidos del chat.**
+¿Fue útil la conversación con la IA? Si es así, ¡comparte la aplicación mbtiChat con tus amigos y deja muchos comentarios! **Ten la seguridad de que el contenido del chat dentro de la aplicación nunca se almacenará.**
 
 ### 2. Blog
-![Página del blog en la aplicación mbtiChat](/images/userGuide/userguide-8.jpg)
+![Página de blog en la aplicación mbtiChat](/images/userGuide/userguide-8.jpg)
 
-**La aplicación mbtiChat no solo ofrece características, sino que también incluye un blog.** La mayoría de las publicaciones del blog se centran en los aspectos técnicos y habilidades utilizadas en el proceso de desarrollo de la aplicación mbtiChat.
+Además de las funcionalidades, la aplicación mbtiChat también incluye un blog. Las publicaciones del blog se centran principalmente en las habilidades de desarrollo utilizadas durante el proceso de desarrollo de la aplicación mbtiChat.
 
-## Análisis técnico e introducción
-La aplicación mbtiChat es una aplicación web estática, es decir, un sitio web con contenido fijo y con funciones o interacciones dinámicas limitadas. Aunque la aplicación web mbtiChat no es muy grande, incluye características como un blog y una selección de idioma que limitan su desarrollo como una aplicación web estática pura. Por esta razón, he utilizado el **framework Jekyll para la generación de sitios web estáticos**.
+## Análisis técnico e introducción de la aplicación
+La aplicación mbtiChat es una aplicación web estática, lo que significa que es un sitio web con contenido fijo y funciones o interacciones limitadas. Aunque el alcance de la aplicación web mbtiChat no es grande, incluye características como un blog y la selección de idioma, que tienen limitaciones al desarrollarse como una aplicación web estática. Por lo tanto, utilicé la tecnología del **framework Jekyll para la generación de sitios web estáticos**.
 
-Jekyll genera archivos HTML estáticos basados en plantillas y diseños establecidos por el usuario. Esto permite la reutilización efectiva de elementos recurrentes y la aplicación coherente de diseño y diseño.
+Jekyll genera archivos HTML estáticos basados en plantillas y diseños especificados por el usuario. Esto permite la reutilización eficiente de elementos repetitivos y la aplicación de un diseño y una estructura coherentes.
 
-El elemento clave de la aplicación mbtiChat es la función de chat de IA. La IA se basa en la versión **gpt-3.5** de la API. Para comunicarse con la API de GPT, he utilizado **Node.js** como tecnología del lado del servidor. Para la aplicación móvil, la he desarrollado con **React Native WebView**, lo que permite crear la aplicación móvil con sitios web receptivos.
+La característica principal de la aplicación mbtiChat es la funcionalidad de chat con IA. La IA se basa en la versión **gpt-3.5** de la API. Para comunicarse con la API GPT, utilicé **NODE.JS** como servidor. Para la aplicación móvil, desarrollé una aplicación basada en una página web receptiva utilizando **React-Native-Webview**.

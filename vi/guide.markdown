@@ -3,49 +3,38 @@ layout: post
 title: Hướng dẫn sử dụng mbtiChat
 image: '/images/userGuide/thumbnail-en.jpg'
 ---
+Ứng dụng mbtiChat là một ứng dụng cho phép người dùng trò chuyện tự do với các trí tuệ nhân tạo (AI) dựa trên 16 loại MBTI. Ứng dụng này được phát triển với ý tưởng rằng người dùng có thể tò mò về các đặc điểm của các loại MBTI khác, mối quan hệ giữa các loại khác nhau và suy nghĩ hoặc hành vi của các loại khác nhau. Bây giờ chúng ta hãy tìm hiểu cách sử dụng ứng dụng mbtiChat.
 
-**Ứng dụng mbtiChat là một ứng dụng cho phép người dùng tự do trò chuyện với các nhân vật AI được đào tạo trên 16 kiểu nhân cách MBTI khác nhau.** Với ý tưởng rằng người dùng có thể tò mò về đặc điểm của các kiểu MBTI khác nhau, ứng dụng nhằm mục đích nâng cao hiểu biết về các đặc điểm, mối quan hệ, suy nghĩ và hành vi trên các kiểu khác nhau. Hãy khám phá cách sử dụng ứng dụng mbtiChat.
+## Giới thiệu về chức năng và trang trong ứng dụng
+Ngoài khả năng trò chuyện với các trí tuệ nhân tạo, ứng dụng của chúng tôi còn có các chức năng và trang chi tiết khác như hướng dẫn, blog. Các chức năng và trang trong ứng dụng mbtiChat chủ yếu bao gồm **Chức năng Trò chuyện với AI** và **Blog**. Ngoài ra, có các chức năng chi tiết khác như trang Hướng dẫn người dùng và chức năng chọn ngôn ngữ, nhưng chúng ta sẽ tìm hiểu chi tiết về hai chức năng và trang chính này.
 
-## Tính năng của ứng dụng và Giới thiệu các Trang
-Ngoài chức năng trò chuyện với AI, ứng dụng của chúng tôi còn cung cấp các tính năng, hướng dẫn và bài đăng blog chi tiết hơn. Các tính năng và trang chính trong ứng dụng mbtiChat bao gồm **Trò chuyện với AI** và **Blog**. Mặc dù còn các chức năng chi tiết khác như trang hướng dẫn người dùng và bộ chọn ngôn ngữ, chúng tôi sẽ tập trung vào hai tính năng và trang chính này và tìm hiểu về các chức năng khác.
+### 1. Chức năng Trò chuyện với AI
+![Lựa chọn ngôn ngữ để trò chuyện với AI trong MBTI](/images/userGuide/userguide-1.jpg)
 
-### 1. Trò chuyện với AI
-![Chọn ngôn ngữ để trò chuyện với AI MBTI](/images/userGuide/userguide-1.jpg)
+Chức năng Trò chuyện với AI cho phép bạn trò chuyện với các nhân vật MBTI đã được lựa chọn bằng cách nhấn vào nút [Bắt đầu trò chuyện] trên trang chính. AI được phát triển dựa trên phiên bản API **gpt-3.5**. Đầu tiên, để bắt đầu trò chuyện với AI, bạn cần **chọn ngôn ngữ để thay đổi ngôn ngữ của ứng dụng**.
 
-Tính năng Trò chuyện với AI cho phép bạn tương tác với các nhân vật AI bằng cách nhấp vào nút [Bắt đầu Trò chuyện] trên trang chính. AI được phát triển bằng cách sử dụng API phiên bản **gpt-3.5**. Để bắt đầu một cuộc trò chuyện với AI, **đầu tiên bạn chọn ngôn ngữ để thay đổi ngôn ngữ của ứng dụng**.
+![Lựa chọn nhân vật và nhấn nút Bắt đầu trò chuyện trong MBTI](/images/userGuide/userguide-2.jpg)
 
-![Chọn Nhân vật và nhấp vào nút Bắt đầu Trò chuyện để trò chuyện với AI](/images/userGuide/userguide-2.jpg)
+Để trò chuyện với AI, bạn có thể nhấn nút [Bắt đầu trò chuyện] dưới nhân vật trên trang chính. Mỗi nhân vật đã được học một loại MBTI. Bây giờ chúng ta hãy thử trò chuyện với nhân vật đã chọn. Chúng ta đã chuyển đến trang trò chuyện và bạn có thể thấy nhân vật giới thiệu bản thân và yêu cầu bạn cung cấp loại MBTI của mình trong hình ảnh dưới đây.
 
-Trên trang chính, bạn có thể nhấp vào nút [Bắt đầu Trò chuyện] dưới mỗi nhân vật để trò chuyện với nhân vật bạn đã chọn. Mỗi nhân vật được đào tạo trên một kiểu MBTI cụ thể. **Bây giờ, hãy nhấp vào nút [Bắt đầu Trò chuyện] và bắt đầu trò chuyện với nhân vật đã chọn.** Trong hình ảnh sau đây, bạn có thể thấy tự giới thiệu của nhân vật và yêu cầu MBTI của bạn.
+![Trang trò chuyện với AI trong MBTI](/images/userGuide/userguide-3.jpg)
 
-![Trang Trò chuyện với AI MBTI](/images/userGuide/userguide-3.jpg)
+Bạn có thể đặt câu hỏi cho AI mà không cần cung cấp loại MBTI của mình, nhưng nếu bạn muốn tìm hiểu về đặc điểm của một loại cụ thể, đoán loại của bạn dựa trên hành vi của bạn hoặc tìm hiểu về sự phù hợp giữa loại của bạn và loại AI, bạn cần cung cấp loại MBTI của mình cho AI. Bạn có thể hỏi nhân vật: "Có thể cho tôi biết đặc điểm của loại INTP?" Hoặc "Bạn có nghĩ rằng người bạn của tôi có thể là loại INTP khi anh ta không cảm thấy buồn?" Hoặc "Hãy cho tôi biết về sự phù hợp giữa loại INTP của bạn và loại ENFP của tôi."
 
-Bạn có thể đặt câu hỏi đa dạng cho AI. Ngay cả khi bạn không tiết lộ kiểu MBTI của mình, **bạn có thể hỏi về đặc điểm của một kiểu cụ thể hoặc cách các kiểu khác nhau tương tác.** Tuy nhiên, nếu bạn tò mò về tính tương thích hoặc tương tác giữa kiểu của bạn và kiểu AI, bạn cần chia sẻ kiểu MBTI của bạn với AI. **Bạn có thể hỏi nhân vật, ví dụ: "Bạn có thể cung cấp địa chỉ trang web để làm bài kiểm tra MBTI không?" Nhân vật sẽ trả lời một cách lịch sự.**
+Bằng cách đặt những câu hỏi như vậy, bạn có thể **hiểu được đặc điểm của một loại cụ thể**, **đoán loại của bạn dựa trên hành vi của bạn** và **tìm hiểu về sự phù hợp, lợi và hại giữa loại bạn và người bạn của bạn**. Ngoài ra, như được thể hiện trên hình ảnh trên, ứng dụng mbtiChat được vận hành thông qua quảng cáo và tài trợ, vì vậy sẽ có một thông báo hướng dẫn xuất hiện trong quá trình trò chuyện với nhân vật.
 
-![Câu hỏi Ví dụ cho AI MBTI](/images/userGuide/userguide-4.jpg)
-![Câu hỏi Ví dụ cho AI MBTI](/images/userGuide/userguide-5.jpg)
-![Câu hỏi Ví dụ cho AI MBTI](/images/userGuide/userguide-6.jpg)
+![Các chức năng sau khi trò chuyện với AI: Chia sẻ, biểu cảm, bình luận](/images/userGuide/userguide-7.jpg)
 
-Người dùng có thể đặt nhiều câu hỏi. Giả sử nhân vật của bạn là Olivia với tính cách INTP, bạn có thể đặt câu hỏi như:
-
-- **Ví dụ: "Đặc điểm của một người INTP là gì?"**
-- **Ví dụ: "Tôi đã xem một bộ phim buồn cùng một người bạn thân, nhưng bạn của tôi dường như không buồn chút nào. Bạn của tôi có thể là người INTP không?"**
-- **Ví dụ: "Cho tôi biết về tính tương thích giữa kiểu INTP của bạn và kiểu ENFP của tôi."**
-
-Bằng cách đặt những câu hỏi như vậy, **bạn có thể hiểu thêm về các đặc điểm cá nhân cụ thể hoặc thậm chí suy đoán về kiểu của bạn dựa trên phản ứng của người khác.** Như được chỉ ra trong hình ảnh trên, lưu ý rằng ứng dụng mbtiChat được hỗ trợ bởi quảng cáo và tài trợ, và một tin nhắn thông tin sẽ hiển thị một lần trong quá trình trò chuyện với nhân vật.
-
-![Chia sẻ, Biểu đạt cảm xúc và Bình luận sau khi sử dụng AI MBTI](/images/userGuide/userguide-7.jpg)
-
-Cuộc trò chuyện với AI có giúp bạn không? Nếu có, hãy chia sẻ ứng dụng mbtiChat với bạn bè của bạn và để lại nhận xét! **Hãy yên tâm rằng ứng dụng không lưu bất kỳ nội dung trò chuyện nào.**
+Bạn có thấy việc trò chuyện với AI hữu ích không? Nếu có, hãy chia sẻ ứng dụng mbtiChat với bạn bè và để lại nhiều bình luận! **Đừng lo lắng, nội dung trò chuyện trong ứng dụng này sẽ không được lưu trữ.**
 
 ### 2. Blog
-![Trang Blog trong ứng dụng mbtiChat](/images/userGuide/userguide-8.jpg)
+![Trang Blog của ứng dụng mbtiChat](/images/userGuide/userguide-8.jpg)
 
-**Ứng dụng mbtiChat không chỉ cung cấp các tính năng mà còn bao gồm một blog.** Hầu hết các bài đăng trên blog tập trung vào các khía cạnh kỹ thuật và kỹ năng được sử dụng trong quá trình phát triển ứng dụng mbtiChat.
+Ứng dụng mbtiChat không chỉ có chức năng mà còn có mục Blog. Các bài viết trong blog chủ yếu có tính chất của một blog kỹ thuật, liên quan đến kỹ năng phát triển sử dụng trong quá trình phát triển ứng dụng mbtiChat.
 
-## Phân tích kỹ thuật và Giới thiệu
-Ứng dụng mbtiChat là một ứng dụng web tĩnh, có nghĩa là nó là một trang web với nội dung cố định và có giới hạn về tính năng hoặc tương tác động. Mặc dù ứng dụng web mbtiChat không quá lớn về quy mô, nó bao gồm chức năng blog và lựa chọn ngôn ngữ, có những hạn chế trong việc phát triển chỉ là một ứng dụng web tĩnh. Do đó, tôi đã sử dụng **Jekyll, một framework tạo trang web tĩnh**.
+## Phân tích và giới thiệu về kỹ thuật của ứng dụng
+Ứng dụng mbtiChat là một ứng dụng web tĩnh. Ứng dụng web tĩnh có nội dung cố định và có các chức năng hoặc tương tác hạn chế. Mặc dù ứng dụng mbtiChat không lớn về quy mô, nhưng nó có các chức năng như blog và chọn ngôn ngữ vượt ra ngoài khả năng của ứng dụng web tĩnh. Vì vậy, tôi đã sử dụng **Jekyll làm framework để tạo các trang web tĩnh**.
 
-Jekyll tạo ra các tệp HTML tĩnh dựa trên các mẫu và bố cục do người dùng chỉ định. Điều này cho phép tái sử dụng hiệu quả các phần tử lặp lại và áp dụng thiết kế và bố cục nhất quán.
+Jekyll tạo các tệp HTML tĩnh dựa trên các mẫu và bố cục được chỉ định. Điều này giúp tái sử dụng các thành phần lặp lại một cách hiệu quả và áp dụng một thiết kế và bố cục nhất quán.
 
-Tính năng chính của ứng dụng mbtiChat là chức năng trò chuyện với AI. AI dựa trên API phiên bản **gpt-3.5**. Để giao tiếp với API GPT, tôi sử dụng **Node.js** làm công nghệ máy chủ. Đối với ứng dụng di động, tôi đã phát triển nó bằng cách sử dụng **React Native WebView**, cho phép xây dựng ứng dụng di động bằng cách sử dụng trang web đáp ứng.
+Chức năng chính của ứng dụng mbtiChat là khả năng trò chuyện với AI. AI sử dụng phiên bản API **gpt-3.5**. Để giao tiếp với API GPT, tôi sử dụng **Node.js** làm máy chủ. Ứng dụng di động được phát triển bằng cách sử dụng **React-Native-Webview** để tạo ứng dụng di động đáp ứng dựa trên công nghệ web.
