@@ -137,8 +137,8 @@ function fn_sendFB(sns) {
   if(!langType == "" || !langType == null || !langType == "ko") {
     thisUrl = "https://mbtichat.info/"+langType+"?langType="+langType;
   }
-  var snsTitle = "[mbtiChat]MBTI 유형별 AI 상담 전문가와 친구하고 채팅하기";
-  
+  var snsTitle = "[mbtiChat] MBTI 유형별 AI 상담 전문가와 친구가 되고 채팅 할 수 있습니다";
+  var snsDesc = "MBTI 소통 프로그램은 여러분과 MBTI 유형에 관련된 대화를 가능하게 하는 AI 기반의 도구입니다.";
   if( sns == 'facebook' ) {
       var url = "http://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(thisUrl);
       window.open(url, "", "width=486, height=286");
@@ -156,9 +156,9 @@ function fn_sendFB(sns) {
       Kakao.Link.sendDefault({
           objectType: 'feed',
           content: {
-            title: snsTitle,        // 제목
-            description: snsTitle,  // 설명
-            imageUrl: thisUrl,      // URL
+            title: snsTitle,                    // 제목
+            description: snsDesc,               // 설명
+            imageUrl: 'https://mbtichat.info/images/share-img.png',  // 썸네일 이미지
             link: {
                 mobileWebUrl: thisUrl,
                 webUrl: thisUrl
