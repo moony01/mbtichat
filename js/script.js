@@ -101,8 +101,8 @@ async function sendMessage() {
   // console.log("AI 이름: ", botName);
 
   try {
-    // const response = await fetch('http://localhost:3000/mbtiChat', { //로컬테스트용
-    const response = await fetch('https://asttatqmbxav6io5ic6mgd2aau0jwzpm.lambda-url.ap-northeast-2.on.aws/mbtiChat', {
+    const response = await fetch('http://localhost:3000/mbtiChat', { //로컬테스트용
+    // const response = await fetch('https://asttatqmbxav6io5ic6mgd2aau0jwzpm.lambda-url.ap-northeast-2.on.aws/mbtiChat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -342,116 +342,68 @@ function fnChatPageLoad(type, name) {
   }
 
   if (langType === 'ko' || langType === '' || langType === null) {
-    botMessageProcessing(`안녕하세요! 저의 이름은 ${name}입니다. 
-                        <br>저는 ${type} 유형의 전문가입니다. 
-                        <br>${type} 유형에 대해 궁금한 점이나 
-                        <br>${type} 유형과 당신의 MBTI 유형 간의 궁합 등을 물어보세요.
-                        <br>우선 당신의 MBTI 유형을 알려주세요!
+    botMessageProcessing(`우선 저의 MBTI 유형 ${type} 와 당신의 MBTI 유형의 궁합에대해 알아볼까요?
+                        <br>당신의 MBTI 유형을 먼저 알려주세요!
                         `);
   } else if (langType === 'en') {
-    botMessageProcessing(`Hello! My name is ${name}.
-                        <br>I am an ${type}, which is the Analyst type. 
-                        <br>Feel free to ask me anything about the ${type} type, 
-                        <br>such as any questions you have about ${type} or the compatibility between ${type} and your MBTI type.
-                        <br>First, please let me know your MBTI type!
+    botMessageProcessing(`First, shall we find out about the compatibility between my MBTI type ${type} and your MBTI type?
+                        <br>Please let me know your MBTI type first!
                         `);
   } else if (langType === 'de') {
-    botMessageProcessing(`Hallo! Mein Name ist ${name}.
-                        <br>Ich bin ein ${type}, der Analystentyp. 
-                        <br>Fragen Sie mich gerne alles über den ${type}-Typ, 
-                        <br>wie zum Beispiel Fragen zum ${type} oder zur Kompatibilität zwischen ${type} und Ihrem MBTI-Typ.
+    botMessageProcessing(`Zuerst wollen wir herausfinden, wie gut mein MBTI-Typ ${type} und dein MBTI-Typ zusammenpassen.
                         <br>Bitte teilen Sie mir zuerst Ihren MBTI-Typ mit!
                         `);
   } else if (langType === 'es') {
-    botMessageProcessing(`¡Hola! Mi nombre es ${name}.
-                        <br>Soy un ${type}, que es el tipo Analista. 
-                        <br>No dudes en preguntarme cualquier cosa sobre el tipo ${type}, 
-                        <br>como cualquier pregunta que tengas sobre ${type} o la compatibilidad entre ${type} y tu tipo de MBTI.
-                        <br>¡Primero, por favor dime tu tipo de MBTI!
+    botMessageProcessing(`Primero, ¿no averiguamos la compatibilidad entre mi tipo de MBTI ${type} y tu tipo de MBTI?
+                        <br>¡Por favor, primero hágame saber su tipo de MBTI!
                         `);
   } else if (langType === 'fr') {
-    botMessageProcessing(`Bonjour! Je m'appelle ${name}.
-                        <br>Je suis un ${type}, qui est le type Analyste. 
-                        <br>N'hésitez pas à me poser des questions sur le type ${type}, 
-                        <br>comme toutes les questions que vous avez sur le ${type} ou la compatibilité entre le ${type} et votre type de MBTI.
-                        <br>Tout d'abord, veuillez me faire connaître votre type de MBTI!
+    botMessageProcessing(`Tout d'abord, ne devrions-nous pas découvrir la compatibilité entre mon type MBTI ${type} et votre type MBTI?
+                        <br>S'il vous plaît laissez-moi d'abord savoir votre type MBTI!
                         `);
   } else if (langType === 'id') {
-    botMessageProcessing(`Halo! Nama saya ${name}.
-                        <br>Saya adalah seorang ${type}, yang merupakan tipe Analis. 
-                        <br>Jangan ragu untuk mengajukan pertanyaan seputar tipe ${type}, 
-                        <br>seperti pertanyaan apa pun yang Anda miliki tentang ${type} atau kesesuaian antara ${type} dan tipe MBTI Anda.
-                        <br>Silakan beri tahu saya terlebih dahulu tipe MBTI Anda!
+    botMessageProcessing(`Pertama, apakah kita tidak mengetahui tentang kompatibilitas antara tipe MBTI saya ${type} dan tipe MBTI Anda?
+                        <br>Silakan beri tahu saya tipe MBTI Anda terlebih dahulu!
                         `);
   } else if (langType === 'ja') {
-    botMessageProcessing(`こんにちは！私の名前は${name}です。
-                        <br>私はアナリストタイプの${type}です。
-                        <br>${type}タイプについての質問や、
-                        <br>${type}とあなたのMBTIタイプとの相性など、何でもお気軽にお尋ねください。
-                        <br>まず、あなたのMBTIタイプを教えてください！
+    botMessageProcessing(`まず、私のMBTIタイプ${type}とあなたのMBTIタイプの互換性について知りましょうか？
+                        <br>最初にあなたのMBTIタイプを教えてください！
                         `);
   } else if (langType === 'nl') {
-    botMessageProcessing(`Hallo! Mijn naam is ${name}.
-                        <br>Ik ben een ${type}, wat het Analist-type is. 
-                        <br>Stel me gerust vragen over het ${type}-type, 
-                        <br>zoals vragen die je hebt over het ${type} of de compatibiliteit tussen ${type} en je MBTI-type.
-                        <br>Laat me eerst weten wat je MBTI-type is!
+    botMessageProcessing(`Eerst zullen we de compatibiliteit tussen mijn MBTI-type ${type} en jouw MBTI-type ontdekken.
+                        <br>Laat me alsjeblieft eerst je MBTI-type weten!
                         `);
   } else if (langType === 'pl') {
-    botMessageProcessing(`Cześć! Mam na imię ${name}.
-                        <br>Jestem ${type}, czyli typem Analityka. 
-                        <br>Śmiało pytaj mnie o cokolwiek dotyczące typu ${type}, 
-                        <br>na przykład o jakiekolwiek pytania, jakie masz na temat ${type} lub zgodność między ${type} a Twoim typem MBTI.
+    botMessageProcessing(`Najpierw dowiedzmy się o zgodności między moim typem MBTI ${type} a twoim typem MBTI.
                         <br>Najpierw podaj mi swój typ MBTI!
                         `);
   } else if (langType === 'pt') {
-    botMessageProcessing(`Olá! Meu nome é ${name}.
-                        <br>Eu sou um ${type}, que é o tipo Analista. 
-                        <br>Fique à vontade para me perguntar qualquer coisa sobre o tipo ${type}, 
-                        <br>como qualquer pergunta que você tenha sobre ${type} ou a compatibilidade entre ${type} e seu tipo de MBTI.
-                        <br>Primeiro, por favor me diga seu tipo de MBTI!
+    botMessageProcessing(`Primeiro, vamos descobrir a compatibilidade entre meu tipo MBTI ${type} e seu tipo MBTI.
+                        <br>Por favor, deixe-me saber seu tipo MBTI primeiro!
                         `);
   } else if (langType === 'ru') {
-    botMessageProcessing(`Привет! Меня зовут ${name}.
-                        <br>Я являюсь ${type}, который относится к типу Аналитиков. 
-                        <br>Не стесняйтесь задавать мне любые вопросы о типе ${type}, 
-                        <br>например, о любых вопросах, которые у вас есть о ${type} или совместимости между ${type} и вашим типом MBTI.
-                        <br>Сначала, пожалуйста, сообщите мне ваш тип MBTI!
+    botMessageProcessing(`Сначала давайте узнаем о совместимости моего типа MBTI ${type} и вашего типа MBTI.
+                        <br>Пожалуйста, дайте мне знать свой тип MBTI сначала!
                         `);
   } else if (langType === 'tr') {
-    botMessageProcessing(`Merhaba! Benim adım ${name}.
-                        <br>Ben bir ${type}ım, yani Analist tipiyim. 
-                        <br>${type} tipiyle ilgili herhangi bir soru sormaktan çekinmeyin, 
-                        <br>${type} veya MBTI tipiniz arasındaki uyumlulukla ilgili olarak ${type} hakkında herhangi bir sorunuz varsa bana sorun.
-                        <br>Lütfen önce MBTI tipinizi bana bildirin!
+    botMessageProcessing(`Önce, MBTI türüm ${type} ve MBTI türünüz arasındaki uyumu bulalım mı?
+                        <br>Lütfen önce MBTI türünüzü bana bildirin!
                         `);
   } else if (langType === 'uk') {
-    botMessageProcessing(`Привіт! Мене звуть ${name}.
-                        <br>Я є ${type}, що відноситься до типу Аналітиків. 
-                        <br>Не соромтеся задавати мені будь-які питання щодо типу ${type}, 
-                        <br>наприклад, будь-які питання, які ви маєте щодо ${type} або сумісності між ${type} та вашим типом MBTI.
-                        <br>Спочатку, будь ласка, повідомте мені свій тип MBTI!
+    botMessageProcessing(`Спочатку давайте дізнаємося про сумісність мого типу MBTI ${type} і вашого типу MBTI.
+                        <br>Будь ласка, спочатку дайте мені знати свій тип MBTI!
                         `);
   } else if (langType === 'vi') {
-    botMessageProcessing(`Xin chào! Tên tôi là ${name}.
-                        <br>Tôi là một ${type}, thuộc loại Người phân tích. 
-                        <br>Hãy thoải mái hỏi tôi bất cứ điều gì về loại ${type}, 
-                        <br>như bất kỳ câu hỏi nào bạn có về ${type} hoặc sự tương thích giữa ${type} và loại MBTI của bạn.
-                        <br>Đầu tiên, xin vui lòng cho tôi biết loại MBTI của bạn!
+    botMessageProcessing(`Đầu tiên, chúng ta hãy tìm hiểu về tính tương thích giữa loại MBTI của tôi ${type} và loại MBTI của bạn.
+                        <br>Vui lòng cho tôi biết loại MBTI của bạn trước!
                         `);
   } else if (langType === 'zh') {
-    botMessageProcessing(`你好！我的名字是${name}。
-                        <br>我是一名${type}，属于分析师类型。 
-                        <br>请随意向我提问有关${type}类型的任何问题， 
-                        <br>比如关于${type}或者你的MBTI类型与${type}之间的兼容性等等。
-                        <br>首先，请告诉我你的MBTI类型！
+    botMessageProcessing(`首先我的 MBTI 类型是 ${type} ，你是？
+                        <br>请告诉我你的 MBTI 类型！
                         `);
   } else {
-    botMessageProcessing(`Hello! My name is ${name}.
-                        <br>I am an ${type}, which is the Analyst type. 
-                        <br>Feel free to ask me anything about the ${type} type, 
-                        <br>such as any questions you have about ${type} or the compatibility between ${type} and your MBTI type.
-                        <br>First, please let me know your MBTI type!
+    botMessageProcessing(`First, shall we find out about the compatibility between my MBTI type ${type} and your MBTI type?
+                        <br>Please let me know your MBTI type first!
                         `);
   }
   
