@@ -193,6 +193,12 @@ function fnChangeLang(lang) {
   }
 }
 
+//앱 다운로드 페이지 이동
+function fnAppDownloadPage() {
+  var url = "https://play.google.com/store/apps/details?id=com.mhhan01.myapp"
+  window.open(url);
+}
+
 /* ******************************************************************************************
  * FUNCTION
 ****************************************************************************************** */
