@@ -420,11 +420,13 @@ function fnChatPageLoad(type, name) {
 function fnChangeChatLang() {
   if(langType == 'ko' || langType == '' || langType == null) {
     document.querySelector(".chat-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>뒤로가기';
-    document.querySelector(".coution-text").innerHTML = 'AI와의 채팅 내용은 저장되지않습니다.';
+    document.querySelector(".ctn-notsave").innerHTML = '* AI와의 채팅 내용은 저장되지않습니다.';
+    document.querySelector(".ctn-continue").innerHTML = '* AI의 말이 끊겼나요? "이어서 말해줘" 라고 AI에게 말해보세요.';
     document.querySelector("#messageInput").placeholder = "메세지를 입력하세요.";
   } else {
     document.querySelector(".chat-head a").innerHTML = '<i id="prevPage" class="fa-solid fa-chevron-left"></i>back';
-    document.querySelector(".coution-text").innerHTML = 'The conversation with AI is not saved.';
+    document.querySelector(".ctn-notsave").innerHTML = '* The conversation with AI is not saved.';
+    document.querySelector(".ctn-continue").innerHTML = '* Did AI`s words stop? Say "Continue" to AI.';
     document.querySelector("#messageInput").placeholder = "Enter your message here...";
   }
 }
