@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll과 Rails에서 자주 접하는 Bundle과 Gem의 차이점
-image: '/images/posts/thumbnail-difference-between-bundle-gem-explained.jpg'
+# image: '/images/posts/thumbnail-difference-between-bundle-gem-explained.jpg'
 ---
 소프트웨어를 개발할때 우리가 만약 Ruby라는 언어로 개발을 하고 프레임워크를 선택하는데 있어 Jekyll 혹은 Rails로 선택 후 개발을 한다면 가장 많이 접할 수 있는 용어는 "Bundle"과 "Gem"입니다. 둘 다 개발 과정에서 중요한 역할을 하지만, 서로 다른 의미와 목적을 가지고 있습니다. 이 포스트에서는 Bundle과 Gem의 차이점을 살펴보고 차이점을 알아보겠습니다.
 

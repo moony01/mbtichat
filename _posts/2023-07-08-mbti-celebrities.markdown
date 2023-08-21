@@ -1,7 +1,6 @@
 ---
 layout: post
 title: MBTI 유형별 유명 인사를 알아보자
-# image: '/images/posts/thumbnail-sitemap-rss-description.jpg'
 ---
 성격 유형 분류에서 Myers-Briggs Type Indicator (MBTI)는 개인을 16가지 다른 성격 유형으로 분류하는 널리 알려진 프레임워크입니다. 각 MBTI 유형은 고유한 특성, 선호도 및 행동과 관련이 있습니다. 유명 인사를 포함한 인기 있는 인물들에게서 이러한 유형이 어떻게 나타나는지 탐구하는 것은 항상 흥미로운 일입니다. 이 블로그 포스트에서는 MBTI 유형을 살펴보고 각 유형에 대한 유명 인사를 식별하여 그들의 주요 특징과 업적을 강조해보겠습니다.
 

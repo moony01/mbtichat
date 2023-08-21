@@ -1,7 +1,6 @@
 ---
 layout: post
 title: MBTI 유형별 케이팝 아이돌은 누구?
-# image: '/images/posts/thumbnail-sitemap-rss-description.jpg'
 ---
 한국 대중음악의 매혹적인 장르인 Kpop은 전염성 있는 비트, 놀라운 안무, 카리스마 넘치는 공연으로 전 세계를 강타했습니다. 케이팝 아이돌은 재능뿐만 아니라 독특한 개성으로도 유명합니다. Kpop의 세계와 다양한 아이돌을 더 깊이 탐구하기 위해 MBTI(Myers-Briggs Type Indicator) 유형을 탐색할 수 있습니다. 각 MBTI 카테고리에 속하는 Kpop 아이돌을 찾아봅시다!
 

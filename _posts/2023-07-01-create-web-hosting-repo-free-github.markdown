@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github로 무료 웹호스팅해서 사이트 무한으로 만들고 쉽게 관리하기
-image: '/images/posts/thumbnail-create-web-hosting-repo-free-github.jpg'
+# image: '/images/posts/thumbnail-create-web-hosting-repo-free-github.jpg'
 ---
 Github에는 무료 웹호스팅 기능이 있습니다. 여러 플랫폼에서도 웹 호스팅을 무료로 제공하고 있지만 Github에서 즉시 웹호스팅을 한다는 것은 많은 장점이 있습니다. 무료라는 점뿐만 아니라 **쉬운 관리, 협업 가능, 배포 자동화, 커스텀 도메인이 가능하다는 점이 장점**입니다. 하지만 우리가 Github 웹호스팅에 대해 알아야 할 점이 있습니다. 바로 **무료 웹호스팅 기능은 해당 저장소를 공개**로 해야 한다는 점입니다. 이미 많은 개발자들이 사이드 프로젝트나 개인 블로그를 운영하는데 이 호스팅 기능을 사용하고 있습니다.
 

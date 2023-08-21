@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 수익형 웹 유틸리티 사이트를 만들기 위해 Jekyll을 사용해야하는 이유
-image: '/images/posts/thumbnail-creating-profitable-website-with-jekyll.jpg'
+# image: '/images/posts/thumbnail-creating-profitable-website-with-jekyll.jpg'
 ---
 개발자를 포함한 비 개발자분들까지 수익형 웹 유틸리티 사이트를 제작하는 데 관심이 많으실 거라 생각합니다. 이 글의 제목처럼 왜 개발하기 위해 Jekyll을 사용해야 한다고 했을까요? 제가 [mbtiChat](/) 웹앱을 개발하면서 느낀 수익형 웹 유틸리티 사이트를 만들기 위해 Jekyll을 사용해야 하는 이유에 대해 3가지로 요약하고 설명하겠습니다.
 

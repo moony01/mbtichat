@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sitemap과 RSS란 무엇인가?
-image: '/images/posts/thumbnail-sitemap-rss-description.jpg'
+# image: '/images/posts/thumbnail-sitemap-rss-description.jpg'
 ---
 블로그를 운영하거나 웹앱을 개발하고 운영하다보면 Sitemap과 rss, feed 등 단어를 많이 접하게 됩니다. **결론적으로 이런것들은 검색 엔진이나 사용자가 웹사이트의 전체적인 구조나 최신 콘텐츠등을 쉽게 파악하기 위함입니다.** 중요한건 검색엔진인데요. 예를들어 구글의 경우 검색엔진 로봇이 콘텐츠를 등록할때 Sitemap을 읽어서 업데이트 된 콘텐츠가 무엇인지 파악을 합니다. 그럼 Sitemap과 RSS가 무엇인지, 그 중요성, 우리가 이런것들을 어떻게 사용할 수 있는지 알아보겠습니다.
 

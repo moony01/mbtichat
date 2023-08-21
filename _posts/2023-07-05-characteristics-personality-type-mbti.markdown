@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MBTI유형의 특징과 성격유형
-image: '/images/posts/thumbnail-characteristics-personality-type-mbti.jpg'
+# image: '/images/posts/thumbnail-characteristics-personality-type-mbti.jpg'
 ---
 성격 유형을 이해하면 개인이 주변 세계를 인식하고 상호 작용하는 방법에 대한 귀중한 통찰력을 얻을 수 있습니다. 성격을 이해하는 데 널리 사용되는 프레임워크 중 하나는 MBTI(Myers-Briggs Type Indicator)입니다. **MBTI는 외향성 또는 내향성(E/I), 감각 또는 직관(S/N), 사고 또는 느낌(T/F), 판단 또는 인식(J/P)의 네 가지 주요 영역에서 선호도에 따라 개인을 다양한 성격 유형으로 분류합니다.** 우선 네 가지 선호지표를 자세히 알아보고 16가지 유형의 MBTI 유형에 대해 알아보겠습니다.
 
