@@ -69,6 +69,8 @@ function fnMovePage(page) {
       location.href = "/";
     } else if(page == "blog") {
       location.href = "/"+page+".html";
+    } else if(page == "kpopface") {
+      window.open("https://moony01.com/kpopface/");
     } else {
       location.href = "/"+page+".html";
     }
@@ -77,6 +79,8 @@ function fnMovePage(page) {
       location.href = "/"+langType+"?langType="+langType;
     } else if(page == "blog") {
       location.href = "/"+page+".html"+"?langType="+langType;
+    } else if(page == "kpopface") {
+      window.open("https://moony01.com/kpopface/");
     } else {
       location.href = "/"+langType+"/"+page+".html"+"?langType="+langType;
     }
