@@ -352,8 +352,8 @@ function fnChatPageLoad(type, name) {
   }
 
   if (langType === 'ko' || langType === '' || langType === null) {
-    botMessageProcessing(`우선 저의 MBTI 유형 ${type}와 당신의 MBTI 유형의 궁합에 대해 알아볼까요?
-                        <br>당신의 MBTI 유형을 먼저 알려주세요!
+    botMessageProcessing(`우선 저의 성격 유형 ${type}와 당신의 성격 유형의 궁합에 대해 알아볼까요?
+                        <br>당신의 성격 유형을 먼저 알려주세요!
                         `);
   } else if (langType === 'en') {
     botMessageProcessing(`First, shall we find out about the compatibility between my MBTI type ${type} and your MBTI type?
