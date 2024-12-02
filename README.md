@@ -1,3 +1,5 @@
+## 앱 도메인 만료로 재정비중
+
 ## 프로젝트 제목
 
 MBTI ChatGPT AI Chat: [mbtichat.info/](https://mbtichat.info/)
