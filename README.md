@@ -2,7 +2,7 @@
 
 ## 프로젝트 제목
 
-MBTI ChatGPT AI Chat: [mbtichat.info/](https://mbtichat.info/)
+MBTI ChatGPT AI Chat: [moony01.com/mbtichat/](http://moony01.com/mbtichat/)
 
 ## 프로젝트 설명
 
